@@ -1,6 +1,240 @@
 {
   "materials": [
     {
+      "id": "2026-09-14_008",
+      "num": "008",
+      "date": "2026-09-14",
+      "titleEn": "The Art of Saying No",
+      "titleCn": "说\"不\"的艺术",
+      "stem": "2026-09-14_影子跟读008_说不的艺术",
+      "wordCountLabel": "250 词",
+      "durationLabel": "1 分 31 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Many of us were taught that a good friend says yes. So when someone makes a <strong>request</strong>, we agree before we have time to think, even when our calendar is already full. We <strong>overcommit</strong> first and consider the cost later. At first, saying yes feels <strong>generous</strong>. Soon, it becomes a habit, and the small <strong>favour</strong> turns into a heavy <strong>duty</strong>.",
+        "The problem is not that we are unkind. It is that we confuse a <strong>temporary</strong> \"no\" with a permanent rejection. People who say no to everything lose friends; people who say yes to everything lose themselves. A clear, <strong>honest</strong> <strong>refusal</strong> protects both the relationship and the work, because it tells the other person what they can actually count on.",
+        "Saying no well is a skill. Start with <strong>apology</strong>-free clarity: I cannot take this on this week. Offer what you can <strong>instead</strong> of what you cannot: a shorter meeting, a later date, or a useful contact. Do not promise what you will <strong>regret</strong> later. When you <strong>decline</strong> politely, you are protecting your <strong>capacity</strong> for the things you have already chosen.",
+        "This does not mean living without <strong>guilt</strong>; almost everyone feels a small pang. But guilt is not a good guide. Notice your real <strong>priority</strong>, stay <strong>calm</strong>, and answer in a way that keeps the door open. A person with clear <strong>boundaries</strong> is easier to <strong>trust</strong> than someone who agrees today and <strong>resent</strong>s you tomorrow. Your <strong>energy</strong> is <strong>limited</strong>, and treating it as such is not <strong>selfish</strong> — it is honest."
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求\"再难一档\"；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "request",
+          "名词",
+          "请求、要求"
+        ],
+        [
+          "overcommit",
+          "动词",
+          "承诺过多、揽太多事"
+        ],
+        [
+          "generous",
+          "形容词",
+          "慷慨的、大方的"
+        ],
+        [
+          "favour",
+          "名词",
+          "帮忙、人情（= favor）"
+        ],
+        [
+          "duty",
+          "名词",
+          "义务、责任"
+        ],
+        [
+          "temporary",
+          "形容词",
+          "暂时的"
+        ],
+        [
+          "honest",
+          "形容词",
+          "诚实的"
+        ],
+        [
+          "refusal",
+          "名词",
+          "拒绝"
+        ],
+        [
+          "apology",
+          "名词",
+          "道歉"
+        ],
+        [
+          "instead",
+          "副词",
+          "代替、反而"
+        ],
+        [
+          "regret",
+          "动词",
+          "后悔"
+        ],
+        [
+          "decline",
+          "动词",
+          "婉拒、谢绝"
+        ],
+        [
+          "capacity",
+          "名词",
+          "容量、精力上限"
+        ],
+        [
+          "guilt",
+          "名词",
+          "内疚、负罪感"
+        ],
+        [
+          "priority",
+          "名词",
+          "优先事项"
+        ],
+        [
+          "calm",
+          "形容词",
+          "平静的"
+        ],
+        [
+          "boundary",
+          "名词",
+          "边界、界限"
+        ],
+        [
+          "trust",
+          "动词",
+          "信任"
+        ],
+        [
+          "resent",
+          "动词",
+          "心生怨恨、不满"
+        ],
+        [
+          "energy",
+          "名词",
+          "精力"
+        ],
+        [
+          "limited",
+          "形容词",
+          "有限的"
+        ],
+        [
+          "selfish",
+          "形容词",
+          "自私的"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "say yes before you have time to think",
+          "还没想清楚就先答应",
+          "...we agree before we have time to think..."
+        ],
+        [
+          "even when the calendar is already full",
+          "即使日程已经排满",
+          "...even when our calendar is already full."
+        ],
+        [
+          "overcommit first and consider the cost later",
+          "先答应，之后再想代价",
+          "We overcommit first and consider the cost later."
+        ],
+        [
+          "a small favour turns into a heavy duty",
+          "小小的帮忙变成沉重的义务",
+          "...the small favour turns into a heavy duty."
+        ],
+        [
+          "confuse A with B",
+          "把 A 和 B 混为一谈",
+          "...we confuse a temporary \"no\" with a permanent rejection."
+        ],
+        [
+          "a temporary \"no\"",
+          "一个暂时的\"不\"",
+          "...a temporary \"no\" with a permanent rejection."
+        ],
+        [
+          "lose themselves",
+          "失去自己",
+          "...people who say yes to everything lose themselves."
+        ],
+        [
+          "count on someone",
+          "指望某人、依靠某人",
+          "...what they can actually count on."
+        ],
+        [
+          "start with apology-free clarity",
+          "从不带道歉的清晰表达开始",
+          "Start with apology-free clarity..."
+        ],
+        [
+          "offer what you can instead of what you cannot",
+          "提供你能做的，而不是你不能做的",
+          "Offer what you can instead of what you cannot..."
+        ],
+        [
+          "promise what you will regret later",
+          "承诺之后会后悔的事",
+          "Do not promise what you will regret later."
+        ],
+        [
+          "protect your capacity",
+          "保护你的精力上限",
+          "...you are protecting your capacity for the things you have already chosen."
+        ],
+        [
+          "guilt is not a good guide",
+          "内疚不是好的指引",
+          "But guilt is not a good guide."
+        ],
+        [
+          "stay calm",
+          "保持平静",
+          "...stay calm, and answer in a way that keeps the door open."
+        ],
+        [
+          "clear boundaries",
+          "清晰的边界",
+          "A person with clear boundaries is easier to trust..."
+        ],
+        [
+          "treating your energy as limited is not selfish",
+          "把精力当作有限资源不是自私",
+          "...treating it as such is not selfish — it is honest."
+        ]
+      ],
+      "translation": [
+        "我们很多人从小被教育：好朋友就该答应。于是当有人提出请求时，我们还没想清楚就先答应了，哪怕日程已经排满。我们先揽下事情，之后才考虑代价。一开始，说\"是\"让人觉得自己很慷慨；很快它变成习惯，小小的帮忙也就变成了沉重的义务。",
+        "问题不在于我们不够善良，而在于我们把一个\"暂时的拒绝\"和\"永久的否定\"混为一谈。什么都拒绝的人会失去朋友，什么都答应的人会失去自己。一句清晰的、诚实的拒绝，既能保护关系，也能保护工作，因为它让对方知道你到底能指望什么。",
+        "好好地说\"不\"是一项技能。从不带道歉的清晰表达开始：这周我实在接不了。然后提供你能做的，而不是你不能做的：一个更短的会、一个更晚的日期，或者一个有用的联系人。不要去承诺之后会让你后悔的事。当你礼貌地婉拒时，你其实是在保护自己留给\"已经选择的事情\"的精力上限。",
+        "这不意味着你要毫无内疚感地生活——几乎每个人都会有一点不舒服。但内疚不是好的指引。看清你真正的优先事项，保持平静，用不把门关死的方式回答。一个有清晰边界的人，比一个今天答应、明天怨恨你的人更值得信任。你的精力是有限的，把它当作有限资源并不是自私，而是诚实。"
+      ],
+      "audioFull": "audio/2026-09-14_影子跟读008_说不的艺术_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-09-14_影子跟读008_说不的艺术_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-09-14_影子跟读008_说不的艺术_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-09-14_影子跟读008_说不的艺术_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-09-14_影子跟读008_说不的艺术_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-09-13_007",
       "num": "007",
       "date": "2026-09-13",
