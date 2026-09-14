@@ -43,6 +43,8 @@ foreach ($proxy in $tryList) {
     }
     git push origin main
     if ($LASTEXITCODE -eq 0) { $pushed = $true; break }
+    git -c http.version=HTTP/1.1 push origin main
+    if ($LASTEXITCODE -eq 0) { $pushed = $true; break }
     Write-Host "推送失败，尝试下一种网络方式..."
 }
 $env:HTTPS_PROXY = $null
