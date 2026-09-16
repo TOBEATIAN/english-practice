@@ -1,6 +1,262 @@
 {
   "materials": [
     {
+      "id": "2026-09-16_010",
+      "num": "010",
+      "date": "2026-09-16",
+      "titleEn": "Why Exercise Makes You Smarter",
+      "titleCn": "运动让你更聪明",
+      "stem": "2026-09-16_影子跟读010_运动让你更聪明",
+      "wordCountLabel": "260 词",
+      "durationLabel": "1 分 35 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Most people exercise to look better or lose weight. Those are real <strong>benefits</strong>, but they are not the most interesting ones. When you move your body, you also change your brain. A short run or a <strong>brisk</strong> walk can <strong>sharpen</strong> your <strong>attention</strong> for the next few hours, and regular training seems to <strong>protect</strong> <strong>memory</strong> over the years. The change is not permanent, but it is real.",
+        "Scientists explain this in a simple way. Exercise increases blood flow, and with it the <strong>oxygen</strong> and <strong>nutrients</strong> your brain needs. It also <strong>releases</strong> <strong>chemicals</strong> that improve mood and <strong>reduce</strong> <strong>stress</strong>. That is why a difficult problem often feels lighter after a workout, and why it is easier to <strong>handle</strong> a bad day after a swim.",
+        "The effects are not limited to the gym. Students who exercise regularly tend to <strong>concentrate</strong> better in class, and older adults who stay <strong>active</strong> keep their thinking sharper for longer. Even ten minutes of movement counts. The key is not a <strong>heroic</strong> single session, but a <strong>routine</strong> you can <strong>repeat</strong> without pain. You do not need a gym membership or expensive equipment to get these effects.",
+        "So if you want a simple way to improve your day, start small. Walk during a phone call, <strong>cycle</strong> to class, or dance to two songs before you sit down to study. Do not wait for <strong>motivation</strong>; <strong>treat</strong> movement as part of your working day. Your body will get stronger, but the real <strong>prize</strong> may be the clearer head you carry back to your desk. The habit matters more than the intensity."
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求\"再难一档\"；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "benefits",
+          "名词",
+          "好处、益处",
+          "good effects or advantages you get from something"
+        ],
+        [
+          "brisk",
+          "形容词",
+          "轻快的、有活力的",
+          "quick and full of energy"
+        ],
+        [
+          "sharpen",
+          "动词",
+          "使敏锐、提高",
+          "to make something sharper or more effective"
+        ],
+        [
+          "attention",
+          "名词",
+          "注意力",
+          "the act of focusing your mind on something"
+        ],
+        [
+          "protect",
+          "动词",
+          "保护",
+          "to keep someone or something safe from harm"
+        ],
+        [
+          "memory",
+          "名词",
+          "记忆",
+          "the ability to remember, or something you remember"
+        ],
+        [
+          "oxygen",
+          "名词",
+          "氧气",
+          "a gas in the air that your body needs to live"
+        ],
+        [
+          "nutrient",
+          "名词",
+          "营养（物）",
+          "a substance in food that helps your body grow"
+        ],
+        [
+          "release",
+          "动词",
+          "释放",
+          "to let something out or make it available"
+        ],
+        [
+          "chemical",
+          "名词",
+          "化学物质",
+          "a substance produced by or used in chemistry"
+        ],
+        [
+          "reduce",
+          "动词",
+          "减少",
+          "to make something smaller or less"
+        ],
+        [
+          "stress",
+          "名词",
+          "压力、紧张",
+          "worry caused by a difficult situation"
+        ],
+        [
+          "handle",
+          "动词",
+          "应对、处理",
+          "to deal with a situation or problem"
+        ],
+        [
+          "concentrate",
+          "动词",
+          "集中注意力",
+          "to give all your attention to one thing"
+        ],
+        [
+          "active",
+          "形容词",
+          "活跃的、经常活动的",
+          "doing things often; not sitting still"
+        ],
+        [
+          "heroic",
+          "形容词",
+          "英勇的、了不起的",
+          "very brave or impressive"
+        ],
+        [
+          "routine",
+          "名词",
+          "常规、固定做法",
+          "something done regularly as part of a usual pattern"
+        ],
+        [
+          "repeat",
+          "动词",
+          "重复",
+          "to do or say something again"
+        ],
+        [
+          "cycle",
+          "动词",
+          "骑车",
+          "to ride a bicycle"
+        ],
+        [
+          "motivation",
+          "名词",
+          "动力",
+          "the reason and desire to do something"
+        ],
+        [
+          "treat",
+          "动词",
+          "把……当作",
+          "to behave toward something in a certain way"
+        ],
+        [
+          "prize",
+          "名词",
+          "奖赏、回报",
+          "something valuable given as a reward"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "lose weight",
+          "减肥",
+          "Most people exercise to look better or lose weight."
+        ],
+        [
+          "the most interesting ones",
+          "最有趣的那些（好处）",
+          "...but they are not the most interesting ones."
+        ],
+        [
+          "sharpen your attention",
+          "提高你的注意力",
+          "...can sharpen your attention for the next few hours..."
+        ],
+        [
+          "protect memory",
+          "保护记忆",
+          "...seems to protect memory over the years."
+        ],
+        [
+          "increase blood flow",
+          "增加血流量",
+          "Exercise increases blood flow..."
+        ],
+        [
+          "improve mood",
+          "改善情绪",
+          "...chemicals that improve mood and reduce stress."
+        ],
+        [
+          "reduce stress",
+          "减轻压力",
+          "...improve mood and reduce stress."
+        ],
+        [
+          "after a workout",
+          "锻炼之后",
+          "...often feels lighter after a workout..."
+        ],
+        [
+          "handle a bad day",
+          "应对糟糕的一天",
+          "...easier to handle a bad day after a swim."
+        ],
+        [
+          "be limited to the gym",
+          "仅限于健身房",
+          "The effects are not limited to the gym."
+        ],
+        [
+          "concentrate better in class",
+          "上课更专注",
+          "...tend to concentrate better in class..."
+        ],
+        [
+          "stay active",
+          "保持活跃",
+          "...older adults who stay active..."
+        ],
+        [
+          "ten minutes of movement counts",
+          "十分钟活动也算数",
+          "Even ten minutes of movement counts."
+        ],
+        [
+          "a heroic single session",
+          "一次英雄式的锻炼",
+          "The key is not a heroic single session..."
+        ],
+        [
+          "a routine you can repeat",
+          "一个你能重复的规律做法",
+          "...but a routine you can repeat without pain."
+        ],
+        [
+          "treat movement as part of your day",
+          "把运动当作日常的一部分",
+          "...treat movement as part of your working day."
+        ]
+      ],
+      "translation": [
+        "大多数人运动是为了更好看或者减肥。这些确实是好处，但不是最有趣的那些。当你活动身体时，你也在改变大脑。一次短跑或一段轻快的走路，能让你接下来几个小时的注意力更敏锐；长期规律运动，似乎还能在多年间保护你的记忆。",
+        "科学家用很朴素的方式解释这件事：运动增加血流量，随之而来的还有大脑需要的氧气和营养。它还会释放改善情绪、减轻压力的化学物质。这就是为什么锻炼之后难题常常显得轻一些，也是为什么游完泳更容易应对糟糕的一天。",
+        "这些效果不限于健身房。规律运动的学生在课堂上往往更专注，保持活跃的老年人也能把清晰的思维保持得更久。哪怕只有十分钟的活动也算数。关键不是一次英雄式的锻炼，而是一个你能毫无痛苦地重复的规律做法。",
+        "所以，如果你想用一个简单的方法改善一天，就从小处开始：打电话时走一走，骑车去上课，或者在学习前先跟着两首歌跳一跳。别等有了动力才动，把运动当成工作日的一部分。你的身体会变强，但真正的奖赏，可能是你带回书桌前的那颗更清醒的脑子。"
+      ],
+      "audioFull": "audio/2026-09-16_影子跟读010_运动让你更聪明_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-09-16_影子跟读010_运动让你更聪明_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-09-16_影子跟读010_运动让你更聪明_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-09-16_影子跟读010_运动让你更聪明_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-09-16_影子跟读010_运动让你更聪明_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-09-16_009",
       "num": "009",
       "date": "2026-09-16",
