@@ -1,6 +1,240 @@
 {
   "materials": [
     {
+      "id": "2026-09-16_009",
+      "num": "009",
+      "date": "2026-09-16",
+      "titleEn": "Learning from Failure",
+      "titleCn": "从失败里学到什么",
+      "stem": "2026-09-16_影子跟读009_从失败里学到什么",
+      "wordCountLabel": "250 词",
+      "durationLabel": "1 分 33 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Nobody enjoys <strong>failure</strong>. A <strong>rejected</strong> application, a broken experiment, or a public error all hurt, and the first reaction is usually to hide the <strong>evidence</strong>. We tell ourselves that the problem was bad luck, or that the task was unfair. That <strong>excuse</strong> protects our pride for an hour, but it also throws away the <strong>lesson</strong> hiding inside the mistake.",
+        "Researchers who study learning keep finding a surprising result: errors, examined honestly, teach more than smooth success does. Success tells you that something worked, but it rarely tells you why. A failure, by contrast, gives you specific information — the <strong>assumption</strong> was wrong, the timing was poor, the plan had a gap.",
+        "If you treat that information as <strong>feedback</strong> instead of a <strong>verdict</strong>, you can <strong>adjust</strong> and try again. This is why engineers build <strong>prototypes</strong> rather than perfect products, and why good students go over their <strong>mistakes</strong> instead of just checking the <strong>score</strong>. They are not being <strong>careless</strong>; they are buying <strong>knowledge</strong> cheaply.",
+        "None of this means failure is pleasant, or that you should aim for it. It means the <strong>shame</strong> around it can be separated from the lesson inside it. <strong>Admit</strong> what went wrong, ask what you would do <strong>differently</strong>, and keep a short written note. Over time, that habit builds <strong>resilience</strong> — the ability to begin again without <strong>drama</strong>, and with a little more <strong>courage</strong> each time. People who learn fastest are not the ones who never fall. They are the ones who <strong>examine</strong> the fall, stay <strong>honest</strong>, and move on."
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求\"再难一档\"；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "failure",
+          "名词",
+          "失败"
+        ],
+        [
+          "rejected",
+          "形容词",
+          "被拒绝的"
+        ],
+        [
+          "evidence",
+          "名词",
+          "证据、迹象"
+        ],
+        [
+          "excuse",
+          "名词",
+          "借口"
+        ],
+        [
+          "lesson",
+          "名词",
+          "教训"
+        ],
+        [
+          "assumption",
+          "名词",
+          "假设、想当然的判断"
+        ],
+        [
+          "feedback",
+          "名词",
+          "反馈"
+        ],
+        [
+          "verdict",
+          "名词",
+          "判决、定论"
+        ],
+        [
+          "adjust",
+          "动词",
+          "调整"
+        ],
+        [
+          "prototype",
+          "名词",
+          "原型、初版样品"
+        ],
+        [
+          "mistake",
+          "名词",
+          "错误"
+        ],
+        [
+          "score",
+          "名词",
+          "分数、成绩"
+        ],
+        [
+          "careless",
+          "形容词",
+          "粗心的、不用心的"
+        ],
+        [
+          "knowledge",
+          "名词",
+          "知识"
+        ],
+        [
+          "shame",
+          "名词",
+          "羞耻、羞愧"
+        ],
+        [
+          "admit",
+          "动词",
+          "承认"
+        ],
+        [
+          "differently",
+          "副词",
+          "以不同方式"
+        ],
+        [
+          "resilience",
+          "名词",
+          "韧性、复原力"
+        ],
+        [
+          "drama",
+          "名词",
+          "戏剧性、折腾"
+        ],
+        [
+          "courage",
+          "名词",
+          "勇气"
+        ],
+        [
+          "examine",
+          "动词",
+          "检查、审视"
+        ],
+        [
+          "honest",
+          "形容词",
+          "诚实的"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "hide the evidence",
+          "掩盖证据",
+          "...the first reaction is usually to hide the evidence."
+        ],
+        [
+          "bad luck",
+          "运气不好",
+          "...the problem was bad luck..."
+        ],
+        [
+          "throw away the lesson",
+          "把教训丢掉",
+          "...it also throws away the lesson hiding inside the mistake."
+        ],
+        [
+          "examine errors honestly",
+          "诚实地检查错误",
+          "...errors, examined honestly, teach more than smooth success does."
+        ],
+        [
+          "teach more than smooth success does",
+          "比一帆风顺更有教益",
+          "...errors, examined honestly, teach more than smooth success does."
+        ],
+        [
+          "tell you why",
+          "告诉你原因",
+          "...but it rarely tells you why."
+        ],
+        [
+          "by contrast",
+          "相比之下",
+          "A failure, by contrast, gives you specific information..."
+        ],
+        [
+          "the assumption was wrong",
+          "假设本身是错的",
+          "...the assumption was wrong..."
+        ],
+        [
+          "treat A as B",
+          "把 A 当作 B",
+          "If you treat that information as feedback instead of a verdict..."
+        ],
+        [
+          "try again",
+          "再试一次",
+          "...you can adjust and try again."
+        ],
+        [
+          "build prototypes rather than perfect products",
+          "做原型，而不是追求完美成品",
+          "...engineers build prototypes rather than perfect products..."
+        ],
+        [
+          "buy knowledge cheaply",
+          "用很小的代价换来知识",
+          "...they are buying knowledge cheaply."
+        ],
+        [
+          "go over your mistakes",
+          "复盘你的错误",
+          "...good students go over their mistakes..."
+        ],
+        [
+          "just check the score",
+          "只看分数",
+          "...instead of just checking the score."
+        ],
+        [
+          "admit what went wrong",
+          "承认哪里出了问题",
+          "Admit what went wrong..."
+        ],
+        [
+          "build resilience",
+          "培养韧性",
+          "...that habit builds resilience..."
+        ]
+      ],
+      "translation": [
+        "没有人喜欢失败。被拒的申请、失败的实验、公开犯的错，都会让人难受，第一反应通常是掩盖证据。我们告诉自己：是运气不好，或者这件事本来就不公平。这个借口能保护我们的自尊一个小时，却也让我们丢掉了藏在错误里的教训。",
+        "研究学习的学者反复得出一个有点意外结论：被诚实检查过的错误，比一帆风顺的成功更有教益。成功只能说明\"这样行得通\"，却很少告诉你为什么行得通。而失败恰恰相反，它会给出具体的信息——假设本身错了、时机不对、计划里有个缺口。",
+        "如果你把这些信息当作反馈而不是判决，就能调整方向、再试一次。这也正是工程师先做原型而不是追求完美成品、好学生在考后复盘错误而不是只看分数的原因。他们不是粗心，而是在用很小的代价换取知识。",
+        "这不意味着失败是愉快的，也不意味着你该主动去追求它。它的意思是：失败周围的羞耻感，可以和学习到的教训分开。承认哪里出了问题，问问自己下次会怎么做，并留下一段简短的记录。时间久了，这个习惯会培养出韧性——让你能重新开始，不必大动干戈，还多了一点勇气。学得最快的人不是从不跌倒的人，而是那些会审视这次跌倒、保持诚实、然后继续往前走的人。"
+      ],
+      "audioFull": "audio/2026-09-16_影子跟读009_从失败里学到什么_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-09-16_影子跟读009_从失败里学到什么_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-09-16_影子跟读009_从失败里学到什么_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-09-16_影子跟读009_从失败里学到什么_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-09-16_影子跟读009_从失败里学到什么_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-09-14_008",
       "num": "008",
       "date": "2026-09-14",
