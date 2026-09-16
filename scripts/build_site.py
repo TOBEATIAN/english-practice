@@ -107,6 +107,17 @@ def parse_md(md: Path) -> dict:
     vocab_lines = section_body("## 生词自查表", "## 好词好句·短语积累")
     vocab_note = "\n".join(x.lstrip("> ").strip() for x in vocab_lines if x.strip().startswith(">"))
     vocab_rows = parse_table(vocab_lines)
+    for row in vocab_rows:
+        if len(row) != 4:
+            raise ValueError(f"{md.name}：生词表应为 4 列（单词/词性/中文/英文释义），实际 {len(row)} 列")
+        word, en = row[0], row[3]
+        if not en.strip():
+            raise ValueError(f"{md.name}：{word} 缺少英文释义")
+        if re.search(r"[\u4e00-\u9fff]", en):
+            raise ValueError(f"{md.name}：{word} 的英文释义含中文字符：{en}")
+        n = len(en.split())
+        if n < 3 or n > 14:
+            raise ValueError(f"{md.name}：{word} 的英文释义需 3-14 词，实际 {n} 词：{en}")
 
     # 短语表
     phrase_rows = parse_table(section_body("## 好词好句·短语积累", "## 全文中文翻译"))

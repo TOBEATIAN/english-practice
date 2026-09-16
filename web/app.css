@@ -308,3 +308,196 @@ td.w-en { font-weight: 600; color: var(--accent-strong); white-space: nowrap; }
   .material-card h2 { font-size: 18px; }
   .en-text { font-size: 16px; }
 }
+
+/* ---------- 列表工具条：搜索 / 进度 / 筛选 ---------- */
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+}
+
+.search-input {
+  flex: 1 1 190px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #FFF;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.search-input:focus {
+  outline: 2px solid var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.progress-chip {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  color: #FFF;
+  border-color: var(--accent);
+}
+
+.toolbar-hint {
+  flex: 1 1 100%;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* ---------- 分组折叠 ---------- */
+
+.group-toggle {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 18px 0 10px;
+  padding: 12px 16px;
+  background: #F7F1E6;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+
+.group-toggle:active { background: var(--accent-soft); }
+
+.group-count {
+  color: var(--accent-strong);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.group-arrow { margin-left: 8px; font-size: 12px; }
+
+.group-body.collapsed { display: none; }
+
+/* ---------- 已练标记 ---------- */
+
+.practiced-badge {
+  background: #E6F0E8;
+  color: #3F6B49;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.card-top .date { margin-left: auto; }
+
+.btn-mark.active {
+  background: #4E7A56;
+  border-color: #4E7A56;
+  color: #FFF;
+}
+
+/* ---------- 阅读页：倍速与循环 ---------- */
+
+.speed-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 4px;
+}
+
+.speed-label { color: var(--muted); font-size: 14px; }
+
+.styled {
+  min-height: 40px;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #FFF;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.btn-loop {
+  min-height: 44px;
+  padding: 4px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #FFF;
+  color: #6B6054;
+  font-family: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-loop.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #FFF;
+}
+
+.btn-loop:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* ---------- 生词：手机端卡片 ---------- */
+
+.vocab-cards { display: none; }
+
+td.w-def { color: #4A5A4E; font-size: 14px; }
+
+.vocab-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #FFF;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+.vocab-card .vw {
+  font-weight: 700;
+  color: var(--accent-strong);
+  font-size: 16px;
+}
+
+.vocab-card .vpos {
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.vocab-card .vcn { font-size: 15px; margin-top: 2px; }
+
+.vocab-card .ven { color: #4A5A4E; font-size: 14px; margin-top: 2px; }
+
+/* ---------- 上下篇导航 ---------- */
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0 10px;
+}
+
+.pager a { flex: 1 1 45%; }
+
+@media (max-width: 640px) {
+  .vocab-table-wrap { display: none; }
+  .vocab-cards { display: block; }
+  .pager a { flex: 1 1 100%; }
+}

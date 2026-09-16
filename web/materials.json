@@ -21,112 +21,134 @@
         [
           "failure",
           "名词",
-          "失败"
+          "失败",
+          "a lack of success, or something that does not succeed"
         ],
         [
           "rejected",
           "形容词",
-          "被拒绝的"
+          "被拒绝的",
+          "not accepted or refused"
         ],
         [
           "evidence",
           "名词",
-          "证据、迹象"
+          "证据、迹象",
+          "facts or signs that show something is true"
         ],
         [
           "excuse",
           "名词",
-          "借口"
+          "借口",
+          "a reason you give to explain or defend a mistake"
         ],
         [
           "lesson",
           "名词",
-          "教训"
+          "教训",
+          "something you learn from an experience"
         ],
         [
           "assumption",
           "名词",
-          "假设、想当然的判断"
+          "假设、想当然的判断",
+          "something you accept as true without proof"
         ],
         [
           "feedback",
           "名词",
-          "反馈"
+          "反馈",
+          "advice or information about how well you did"
         ],
         [
           "verdict",
           "名词",
-          "判决、定论"
+          "判决、定论",
+          "an official decision or a final judgement"
         ],
         [
           "adjust",
           "动词",
-          "调整"
+          "调整",
+          "to change something slightly to make it better"
         ],
         [
           "prototype",
           "名词",
-          "原型、初版样品"
+          "原型、初版样品",
+          "an early model used to test an idea"
         ],
         [
           "mistake",
           "名词",
-          "错误"
+          "错误",
+          "something done wrongly or an error"
         ],
         [
           "score",
           "名词",
-          "分数、成绩"
+          "分数、成绩",
+          "the number of points you get in a test or game"
         ],
         [
           "careless",
           "形容词",
-          "粗心的、不用心的"
+          "粗心的、不用心的",
+          "not giving enough attention, so mistakes happen"
         ],
         [
           "knowledge",
           "名词",
-          "知识"
+          "知识",
+          "the information and understanding you have"
         ],
         [
           "shame",
           "名词",
-          "羞耻、羞愧"
+          "羞耻、羞愧",
+          "the painful feeling that you have done something wrong"
         ],
         [
           "admit",
           "动词",
-          "承认"
+          "承认",
+          "to agree that something is true, often unwillingly"
         ],
         [
           "differently",
           "副词",
-          "以不同方式"
+          "以不同方式",
+          "in another way, not the same way"
         ],
         [
           "resilience",
           "名词",
-          "韧性、复原力"
+          "韧性、复原力",
+          "the ability to recover quickly from difficulty"
         ],
         [
           "drama",
           "名词",
-          "戏剧性、折腾"
+          "戏剧性、折腾",
+          "excited or emotional behaviour that is unnecessary"
         ],
         [
           "courage",
           "名词",
-          "勇气"
+          "勇气",
+          "the ability to do something even when you are afraid"
         ],
         [
           "examine",
           "动词",
-          "检查、审视"
+          "检查、审视",
+          "to look at something carefully to learn about it"
         ],
         [
           "honest",
           "形容词",
-          "诚实的"
+          "诚实的",
+          "telling the truth and not cheating"
         ]
       ],
       "phraseRows": [
@@ -255,112 +277,134 @@
         [
           "request",
           "名词",
-          "请求、要求"
+          "请求、要求",
+          "the act of politely asking for something"
         ],
         [
           "overcommit",
           "动词",
-          "承诺过多、揽太多事"
+          "承诺过多、揽太多事",
+          "to agree to do more than you can manage"
         ],
         [
           "generous",
           "形容词",
-          "慷慨的、大方的"
+          "慷慨的、大方的",
+          "willing to give more than is usual or expected"
         ],
         [
           "favour",
           "名词",
-          "帮忙、人情（= favor）"
+          "帮忙、人情（= favor）",
+          "something kind you do to help someone"
         ],
         [
           "duty",
           "名词",
-          "义务、责任"
+          "义务、责任",
+          "something you must do because it is right"
         ],
         [
           "temporary",
           "形容词",
-          "暂时的"
+          "暂时的",
+          "lasting for only a short time"
         ],
         [
           "honest",
           "形容词",
-          "诚实的"
+          "诚实的",
+          "telling the truth and not cheating"
         ],
         [
           "refusal",
           "名词",
-          "拒绝"
+          "拒绝",
+          "the act of saying no to something"
         ],
         [
           "apology",
           "名词",
-          "道歉"
+          "道歉",
+          "words saying you are sorry for a mistake"
         ],
         [
           "instead",
           "副词",
-          "代替、反而"
+          "代替、反而",
+          "in place of something else"
         ],
         [
           "regret",
           "动词",
-          "后悔"
+          "后悔",
+          "to feel sorry about something you did or did not do"
         ],
         [
           "decline",
           "动词",
-          "婉拒、谢绝"
+          "婉拒、谢绝",
+          "to politely refuse an offer or invitation"
         ],
         [
           "capacity",
           "名词",
-          "容量、精力上限"
+          "容量、精力上限",
+          "the amount of something you can hold or manage"
         ],
         [
           "guilt",
           "名词",
-          "内疚、负罪感"
+          "内疚、负罪感",
+          "the bad feeling you have when you think you did wrong"
         ],
         [
           "priority",
           "名词",
-          "优先事项"
+          "优先事项",
+          "something more important than other things"
         ],
         [
           "calm",
           "形容词",
-          "平静的"
+          "平静的",
+          "relaxed and not worried or excited"
         ],
         [
           "boundary",
           "名词",
-          "边界、界限"
+          "边界、界限",
+          "a limit that shows where something ends"
         ],
         [
           "trust",
           "动词",
-          "信任"
+          "信任",
+          "the belief that someone is honest and reliable"
         ],
         [
           "resent",
           "动词",
-          "心生怨恨、不满"
+          "心生怨恨、不满",
+          "to feel angry about something you think is unfair"
         ],
         [
           "energy",
           "名词",
-          "精力"
+          "精力",
+          "the strength and power to be active"
         ],
         [
           "limited",
           "形容词",
-          "有限的"
+          "有限的",
+          "not much or not enough in amount"
         ],
         [
           "selfish",
           "形容词",
-          "自私的"
+          "自私的",
+          "caring only about yourself, not others"
         ]
       ],
       "phraseRows": [
@@ -489,112 +533,134 @@
         [
           "parade",
           "名词",
-          "一连串、队列（此处指刷屏的展示）"
+          "一连串、队列（此处指刷屏的展示）",
+          "a long series of things shown one after another"
         ],
         [
           "compare",
           "动词",
-          "比较"
+          "比较",
+          "to look at differences and similarities"
         ],
         [
           "uneasy",
           "形容词",
-          "不安的、心里不舒服的"
+          "不安的、心里不舒服的",
+          "slightly worried or uncomfortable"
         ],
         [
           "upward",
           "形容词",
-          "向上的（upward comparison 向上比较）"
+          "向上的（upward comparison 向上比较）",
+          "moving or pointing toward a higher level"
         ],
         [
           "highlight",
           "名词",
-          "亮点、精彩片段"
+          "亮点、精彩片段",
+          "to mark something so it stands out; a best part"
         ],
         [
           "filtered",
           "形容词",
-          "被修饰过的、经过筛选的"
+          "被修饰过的、经过筛选的",
+          "changed or selected so only some parts are shown"
         ],
         [
           "audience",
           "名词",
-          "观众、受众"
+          "观众、受众",
+          "the people who watch, read, or listen"
         ],
         [
           "invisible",
           "形容词",
-          "看不见的"
+          "看不见的",
+          "impossible to see"
         ],
         [
           "pressure",
           "名词",
-          "压力"
+          "压力",
+          "a feeling of stress caused by demands or problems"
         ],
         [
           "scrolling",
           "名词",
-          "刷屏、滑动浏览"
+          "刷屏、滑动浏览",
+          "the act of moving a screen up or down to see more"
         ],
         [
           "envy",
           "名词",
-          "嫉妒、羡慕"
+          "嫉妒、羡慕",
+          "the unhappy feeling of wanting what someone else has"
         ],
         [
           "insecure",
           "形容词",
-          "缺乏安全感的、不自信的"
+          "缺乏安全感的、不自信的",
+          "not confident and unsure about yourself"
         ],
         [
           "failure",
           "名词",
-          "失败"
+          "失败",
+          "a lack of success, or something that does not succeed"
         ],
         [
           "achievement",
           "名词",
-          "成就"
+          "成就",
+          "something good you have done after effort"
         ],
         [
           "honest",
           "形容词",
-          "诚实的"
+          "诚实的",
+          "telling the truth and not cheating"
         ],
         [
           "genuine",
           "形容词",
-          "真诚的、真实的"
+          "真诚的、真实的",
+          "real and sincere, not false"
         ],
         [
           "celebrate",
           "动词",
-          "庆祝、为……高兴"
+          "庆祝、为……高兴",
+          "to do something enjoyable for a special event"
         ],
         [
           "remind",
           "动词",
-          "提醒"
+          "提醒",
+          "to help someone remember something"
         ],
         [
           "jealous",
           "形容词",
-          "嫉妒的"
+          "嫉妒的",
+          "unhappy because someone has what you want"
         ],
         [
           "restless",
           "形容词",
-          "坐立不安的、焦躁的"
+          "坐立不安的、焦躁的",
+          "unable to stay still or relax"
         ],
         [
           "admiration",
           "名词",
-          "欣赏、钦佩"
+          "欣赏、钦佩",
+          "respect and warm approval for someone"
         ],
         [
           "trap",
           "名词",
-          "陷阱"
+          "陷阱",
+          "a hidden danger or a situation hard to escape"
         ]
       ],
       "phraseRows": [
@@ -723,112 +789,134 @@
         [
           "deadline",
           "名词",
-          "截止日期"
+          "截止日期",
+          "the time by which something must be finished"
         ],
         [
           "sacrifice",
           "动词/名词",
-          "牺牲"
+          "牺牲",
+          "to give up something important for a greater aim"
         ],
         [
           "heroic",
           "形容词",
-          "英勇的、了不起的"
+          "英勇的、了不起的",
+          "very brave or impressive"
         ],
         [
           "willpower",
           "名词",
-          "意志力"
+          "意志力",
+          "the ability to control yourself and do hard things"
         ],
         [
           "rest",
           "名词",
-          "休息"
+          "休息",
+          "a period of time when you relax or sleep"
         ],
         [
           "memory",
           "名词",
-          "记忆"
+          "记忆",
+          "the ability to remember, or something you remember"
         ],
         [
           "strengthen",
           "动词",
-          "加强、巩固"
+          "加强、巩固",
+          "to make something stronger"
         ],
         [
           "consolidation",
           "名词",
-          "巩固、（记忆）整合"
+          "巩固、（记忆）整合",
+          "the process of making something stronger or more solid"
         ],
         [
           "fragile",
           "形容词",
-          "脆弱的"
+          "脆弱的",
+          "easily broken or damaged"
         ],
         [
           "recognise",
           "动词",
-          "认出、认得（= recognize）"
+          "认出、认得（= recognize）",
+          "to know someone or something you have seen before"
         ],
         [
           "recall",
           "动词",
-          "回想、回忆"
+          "回想、回忆",
+          "to bring something back into your mind"
         ],
         [
           "repair",
           "动词",
-          "修复"
+          "修复",
+          "to fix something that is broken or damaged"
         ],
         [
           "anxious",
           "形容词",
-          "焦虑的"
+          "焦虑的",
+          "worried and nervous about something"
         ],
         [
           "misread",
           "动词",
-          "误读、看错"
+          "误读、看错",
+          "to understand something in the wrong way"
         ],
         [
           "immune",
           "形容词",
-          "免疫的"
+          "免疫的",
+          "protected from a disease or not affected by something"
         ],
         [
           "patience",
           "名词",
-          "耐心"
+          "耐心",
+          "the ability to wait or accept difficulty calmly"
         ],
         [
           "regular",
           "形容词",
-          "规律的"
+          "规律的",
+          "happening at the same times or in a usual pattern"
         ],
         [
           "bedtime",
           "名词",
-          "就寝时间"
+          "就寝时间",
+          "the time when you usually go to sleep"
         ],
         [
           "caffeine",
           "名词",
-          "咖啡因"
+          "咖啡因",
+          "a substance in coffee and tea that keeps you awake"
         ],
         [
           "aim",
           "动词/名词",
-          "目标是；目标"
+          "目标是；目标",
+          "to try to achieve something; a goal"
         ],
         [
           "disaster",
           "名词",
-          "灾难、糟糕的事"
+          "灾难、糟糕的事",
+          "a very bad event or a complete failure"
         ],
         [
           "grade",
           "名词",
-          "成绩、分数"
+          "成绩、分数",
+          "a mark showing the quality of your work"
         ]
       ],
       "phraseRows": [
@@ -957,112 +1045,134 @@
         [
           "pointless",
           "形容词",
-          "无意义的、没必要的"
+          "无意义的、没必要的",
+          "having no purpose or useful result"
         ],
         [
           "conversation",
           "名词",
-          "交谈、对话"
+          "交谈、对话",
+          "a talk between two or more people"
         ],
         [
           "connection",
           "名词",
-          "连接、联系（人与人之间）"
+          "连接、联系（人与人之间）",
+          "a relationship or link between people or things"
         ],
         [
           "signal",
           "名词",
-          "信号"
+          "信号",
+          "a sign that gives information or tells you what to do"
         ],
         [
           "willing",
           "形容词",
-          "愿意的"
+          "愿意的",
+          "ready and happy to do something"
         ],
         [
           "cooperate",
           "动词",
-          "合作、配合"
+          "合作、配合",
+          "to work together with someone for a shared goal"
         ],
         [
           "brief",
           "形容词",
-          "简短的"
+          "简短的",
+          "lasting only a short time; using few words"
         ],
         [
           "exchange",
           "名词",
-          "交流、交换"
+          "交流、交换",
+          "a short conversation or the act of giving and receiving"
         ],
         [
           "stranger",
           "名词",
-          "陌生人"
+          "陌生人",
+          "a person you do not know"
         ],
         [
           "mood",
           "名词",
-          "心情、情绪"
+          "心情、情绪",
+          "the way you feel at a particular time"
         ],
         [
           "acknowledged",
           "形容词",
-          "被注意到的、被认可的"
+          "被注意到的、被认可的",
+          "noticed, accepted, or recognised by others"
         ],
         [
           "reward",
           "名词",
-          "奖励、回报"
+          "奖励、回报",
+          "something good you get for doing something"
         ],
         [
           "casual",
           "形容词",
-          "随意的、不经意的"
+          "随意的、不经意的",
+          "relaxed and not planned or formal"
         ],
         [
           "offer",
           "名词",
-          "提议、录用通知"
+          "提议、录用通知",
+          "something you say you are willing to give or do"
         ],
         [
           "neighbor",
           "名词",
-          "邻居"
+          "邻居",
+          "someone who lives near you"
         ],
         [
           "friendship",
           "名词",
-          "友谊"
+          "友谊",
+          "a friendly relationship between people"
         ],
         [
           "predict",
           "动词",
-          "预测"
+          "预测",
+          "to say what you think will happen in the future"
         ],
         [
           "trust",
           "名词",
-          "信任"
+          "信任",
+          "the belief that someone is honest and reliable"
         ],
         [
           "awkward",
           "形容词",
-          "尴尬的"
+          "尴尬的",
+          "feeling embarrassed or uncomfortable"
         ],
         [
           "forced",
           "形容词",
-          "勉强的、被迫的"
+          "勉强的、被迫的",
+          "done because you must, not because you want to"
         ],
         [
           "genuine",
           "形容词",
-          "真诚的"
+          "真诚的",
+          "real and sincere, not false"
         ],
         [
           "attention",
           "名词",
-          "注意力、关注"
+          "注意力、关注",
+          "the act of focusing your mind on something"
         ]
       ],
       "phraseRows": [
@@ -1191,112 +1301,134 @@
         [
           "switch",
           "动词/名词",
-          "切换、转换"
+          "切换、转换",
+          "to change from one thing to another"
         ],
         [
           "accuracy",
           "名词",
-          "准确性"
+          "准确性",
+          "how correct or exact something is"
         ],
         [
           "attention",
           "名词",
-          "注意力"
+          "注意力",
+          "the act of focusing your mind on something"
         ],
         [
           "demanding",
           "形容词",
-          "费神的、要求高的"
+          "费神的、要求高的",
+          "needing a lot of time, skill, or effort"
         ],
         [
           "parallel",
           "形容词/名词",
-          "并行的；并行"
+          "并行的；并行",
+          "happening at the same time; side by side"
         ],
         [
           "underestimate",
           "动词",
-          "低估"
+          "低估",
+          "to think something is smaller or weaker than it is"
         ],
         [
           "distraction",
           "名词",
-          "干扰、让人分心的事物"
+          "干扰、让人分心的事物",
+          "something that takes your attention away"
         ],
         [
           "concentration",
           "名词",
-          "专注（力）"
+          "专注（力）",
+          "the ability to focus your attention fully"
         ],
         [
           "notification",
           "名词",
-          "通知、提示"
+          "通知、提示",
+          "a message that tells you something has happened"
         ],
         [
           "interruption",
           "名词",
-          "打断、中断"
+          "打断、中断",
+          "something that stops an activity for a short time"
         ],
         [
           "mixture",
           "名词",
-          "混合（体）"
+          "混合（体）",
+          "a combination of different things"
         ],
         [
           "productive",
           "形容词",
-          "高效的、多产的"
+          "高效的、多产的",
+          "producing good results or useful work"
         ],
         [
           "boredom",
           "名词",
-          "无聊、厌倦"
+          "无聊、厌倦",
+          "the feeling of being tired because nothing interests you"
         ],
         [
           "reward",
           "名词",
-          "奖励、回报"
+          "奖励、回报",
+          "something good you get for doing something"
         ],
         [
           "resist",
           "动词",
-          "抵抗、忍住"
+          "抵抗、忍住",
+          "to try not to do something you want to do"
         ],
         [
           "avoid",
           "动词",
-          "避免、躲避"
+          "避免、躲避",
+          "to stay away from something or stop doing it"
         ],
         [
           "tab",
           "名词",
-          "（浏览器）标签页"
+          "（浏览器）标签页",
+          "a page or section you can open in a browser"
         ],
         [
           "routine",
           "形容词/名词",
-          "例行的；常规"
+          "例行的；常规",
+          "something done regularly as part of a usual pattern"
         ],
         [
           "compete",
           "动词",
-          "竞争、争夺"
+          "竞争、争夺",
+          "to try to be more successful than others"
         ],
         [
           "resource",
           "名词",
-          "资源"
+          "资源",
+          "something useful that helps you do something"
         ],
         [
           "valuable",
           "形容词",
-          "宝贵的、有价值的"
+          "宝贵的、有价值的",
+          "very useful or worth a lot"
         ],
         [
           "distracted",
           "形容词",
-          "分心的、注意力被带走的"
+          "分心的、注意力被带走的",
+          "unable to focus because something takes your attention"
         ]
       ],
       "phraseRows": [
@@ -1425,112 +1557,134 @@
         [
           "avoid",
           "动词",
-          "避免、躲避"
+          "避免、躲避",
+          "to stay away from something or stop doing it"
         ],
         [
           "laziness",
           "名词",
-          "懒惰"
+          "懒惰",
+          "the habit of not wanting to work or make effort"
         ],
         [
           "escape",
           "动词/名词",
-          "逃避、逃离"
+          "逃避、逃离",
+          "to get away from a place or a bad feeling"
         ],
         [
           "temporary",
           "形容词",
-          "暂时的"
+          "暂时的",
+          "lasting for only a short time"
         ],
         [
           "relief",
           "名词",
-          "解脱、缓解"
+          "解脱、缓解",
+          "the good feeling when worry or pain stops"
         ],
         [
           "heavier",
           "形容词",
-          "更沉重的（heavy 的比较级）"
+          "更沉重的（heavy 的比较级）",
+          "weighing more, or feeling more difficult to bear"
         ],
         [
           "psychologist",
           "名词",
-          "心理学家"
+          "心理学家",
+          "a scientist who studies the mind and behaviour"
         ],
         [
           "describe",
           "动词",
-          "描述、形容"
+          "描述、形容",
+          "to say what someone or something is like"
         ],
         [
           "battle",
           "名词",
-          "战斗、较量"
+          "战斗、较量",
+          "a fight or a hard struggle against something"
         ],
         [
           "future",
           "名词",
-          "未来"
+          "未来",
+          "the time that will come after now"
         ],
         [
           "present",
           "名词",
-          "现在、当下"
+          "现在、当下",
+          "the time happening now, not the past or future"
         ],
         [
           "reward",
           "名词",
-          "奖励、回报"
+          "奖励、回报",
+          "something good you get for doing something"
         ],
         [
           "immediate",
           "形容词",
-          "立刻的、即时的"
+          "立刻的、即时的",
+          "happening at once, with no delay"
         ],
         [
           "payoff",
           "名词",
-          "回报、收益"
+          "回报、收益",
+          "the good result you get after effort or time"
         ],
         [
           "distant",
           "形容词",
-          "遥远的"
+          "遥远的",
+          "far away in space or time"
         ],
         [
           "vague",
           "形容词",
-          "模糊的、不明确的"
+          "模糊的、不明确的",
+          "not clear or exact in meaning"
         ],
         [
           "chore",
           "名词",
-          "琐事、杂务"
+          "琐事、杂务",
+          "a small everyday job such as cleaning"
         ],
         [
           "willpower",
           "名词",
-          "意志力"
+          "意志力",
+          "the ability to control yourself and do hard things"
         ],
         [
           "terrifying",
           "形容词",
-          "令人恐惧的、吓人的"
+          "令人恐惧的、吓人的",
+          "extremely frightening or scary"
         ],
         [
           "threat",
           "名词",
-          "威胁"
+          "威胁",
+          "something that may cause harm or danger"
         ],
         [
           "tiniest",
           "形容词",
-          "极小的（tiny 的最高级）"
+          "极小的（tiny 的最高级）",
+          "the smallest in size or amount"
         ],
         [
           "motivated",
           "形容词",
-          "有动力的、有干劲的"
+          "有动力的、有干劲的",
+          "wanting to do something and working toward it"
         ]
       ],
       "phraseRows": [
@@ -1659,112 +1813,134 @@
         [
           "unexpected",
           "形容词",
-          "意想不到的、出人意料的"
+          "意想不到的、出人意料的",
+          "surprising because you did not think it would happen"
         ],
         [
           "stuck",
           "形容词",
-          "卡住的、被难住的"
+          "卡住的、被难住的",
+          "unable to move or continue with something"
         ],
         [
           "wander",
           "动词",
-          "漫步、闲逛"
+          "漫步、闲逛",
+          "to walk slowly with no clear direction or purpose"
         ],
         [
           "neighborhood",
           "名词",
-          "街区、附近一带"
+          "街区、附近一带",
+          "the area around the place where you live"
         ],
         [
           "impossible",
           "形容词",
-          "不可能的"
+          "不可能的",
+          "not able to happen or be done"
         ],
         [
           "loosen",
           "动词",
-          "松开、变松动"
+          "松开、变松动",
+          "to become less tight or less firm"
         ],
         [
           "pressure",
           "名词",
-          "压力"
+          "压力",
+          "a feeling of stress caused by demands or problems"
         ],
         [
           "inspiration",
           "名词",
-          "灵感"
+          "灵感",
+          "a sudden good idea that helps you create something"
         ],
         [
           "drift",
           "动词",
-          "飘移、漫无目的地流动"
+          "飘移、漫无目的地流动",
+          "to move slowly without a fixed direction or plan"
         ],
         [
           "bump",
           "动词",
-          "撞上、碰到"
+          "撞上、碰到",
+          "to hit something lightly by accident"
         ],
         [
           "connection",
           "名词",
-          "联系、关联"
+          "联系、关联",
+          "a relationship or link between people or things"
         ],
         [
           "brilliant",
           "形容词",
-          "出色的、绝妙的"
+          "出色的、绝妙的",
+          "extremely clever, impressive, or bright"
         ],
         [
           "momentum",
           "名词",
-          "势头、动力"
+          "势头、动力",
+          "the force that keeps something moving or growing"
         ],
         [
           "mood",
           "名词",
-          "心情、情绪"
+          "心情、情绪",
+          "the way you feel at a particular time"
         ],
         [
           "assume",
           "动词",
-          "想当然地认为"
+          "想当然地认为",
+          "to think something is true without proof"
         ],
         [
           "opposite",
           "名词/形容词",
-          "相反（的）"
+          "相反（的）",
+          "completely different from something else"
         ],
         [
           "motion",
           "名词",
-          "运动、移动"
+          "运动、移动",
+          "movement, or the act of moving"
         ],
         [
           "experiment",
           "名词",
-          "实验、尝试"
+          "实验、尝试",
+          "a test done to learn something or prove an idea"
         ],
         [
           "observe",
           "动词",
-          "观察"
+          "观察",
+          "to watch something carefully and notice details"
         ],
         [
           "breathing",
           "名词",
-          "呼吸"
+          "呼吸",
+          "the act of taking air into and out of your body"
         ],
         [
           "immediately",
           "副词",
-          "立刻、马上"
+          "立刻、马上",
+          "at once, without any delay"
         ],
         [
           "surprised",
           "形容词",
-          "惊讶的"
+          "惊讶的",
+          "feeling that something unexpected has happened"
         ]
       ],
       "phraseRows": [
@@ -1893,112 +2069,134 @@
         [
           "productive",
           "形容词",
-          "高效的、多产的"
+          "高效的、多产的",
+          "producing good results or useful work"
         ],
         [
           "familiar",
           "形容词",
-          "熟悉的、眼熟的"
+          "熟悉的、眼熟的",
+          "well known to you or easy to recognise"
         ],
         [
           "highlight",
           "动词",
-          "标亮、突出显示"
+          "标亮、突出显示",
+          "to mark something so it stands out; a best part"
         ],
         [
           "assume",
           "动词",
-          "想当然地认为"
+          "想当然地认为",
+          "to think something is true without proof"
         ],
         [
           "repetition",
           "名词",
-          "重复"
+          "重复",
+          "the act of doing or saying something again"
         ],
         [
           "equal",
           "动词",
-          "等于、比得上"
+          "等于、比得上",
+          "to be the same as something else in value"
         ],
         [
           "recognize",
           "动词",
-          "认得、辨认出"
+          "认得、辨认出",
+          "to know someone or something you have seen before"
         ],
         [
           "recall",
           "动词",
-          "回忆、想得起"
+          "回忆、想得起",
+          "to bring something back into your mind"
         ],
         [
           "familiarity",
           "名词",
-          "熟悉感"
+          "熟悉感",
+          "the feeling that something is known to you"
         ],
         [
           "effective",
           "形容词",
-          "有效的"
+          "有效的",
+          "producing the result that you want"
         ],
         [
           "struggle",
           "动词/名词",
-          "吃力、挣扎、艰难应对"
+          "吃力、挣扎、艰难应对",
+          "to try hard to do something difficult"
         ],
         [
           "frustrated",
           "形容词",
-          "沮丧的、挫败的"
+          "沮丧的、挫败的",
+          "feeling annoyed because you cannot succeed"
         ],
         [
           "retrieve",
           "动词",
-          "取回、提取（信息）"
+          "取回、提取（信息）",
+          "to get something back or find information again"
         ],
         [
           "effort",
           "名词",
-          "努力、费力"
+          "努力、费力",
+          "the physical or mental energy used to do something"
         ],
         [
           "trace",
           "名词",
-          "痕迹、踪迹"
+          "痕迹、踪迹",
+          "a small sign that something existed or happened"
         ],
         [
           "enemy",
           "名词",
-          "敌人（文中是比喻用法）"
+          "敌人（文中是比喻用法）",
+          "someone who hates you or works against you"
         ],
         [
           "signal",
           "名词",
-          "信号"
+          "信号",
+          "a sign that gives information or tells you what to do"
         ],
         [
           "rebuild",
           "动词",
-          "重建、重新构建"
+          "重建、重新构建",
+          "to build something again after it is damaged"
         ],
         [
           "retrieval",
           "名词",
-          "提取、检索"
+          "提取、检索",
+          "the act of getting something back or finding information"
         ],
         [
           "evidence",
           "名词",
-          "证据"
+          "证据",
+          "facts or signs that show something is true"
         ],
         [
           "strategy",
           "名词",
-          "策略、方法"
+          "策略、方法",
+          "a plan for reaching a goal"
         ],
         [
           "session",
           "名词",
-          "（一次活动的）一段时间"
+          "（一次活动的）一段时间",
+          "a period of time used for one activity"
         ]
       ],
       "phraseRows": [
