@@ -501,3 +501,203 @@ td.w-def { color: #4A5A4E; font-size: 14px; }
   .vocab-cards { display: block; }
   .pager a { flex: 1 1 100%; }
 }
+
+/* ---------- 底部播放条（进度条可点击/拖动） ---------- */
+
+body { padding-bottom: 92px; }
+
+.player-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.97);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -2px 10px rgba(140, 59, 30, 0.08);
+}
+
+.player-bar.visible { display: flex; }
+
+.pb-btn {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #FFF;
+  color: var(--accent-strong);
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.pb-play { background: var(--accent); border-color: var(--accent); color: #FFF; }
+
+.pb-loop.active { background: var(--accent-soft); border-color: var(--accent); }
+
+.pb-label {
+  max-width: 26%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.pb-range {
+  flex: 1 1 auto;
+  min-width: 80px;
+  height: 32px;
+  accent-color: var(--accent);
+}
+
+.pb-time {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.pb-speed {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #FFF;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 13px;
+}
+
+/* ---------- 模式切换 ---------- */
+
+.mode-switch {
+  display: flex;
+  gap: 10px;
+  margin: 18px 0 6px;
+}
+
+.mode-btn {
+  flex: 1 1 50%;
+  min-height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #FFF;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mode-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #FFF;
+  font-weight: 600;
+}
+
+/* ---------- 精听：句子卡片与听写 ---------- */
+
+.sentence-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #FFF;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+}
+
+.sentence-card.ok { border-color: #9ABFA3; background: #F5FAF6; }
+.sentence-card.bad { border-color: #E0A98F; background: #FDF7F3; }
+
+.sentence-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.sentence-num {
+  font-weight: 700;
+  color: var(--accent-strong);
+  font-size: 15px;
+}
+
+.sentence-play { min-height: 40px; }
+
+.sentence-status {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.sentence-status.ok { color: #3F6B49; font-weight: 600; }
+.sentence-status.bad { color: #B4552D; font-weight: 600; }
+
+.dictation-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #FFF;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.dictation-input:focus { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
+
+.dictation-result {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+.diff-line { margin: 4px 0; font-size: 15px; line-height: 1.8; }
+
+.diff-extra {
+  background: #FBE3E0;
+  color: #A63A2B;
+  text-decoration: line-through;
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+.diff-missing {
+  background: #FFF1C9;
+  color: #8A6A00;
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+.tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+
+.tag-btn {
+  min-height: 36px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #FFF;
+  color: #6B6054;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.tag-btn.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+  font-weight: 600;
+}
+
+.listen-stats .stats-line { margin: 0 0 4px; font-size: 16px; font-weight: 600; }
+.listen-stats .stats-errors { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+
+@media (max-width: 480px) {
+  .pb-label { display: none; }
+  .pb-time { font-size: 11px; }
+}

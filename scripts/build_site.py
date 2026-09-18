@@ -37,6 +37,21 @@ def log(*args):
     print(*args)
 
 
+def split_sentences(text: str):
+    """按 .!? 切句；过短片段（<3 词）并入上一句，避免碎片句。"""
+    parts = re.split(r"(?<=[.!?])\s+", text.strip())
+    out = []
+    for p in parts:
+        p = p.strip()
+        if not p:
+            continue
+        if out and len(p.split()) < 3:
+            out[-1] = out[-1] + " " + p
+        else:
+            out.append(p)
+    return out
+
+
 def parse_md(md: Path) -> dict:
     lines = md.read_text(encoding="utf-8").splitlines()
 
@@ -102,6 +117,16 @@ def parse_md(md: Path) -> dict:
         return escaped
 
     paragraphs = [md_bold_to_html(x) for x in eng_lines]
+    sentences = []
+    for pi, raw in enumerate(eng_lines, 1):
+        for s in split_sentences(raw):
+            sentences.append({
+                "para": pi,
+                "html": md_bold_to_html(s),
+                "text": re.sub(r"\*\*(.+?)\*\*", r"\1", s),
+            })
+    if len(sentences) < 8:
+        raise ValueError(f"{md.name}：精听句子数只有 {len(sentences)}，至少需要 8 句")
 
     # 生词自查表
     vocab_lines = section_body("## 生词自查表", "## 好词好句·短语积累")
@@ -149,6 +174,7 @@ def parse_md(md: Path) -> dict:
         "difficulty": difficulty,
         "rawParagraphs": eng_lines,
         "paragraphs": paragraphs,
+        "sentences": sentences,
         "vocabNote": vocab_note,
         "vocabRows": vocab_rows,
         "phraseRows": phrase_rows,
@@ -207,6 +233,24 @@ def ensure_audio(m, md: Path) -> None:
                 log(f"警告：第 {i} 段音频合成失败（{exc}），该段仅显示文字")
         seg_list.append(info)
     m["segments"] = seg_list
+
+    # 逐句音频（精听模式用），并清理超出当前句数的旧文件
+    for i, item in enumerate(m["sentences"], 1):
+        dst = AUDIO_DIR / f"{stem}_s{i:02d}.mp3"
+        if not (dst.exists() and dst.stat().st_size > 0):
+            if dst.exists():
+                dst.unlink()
+            try:
+                synth_speech(item["text"], dst)
+            except Exception as exc:  # noqa: BLE001
+                raise ValueError(f"{stem}：第 {i} 句音频合成失败：{exc}")
+        if not (dst.exists() and dst.stat().st_size > 0):
+            raise ValueError(f"{stem}：第 {i} 句音频缺失")
+        item["audio"] = f"audio/{dst.name}"
+    keep = {f"{stem}_s{i:02d}.mp3" for i in range(1, len(m["sentences"]) + 1)}
+    for old in AUDIO_DIR.glob(f"{stem}_s*.mp3"):
+        if old.name not in keep:
+            old.unlink()
 
 
 def copy_if_missing(src: Path, dst: Path) -> None:

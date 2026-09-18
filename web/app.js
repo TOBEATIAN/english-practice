@@ -5,11 +5,21 @@
   var GROUP_SIZE = 10;
   var PRACTICE_KEY = "shadow-practiced-v1";
   var SPEED_KEY = "shadow-speed-v1";
+  var DICTATION_KEY = "shadow-dictation-v1";
+  var MODE_KEY = "shadow-mode-v1";
+  var ERROR_TAGS = ["连读弱读", "生词", "语法词形", "注意力断线"];
 
-  var player = null;
+  var player = new Audio();
+  var playerBar = null;
+  var pbPlay = null;
+  var pbLabel = null;
+  var pbRange = null;
+  var pbTime = null;
+  var pbSpeed = null;
+  var pbLoop = null;
   var activeBtn = null;
-  var activeLoopBtn = null;
   var currentSpeed = 1;
+  var loopOn = false;
 
   function qs(sel) {
     return document.querySelector(sel);
@@ -23,6 +33,13 @@
       .replace(/"/g, "&quot;");
   }
 
+  function fmtTime(sec) {
+    if (!isFinite(sec) || sec < 0) sec = 0;
+    var m = Math.floor(sec / 60);
+    var s = Math.floor(sec % 60);
+    return m + ":" + (s < 10 ? "0" : "") + s;
+  }
+
   function setBtnIcon(btn, playing) {
     if (!btn) return;
     btn.dataset.playing = playing ? "1" : "0";
@@ -30,75 +47,164 @@
     if (icon) icon.textContent = playing ? "❚❚" : "▶";
   }
 
-  function clearLoopBtn() {
-    if (activeLoopBtn) {
-      activeLoopBtn.classList.remove("active");
-      activeLoopBtn = null;
+  function clearActive() {
+    if (activeBtn) {
+      setBtnIcon(activeBtn, false);
+      activeBtn.classList.remove("playing");
+      activeBtn = null;
     }
   }
 
-  function stopAll() {
-    if (player) {
-      player.pause();
-      player.currentTime = 0;
-      player.loop = false;
-    }
-    if (activeBtn) setBtnIcon(activeBtn, false);
-    activeBtn = null;
-    clearLoopBtn();
-  }
+  /* ---------------- 播放器（进度条可点击/拖动） ---------------- */
 
-  function playSrc(src, btn, loop) {
-    if (!src) return;
-    var same = player && activeBtn === btn && !player.paused;
-    stopAll();
-    if (same) return;
-    if (!player) player = new Audio();
-    player.src = src;
-    player.loop = !!loop;
-    player.playbackRate = currentSpeed;
-    player.play().catch(function () {
-      if (activeBtn === btn) setBtnIcon(btn, false);
+  function ensurePlayerBar() {
+    if (playerBar) return;
+    playerBar = document.createElement("div");
+    playerBar.className = "player-bar";
+    pbPlay = document.createElement("button");
+    pbPlay.className = "pb-btn pb-play";
+    pbPlay.textContent = "▶";
+    pbPlay.title = "播放 / 暂停";
+    pbLabel = document.createElement("span");
+    pbLabel.className = "pb-label";
+    pbLabel.textContent = "未播放";
+    pbRange = document.createElement("input");
+    pbRange.type = "range";
+    pbRange.className = "pb-range";
+    pbRange.min = "0";
+    pbRange.max = "1000";
+    pbRange.value = "0";
+    pbRange.step = "1";
+    pbRange.setAttribute("aria-label", "播放进度");
+    pbTime = document.createElement("span");
+    pbTime.className = "pb-time";
+    pbTime.textContent = "0:00 / 0:00";
+    pbSpeed = document.createElement("select");
+    pbSpeed.className = "pb-speed";
+    [["0.75", "0.75×"], ["1", "1.0×"], ["1.25", "1.25×"]].forEach(function (o) {
+      var opt = document.createElement("option");
+      opt.value = o[0];
+      opt.textContent = o[1];
+      pbSpeed.appendChild(opt);
     });
-    activeBtn = btn;
-    if (loop) {
-      btn.classList.add("active");
-      activeLoopBtn = btn;
+    pbLoop = document.createElement("button");
+    pbLoop.className = "pb-btn pb-loop";
+    pbLoop.textContent = "🔁";
+    pbLoop.title = "循环播放当前内容";
+
+    playerBar.appendChild(pbPlay);
+    playerBar.appendChild(pbLabel);
+    playerBar.appendChild(pbRange);
+    playerBar.appendChild(pbTime);
+    playerBar.appendChild(pbSpeed);
+    playerBar.appendChild(pbLoop);
+    document.body.appendChild(playerBar);
+
+    pbPlay.addEventListener("click", function () {
+      if (!player.src) return;
+      if (player.paused) {
+        player.play();
+      } else {
+        player.pause();
+      }
+    });
+    pbRange.addEventListener("input", function () {
+      var ratio = parseFloat(pbRange.value) / 1000;
+      forceDuration(function () {
+        if (!isFinite(player.duration) || player.duration <= 0) return;
+        player.currentTime = ratio * player.duration;
+        updateProgressUI();
+      });
+    });
+    pbSpeed.addEventListener("change", function () {
+      saveSpeed(parseFloat(pbSpeed.value));
+    });
+    pbLoop.addEventListener("click", function () {
+      loopOn = !loopOn;
+      player.loop = loopOn;
+      pbLoop.classList.toggle("active", loopOn);
+    });
+
+    player.addEventListener("timeupdate", updateProgressUI);
+    player.addEventListener("loadedmetadata", function () {
+      pbTime.textContent = fmtTime(player.currentTime) + " / " + fmtTime(player.duration);
+    });
+    player.addEventListener("play", function () {
+      pbPlay.textContent = "❚❚";
+      playerBar.classList.add("visible");
+    });
+    player.addEventListener("pause", function () {
+      pbPlay.textContent = "▶";
+    });
+    player.addEventListener("ended", function () {
+      pbPlay.textContent = "▶";
+      clearActive();
+    });
+  }
+
+  function updateProgressUI() {
+    if (!pbRange) return;
+    var d = player.duration;
+    if (isFinite(d) && d > 0) {
+      pbRange.value = String(Math.round((player.currentTime / d) * 1000));
+      pbTime.textContent = fmtTime(player.currentTime) + " / " + fmtTime(d);
     } else {
+      pbTime.textContent = fmtTime(player.currentTime) + " / --:--";
+    }
+  }
+
+  /* 部分静态服务器不支持 Range 请求，浏览器会拿不到总时长；
+     这里先触发一次完整读取，拿到真实时长后再执行回调（线上 Pages 不受影响）。 */
+  function forceDuration(cb) {
+    if (isFinite(player.duration) && player.duration > 0) {
+      cb();
+      return;
+    }
+    var done = false;
+    function onDur() {
+      if (!done && isFinite(player.duration) && player.duration > 0) {
+        done = true;
+        player.removeEventListener("durationchange", onDur);
+        try { player.currentTime = 0; } catch (err) { /* 忽略 */ }
+        updateProgressUI();
+        cb();
+      }
+    }
+    player.addEventListener("durationchange", onDur);
+    try {
+      player.currentTime = 1e7;
+    } catch (err) {
+      cb();
+    }
+    setTimeout(function () {
+      if (!done) {
+        done = true;
+        player.removeEventListener("durationchange", onDur);
+        cb();
+      }
+    }, 3000);
+  }
+
+  function playItem(src, label, btn) {
+    if (!src) return;
+    ensurePlayerBar();
+    var same = activeBtn === btn && btn && !player.paused;
+    if (same) {
+      player.pause();
+      return;
+    }
+    clearActive();
+    player.src = src;
+    player.playbackRate = currentSpeed;
+    player.loop = loopOn;
+    pbLabel.textContent = label;
+    playerBar.classList.add("visible");
+    player.play().catch(function () {});
+    if (btn) {
+      activeBtn = btn;
+      btn.classList.add("playing");
       setBtnIcon(btn, true);
     }
-    player.onended = function () {
-      if (activeBtn) setBtnIcon(activeBtn, false);
-      activeBtn = null;
-      clearLoopBtn();
-    };
-  }
-
-  function getPracticed() {
-    try {
-      return JSON.parse(localStorage.getItem(PRACTICE_KEY)) || {};
-    } catch (err) {
-      return {};
-    }
-  }
-
-  function savePracticed(obj) {
-    try {
-      localStorage.setItem(PRACTICE_KEY, JSON.stringify(obj));
-    } catch (err) {
-      /* 忽略存储失败（隐私模式等） */
-    }
-  }
-
-  function togglePracticed(id) {
-    var p = getPracticed();
-    if (p[id]) {
-      delete p[id];
-    } else {
-      p[id] = new Date().toISOString().slice(0, 10);
-    }
-    savePracticed(p);
-    return !!p[id];
   }
 
   function loadSpeed() {
@@ -113,8 +219,132 @@
     } catch (err) {
       /* 忽略 */
     }
-    if (player) player.playbackRate = v;
+    player.playbackRate = v;
   }
+
+  /* ---------------- 本地存储 ---------------- */
+
+  function readStore(key, fallback) {
+    try {
+      return JSON.parse(localStorage.getItem(key)) || fallback;
+    } catch (err) {
+      return fallback;
+    }
+  }
+
+  function writeStore(key, obj) {
+    try {
+      localStorage.setItem(key, JSON.stringify(obj));
+    } catch (err) {
+      /* 忽略 */
+    }
+  }
+
+  function getPracticed() {
+    return readStore(PRACTICE_KEY, {});
+  }
+
+  function togglePracticed(id) {
+    var p = getPracticed();
+    if (p[id]) {
+      delete p[id];
+    } else {
+      p[id] = new Date().toISOString().slice(0, 10);
+    }
+    writeStore(PRACTICE_KEY, p);
+    return !!p[id];
+  }
+
+  function getDictation() {
+    return readStore(DICTATION_KEY, {});
+  }
+
+  function getMaterialRecord(id) {
+    return getDictation()[id] || {};
+  }
+
+  function setSentenceRecord(id, index, rec) {
+    var all = getDictation();
+    all[id] = all[id] || {};
+    if (rec) {
+      all[id][index] = rec;
+    } else {
+      delete all[id][index];
+    }
+    writeStore(DICTATION_KEY, all);
+  }
+
+  function resetMaterialRecord(id) {
+    var all = getDictation();
+    delete all[id];
+    writeStore(DICTATION_KEY, all);
+  }
+
+  /* ---------------- 听写差异 ---------------- */
+
+  function tokensOf(text) {
+    return String(text)
+      .toLowerCase()
+      .replace(/[^a-z0-9'\s]/g, " ")
+      .split(/\s+/)
+      .filter(Boolean);
+  }
+
+  function diffTokens(userTokens, answerTokens) {
+    var n = userTokens.length;
+    var m = answerTokens.length;
+    var dp = [];
+    for (var i = 0; i <= n; i++) {
+      dp.push(new Array(m + 1).fill(0));
+    }
+    for (i = 1; i <= n; i++) {
+      for (var j = 1; j <= m; j++) {
+        dp[i][j] = userTokens[i - 1] === answerTokens[j - 1]
+          ? dp[i - 1][j - 1] + 1
+          : Math.max(dp[i - 1][j], dp[i][j - 1]);
+      }
+    }
+    var userFlags = new Array(n).fill(false);
+    var ansFlags = new Array(m).fill(false);
+    i = n;
+    j = m;
+    while (i > 0 && j > 0) {
+      if (userTokens[i - 1] === answerTokens[j - 1]) {
+        userFlags[i - 1] = true;
+        ansFlags[j - 1] = true;
+        i--;
+        j--;
+      } else if (dp[i - 1][j] >= dp[i][j - 1]) {
+        i--;
+      } else {
+        j--;
+      }
+    }
+    var matched = 0;
+    userFlags.forEach(function (f) { if (f) matched++; });
+    return {
+      userFlags: userFlags,
+      ansFlags: ansFlags,
+      matched: matched,
+      acc: m ? matched / m : 0,
+    };
+  }
+
+  function renderDiff(userText, answerText) {
+    var u = tokensOf(userText);
+    var a = tokensOf(answerText);
+    var d = diffTokens(u, a);
+    var correct = u.join(" ") === a.join(" ");
+    var userHtml = u.map(function (w, i) {
+      return d.userFlags[i] ? escapeHtml(w) : '<span class="diff-extra">' + escapeHtml(w) + "</span>";
+    }).join(" ");
+    var ansHtml = a.map(function (w, i) {
+      return d.ansFlags[i] ? escapeHtml(w) : '<span class="diff-missing">' + escapeHtml(w) + "</span>";
+    }).join(" ");
+    return { correct: correct, acc: d.acc, userHtml: userHtml, ansHtml: ansHtml };
+  }
+
+  /* ---------------- 列表页 ---------------- */
 
   function chip(text) {
     var s = document.createElement("span");
@@ -126,7 +356,6 @@
   function makeCard(m, practiced, onToggle) {
     var card = document.createElement("article");
     card.className = "card material-card";
-
     var top = document.createElement("div");
     top.className = "card-top";
     var tag = document.createElement("span");
@@ -149,11 +378,9 @@
     link.href = "read.html?id=" + encodeURIComponent(m.id);
     link.textContent = m.titleEn;
     title.appendChild(link);
-
     var cn = document.createElement("p");
     cn.className = "title-cn";
     cn.textContent = m.titleCn;
-
     var chips = document.createElement("div");
     chips.className = "chips";
     chips.appendChild(chip("全文 " + m.wordCountLabel));
@@ -170,15 +397,12 @@
     var play = document.createElement("button");
     play.className = "btn btn-ghost";
     play.dataset.src = m.audioFull;
-    play.dataset.label = "整篇音频";
     play.innerHTML = '<span class="icon">▶</span>播放全文';
     if (!m.audioFull) play.disabled = true;
     var mark = document.createElement("button");
     mark.className = "btn btn-ghost btn-mark" + (practiced ? " active" : "");
     mark.textContent = practiced ? "已练 ✓" : "标记已练";
-    mark.addEventListener("click", function () {
-      onToggle(m.id);
-    });
+    mark.addEventListener("click", function () { onToggle(m.id); });
     actions.appendChild(go);
     actions.appendChild(play);
     actions.appendChild(mark);
@@ -193,7 +417,6 @@
 
   function setupList(app, materials) {
     var state = { q: "", onlyUnpracticed: false };
-
     var toolbar = document.createElement("section");
     toolbar.className = "card toolbar";
     var search = document.createElement("input");
@@ -207,12 +430,11 @@
     filterBtn.textContent = "只看未练";
     var hint = document.createElement("p");
     hint.className = "toolbar-hint";
-    hint.textContent = "已练进度保存在本机浏览器";
+    hint.textContent = "已练进度与听写记录保存在本机浏览器";
     toolbar.appendChild(search);
     toolbar.appendChild(progress);
     toolbar.appendChild(filterBtn);
     toolbar.appendChild(hint);
-
     var listWrap = document.createElement("div");
     app.appendChild(toolbar);
     app.appendChild(listWrap);
@@ -224,20 +446,17 @@
       progress.textContent = "已练 " + done + " / 共 " + total;
       filterBtn.classList.toggle("active", state.onlyUnpracticed);
       filterBtn.textContent = state.onlyUnpracticed ? "只看未练 ✓" : "只看未练";
-
       var q = state.q.trim().toLowerCase();
       var list = materials.filter(function (m) {
         if (state.onlyUnpracticed && practiced[m.id]) return false;
         if (!q) return true;
-        var hay = (m.titleEn + " " + m.titleCn + " " + m.num + " " + m.date).toLowerCase();
-        return hay.indexOf(q) !== -1;
+        return (m.titleEn + " " + m.titleCn + " " + m.num + " " + m.date).toLowerCase().indexOf(q) !== -1;
       });
-
       listWrap.innerHTML = "";
       if (!list.length) {
         var tip = document.createElement("div");
         tip.className = "empty-tip";
-        tip.textContent = q || state.onlyUnpracticed ? "没有符合条件的材料。" : "还没有材料。";
+        tip.textContent = "没有符合条件的材料。";
         listWrap.appendChild(tip);
         return;
       }
@@ -249,9 +468,9 @@
       }
       for (var i = 0; i < list.length; i += GROUP_SIZE) {
         var chunk = list.slice(i, i + GROUP_SIZE);
-        var groupIndex = i / GROUP_SIZE;
+        var gi = i / GROUP_SIZE;
         var body = document.createElement("div");
-        body.className = "group-body" + (groupIndex === 0 ? "" : " collapsed");
+        body.className = "group-body" + (gi === 0 ? "" : " collapsed");
         chunk.forEach(function (m) {
           body.appendChild(makeCard(m, !!practiced[m.id], onToggle));
         });
@@ -260,9 +479,9 @@
         var first = chunk[0];
         var last = chunk[chunk.length - 1];
         var range = first.date === last.date ? first.date : last.date + " ~ " + first.date;
-        toggle.innerHTML = '<span>第 ' + (groupIndex + 1) + " 组 · " + range +
+        toggle.innerHTML = '<span>第 ' + (gi + 1) + " 组 · " + range +
           '</span><span class="group-count">' + chunk.length + " 篇" +
-          '<span class="group-arrow">' + (groupIndex === 0 ? "▲" : "▼") + "</span></span>";
+          '<span class="group-arrow">' + (gi === 0 ? "▲" : "▼") + "</span></span>";
         toggle.addEventListener("click", function (b) {
           return function () {
             b.classList.toggle("collapsed");
@@ -291,50 +510,82 @@
     refresh();
   }
 
-  function buildVocabSection(m) {
+  /* ---------------- 跟读视图 ---------------- */
+
+  function buildReadView(m, materials) {
+    var wrap = document.createElement("div");
+
+    var bodyCard = document.createElement("section");
+    bodyCard.className = "card";
+    var bodyTitle = document.createElement("h2");
+    bodyTitle.className = "section-title";
+    bodyTitle.textContent = "英文正文";
+    bodyCard.appendChild(bodyTitle);
+    m.segments.forEach(function (seg, idx) {
+      var div = document.createElement("div");
+      div.className = "para";
+      var phead = document.createElement("div");
+      phead.className = "para-head";
+      var pbtn = document.createElement("button");
+      pbtn.className = "btn-para";
+      pbtn.dataset.label = "第 " + (idx + 1) + " 段";
+      pbtn.innerHTML = '<span class="icon">▶</span><span>第 ' + (idx + 1) + " 段</span>";
+      if (seg.audio) {
+        pbtn.dataset.src = seg.audio;
+      } else {
+        pbtn.disabled = true;
+      }
+      phead.appendChild(pbtn);
+      div.appendChild(phead);
+      var p = document.createElement("p");
+      p.className = "en-text";
+      p.innerHTML = m.paragraphs[idx];
+      div.appendChild(p);
+      bodyCard.appendChild(div);
+    });
+    wrap.appendChild(bodyCard);
+
     var vocabCard = document.createElement("section");
     vocabCard.className = "card";
-    var title = document.createElement("h2");
-    title.className = "section-title";
-    title.textContent = "生词自查表";
-    vocabCard.appendChild(title);
+    var vt = document.createElement("h2");
+    vt.className = "section-title";
+    vt.textContent = "生词自查表";
+    vocabCard.appendChild(vt);
     if (m.vocabNote) {
       var note = document.createElement("p");
       note.className = "note";
       note.textContent = m.vocabNote;
       vocabCard.appendChild(note);
     }
-
-    var wrap = document.createElement("div");
-    wrap.className = "table-wrap vocab-table-wrap";
+    var twrap = document.createElement("div");
+    twrap.className = "table-wrap vocab-table-wrap";
     var table = document.createElement("table");
     var thead = document.createElement("thead");
-    var tr = document.createElement("tr");
+    var htr = document.createElement("tr");
     ["单词", "词性", "中文", "英文释义"].forEach(function (h) {
       var th = document.createElement("th");
       th.textContent = h;
-      tr.appendChild(th);
+      htr.appendChild(th);
     });
-    thead.appendChild(tr);
+    thead.appendChild(htr);
     var tbody = document.createElement("tbody");
     m.vocabRows.forEach(function (row) {
-      var r = document.createElement("tr");
+      var tr = document.createElement("tr");
       row.forEach(function (cell, i) {
         var td = document.createElement("td");
         td.textContent = cell;
         if (i === 0) td.className = "w-en";
         if (i === 3) td.className = "w-def";
-        r.appendChild(td);
+        tr.appendChild(td);
       });
-      tbody.appendChild(r);
+      tbody.appendChild(tr);
     });
     table.appendChild(thead);
     table.appendChild(tbody);
-    wrap.appendChild(table);
-    vocabCard.appendChild(wrap);
-
-    var cards = document.createElement("div");
-    cards.className = "vocab-cards";
+    twrap.appendChild(table);
+    vocabCard.appendChild(twrap);
+    var vcards = document.createElement("div");
+    vcards.className = "vocab-cards";
     m.vocabRows.forEach(function (row) {
       var c = document.createElement("div");
       c.className = "vocab-card";
@@ -356,32 +607,324 @@
       c.appendChild(head);
       c.appendChild(cn);
       c.appendChild(en);
-      cards.appendChild(c);
+      vcards.appendChild(c);
     });
-    vocabCard.appendChild(cards);
-    return vocabCard;
+    vocabCard.appendChild(vcards);
+    wrap.appendChild(vocabCard);
+
+    var phraseCard = document.createElement("section");
+    phraseCard.className = "card";
+    var pt = document.createElement("h2");
+    pt.className = "section-title";
+    pt.textContent = "好词好句·短语积累";
+    phraseCard.appendChild(pt);
+    var pwrap = document.createElement("div");
+    pwrap.className = "table-wrap";
+    var ptable = document.createElement("table");
+    var pthead = document.createElement("thead");
+    var ptr = document.createElement("tr");
+    ["表达", "意思", "文中出处"].forEach(function (h) {
+      var th = document.createElement("th");
+      th.textContent = h;
+      ptr.appendChild(th);
+    });
+    pthead.appendChild(ptr);
+    var ptbody = document.createElement("tbody");
+    m.phraseRows.forEach(function (row) {
+      var tr = document.createElement("tr");
+      row.forEach(function (cell, i) {
+        var td = document.createElement("td");
+        td.textContent = cell;
+        if (i === 0) td.className = "w-en";
+        tr.appendChild(td);
+      });
+      ptbody.appendChild(tr);
+    });
+    ptable.appendChild(pthead);
+    ptable.appendChild(ptbody);
+    pwrap.appendChild(ptable);
+    phraseCard.appendChild(pwrap);
+    wrap.appendChild(phraseCard);
+
+    var transCard = document.createElement("section");
+    transCard.className = "card";
+    var tt = document.createElement("h2");
+    tt.className = "section-title";
+    tt.textContent = "全文中文翻译";
+    transCard.appendChild(tt);
+    var toggleTrans = document.createElement("button");
+    toggleTrans.className = "btn trans-toggle";
+    toggleTrans.textContent = "展开中文翻译（建议先跟读再看）";
+    var box = document.createElement("div");
+    box.className = "trans-box";
+    box.hidden = true;
+    m.translation.forEach(function (t) {
+      var p = document.createElement("p");
+      p.textContent = t;
+      box.appendChild(p);
+    });
+    toggleTrans.addEventListener("click", function () {
+      var showing = !box.hidden;
+      box.hidden = showing;
+      toggleTrans.textContent = showing ? "展开中文翻译（建议先跟读再看）" : "收起中文翻译";
+    });
+    transCard.appendChild(toggleTrans);
+    transCard.appendChild(box);
+    wrap.appendChild(transCard);
+
+    var idx = materials.findIndex(function (x) { return x.id === m.id; });
+    var prev = idx > 0 ? materials[idx - 1] : null;
+    var next = idx >= 0 && idx < materials.length - 1 ? materials[idx + 1] : null;
+    var pager = document.createElement("nav");
+    pager.className = "pager";
+    if (prev) {
+      var a1 = document.createElement("a");
+      a1.className = "btn btn-ghost";
+      a1.href = "read.html?id=" + encodeURIComponent(prev.id);
+      a1.textContent = "← 上一篇：" + shorten(prev.titleCn);
+      pager.appendChild(a1);
+    }
+    if (next) {
+      var a2 = document.createElement("a");
+      a2.className = "btn btn-ghost";
+      a2.href = "read.html?id=" + encodeURIComponent(next.id);
+      a2.textContent = "下一篇：" + shorten(next.titleCn) + " →";
+      pager.appendChild(a2);
+    }
+    wrap.appendChild(pager);
+    return wrap;
   }
+
+  /* ---------------- 精听视图 ---------------- */
+
+  function buildListenView(m) {
+    var wrap = document.createElement("div");
+
+    var statsCard = document.createElement("section");
+    statsCard.className = "card listen-stats";
+    var statsTitle = document.createElement("h2");
+    statsTitle.className = "section-title";
+    statsTitle.textContent = "精听进度";
+    statsCard.appendChild(statsTitle);
+    var statsLine = document.createElement("p");
+    statsLine.className = "stats-line";
+    var errorLine = document.createElement("p");
+    errorLine.className = "stats-errors";
+    statsCard.appendChild(statsLine);
+    statsCard.appendChild(errorLine);
+    var ctrl = document.createElement("div");
+    ctrl.className = "actions";
+    var onlyWrong = document.createElement("button");
+    onlyWrong.className = "btn btn-ghost filter-btn";
+    onlyWrong.textContent = "只重练错句";
+    var resetBtn = document.createElement("button");
+    resetBtn.className = "btn btn-ghost";
+    resetBtn.textContent = "重置本篇记录";
+    ctrl.appendChild(onlyWrong);
+    ctrl.appendChild(resetBtn);
+    statsCard.appendChild(ctrl);
+    wrap.appendChild(statsCard);
+
+    var listCard = document.createElement("section");
+    listCard.className = "card";
+    var listTitle = document.createElement("h2");
+    listTitle.className = "section-title";
+    listTitle.textContent = "逐句听写";
+    listCard.appendChild(listTitle);
+    var hint = document.createElement("p");
+    hint.className = "note";
+    hint.textContent = "先点播放听句子，写下你听到的内容，再点「对照答案」查看差异。";
+    listCard.appendChild(hint);
+    wrap.appendChild(listCard);
+
+    var state = { onlyWrong: false };
+    var cards = [];
+
+    m.sentences.forEach(function (s, i) {
+      var idx = i + 1;
+      var card = document.createElement("div");
+      card.className = "sentence-card";
+      var head = document.createElement("div");
+      head.className = "sentence-head";
+      var num = document.createElement("span");
+      num.className = "sentence-num";
+      num.textContent = "第 " + idx + " 句";
+      var play = document.createElement("button");
+      play.className = "btn-para sentence-play";
+      play.innerHTML = '<span class="icon">▶</span><span>播放</span>';
+      if (s.audio) {
+        play.dataset.src = s.audio;
+        play.dataset.label = "第 " + idx + " 句";
+      } else {
+        play.disabled = true;
+      }
+      var status = document.createElement("span");
+      status.className = "sentence-status";
+      head.appendChild(num);
+      head.appendChild(play);
+      head.appendChild(status);
+      card.appendChild(head);
+
+      var input = document.createElement("textarea");
+      input.className = "dictation-input";
+      input.rows = 2;
+      input.placeholder = "听写这一句…";
+      card.appendChild(input);
+
+      var btns = document.createElement("div");
+      btns.className = "actions";
+      var checkBtn = document.createElement("button");
+      checkBtn.className = "btn btn-primary btn-check";
+      checkBtn.textContent = "对照答案";
+      btns.appendChild(checkBtn);
+      card.appendChild(btns);
+
+      var result = document.createElement("div");
+      result.className = "dictation-result";
+      result.hidden = true;
+      var userLine = document.createElement("p");
+      userLine.className = "diff-line";
+      var ansLine = document.createElement("p");
+      ansLine.className = "diff-line";
+      var tagRow = document.createElement("div");
+      tagRow.className = "tag-row";
+      result.appendChild(userLine);
+      result.appendChild(ansLine);
+      result.appendChild(tagRow);
+      card.appendChild(result);
+
+      var tagButtons = [];
+      ERROR_TAGS.forEach(function (tag) {
+        var t = document.createElement("button");
+        t.className = "tag-btn";
+        t.textContent = tag;
+        t.addEventListener("click", function () {
+          var rec = getMaterialRecord(m.id)[idx] || {};
+          var errs = rec.errors || [];
+          if (errs.indexOf(tag) !== -1) {
+            errs = errs.filter(function (x) { return x !== tag; });
+          } else {
+            errs.push(tag);
+          }
+          rec.errors = errs;
+          setSentenceRecord(m.id, idx, rec);
+          t.classList.toggle("active", errs.indexOf(tag) !== -1);
+          refreshStats();
+        });
+        tagButtons.push(t);
+        tagRow.appendChild(t);
+      });
+
+      checkBtn.addEventListener("click", function () {
+        var d = renderDiff(input.value, s.text);
+        userLine.innerHTML = "<strong>你的答案：</strong>" + (d.userHtml || "<em>（空）</em>");
+        ansLine.innerHTML = "<strong>标准答案：</strong>" + d.ansHtml;
+        result.hidden = false;
+        status.textContent = d.correct ? "正确 ✓" : "正确率 " + Math.round(d.acc * 100) + "%";
+        status.className = "sentence-status " + (d.correct ? "ok" : "bad");
+        var old = getMaterialRecord(m.id)[idx] || {};
+        setSentenceRecord(m.id, idx, {
+          done: true,
+          correct: d.correct,
+          acc: d.acc,
+          errors: old.errors || [],
+          answer: input.value,
+          ts: new Date().toISOString().slice(0, 10),
+        });
+        refreshStats();
+      });
+
+      cards.push({ idx: idx, el: card, input: input, result: result, status: status, tagButtons: tagButtons });
+      listCard.appendChild(card);
+    });
+
+    function applyRecord(c) {
+      var rec = getMaterialRecord(m.id)[c.idx];
+      c.el.classList.remove("ok", "bad");
+      c.tagButtons.forEach(function (t) {
+        t.classList.toggle("active", !!(rec && (rec.errors || []).indexOf(t.textContent) !== -1));
+      });
+      if (rec && rec.done) {
+        c.el.classList.add(rec.correct ? "ok" : "bad");
+        c.status.textContent = rec.correct ? "正确 ✓" : "正确率 " + Math.round((rec.acc || 0) * 100) + "%";
+        c.status.className = "sentence-status " + (rec.correct ? "ok" : "bad");
+        if (rec.answer !== undefined && !c.input.value) c.input.value = rec.answer;
+      } else {
+        c.status.textContent = "";
+        c.status.className = "sentence-status";
+      }
+    }
+
+    function visible(c) {
+      var rec = getMaterialRecord(m.id)[c.idx];
+      if (!state.onlyWrong) return true;
+      return !!(rec && rec.done && !rec.correct);
+    }
+
+    function refreshStats() {
+      var rec = getMaterialRecord(m.id);
+      var done = 0;
+      var ok = 0;
+      var errCount = {};
+      ERROR_TAGS.forEach(function (t) { errCount[t] = 0; });
+      Object.keys(rec).forEach(function (k) {
+        var r = rec[k];
+        if (r && r.done) {
+          done++;
+          if (r.correct) ok++;
+          (r.errors || []).forEach(function (t) { if (errCount[t] !== undefined) errCount[t]++; });
+        }
+      });
+      var total = m.sentences.length;
+      var acc = done ? Math.round((ok / done) * 100) : 0;
+      statsLine.textContent = "已练 " + done + " / " + total + " 句 · 正确率 " + acc + "%";
+      errorLine.textContent = "错因分布：" + ERROR_TAGS.map(function (t) {
+        return t + " " + (errCount[t] || 0);
+      }).join(" · ");
+      cards.forEach(function (c) {
+        applyRecord(c);
+        c.el.hidden = !visible(c);
+      });
+    }
+
+    onlyWrong.addEventListener("click", function () {
+      state.onlyWrong = !state.onlyWrong;
+      onlyWrong.classList.toggle("active", state.onlyWrong);
+      onlyWrong.textContent = state.onlyWrong ? "只重练错句 ✓" : "只重练错句";
+      refreshStats();
+    });
+    resetBtn.addEventListener("click", function () {
+      resetMaterialRecord(m.id);
+      cards.forEach(function (c) {
+        c.input.value = "";
+        c.result.hidden = true;
+      });
+      refreshStats();
+    });
+    refreshStats();
+    return wrap;
+  }
+
+  function shorten(text) {
+    text = String(text || "");
+    return text.length > 12 ? text.slice(0, 12) + "…" : text;
+  }
+
+  /* ---------------- 阅读页 ---------------- */
 
   function setupRead(reader, materials, m) {
     document.title = "影子跟读 " + m.num + "｜" + m.titleEn;
     currentSpeed = loadSpeed();
+    ensurePlayerBar();
+    pbSpeed.value = String(currentSpeed);
+    playerBar.classList.add("visible");
+
     var practiced = !!getPracticed()[m.id];
-    var markButtons = [];
-
-    function markText() {
-      return practiced ? "已练 ✓（点击取消）" : "标记已练";
-    }
-
-    function updateMarks() {
-      markButtons.forEach(function (b) {
-        b.textContent = markText();
-        b.classList.toggle("active", practiced);
-      });
-    }
-
-    function onMark() {
-      practiced = togglePracticed(m.id);
-      updateMarks();
+    var markBtn = null;
+    function updateMark() {
+      if (!markBtn) return;
+      markBtn.textContent = practiced ? "已练 ✓（点击取消）" : "标记已练";
+      markBtn.classList.toggle("active", practiced);
     }
 
     var head = document.createElement("section");
@@ -403,191 +946,70 @@
     head.appendChild(h2);
     head.appendChild(cn);
     head.appendChild(chips);
-
-    var fullBox = document.createElement("div");
-    fullBox.className = "actions";
+    var actions = document.createElement("div");
+    actions.className = "actions";
     var fullBtn = document.createElement("button");
     fullBtn.className = "btn btn-primary";
     fullBtn.dataset.src = m.audioFull;
     fullBtn.dataset.label = "整篇音频";
     fullBtn.innerHTML = '<span class="icon">▶</span>播放全文';
     if (!m.audioFull) fullBtn.disabled = true;
-    var markBtn = document.createElement("button");
-    markBtn.className = "btn btn-ghost btn-mark" + (practiced ? " active" : "");
-    markBtn.addEventListener("click", onMark);
-    markButtons.push(markBtn);
-    fullBox.appendChild(fullBtn);
-    fullBox.appendChild(markBtn);
-    head.appendChild(fullBox);
-
-    var speedRow = document.createElement("div");
-    speedRow.className = "speed-row";
-    var speedLabel = document.createElement("span");
-    speedLabel.className = "speed-label";
-    speedLabel.textContent = "播放速度";
-    var speedSel = document.createElement("select");
-    speedSel.className = "styled";
-    [["0.75", "0.75×"], ["1", "1.0×"], ["1.25", "1.25×"]].forEach(function (opt) {
-      var o = document.createElement("option");
-      o.value = opt[0];
-      o.textContent = opt[1];
-      if (parseFloat(opt[0]) === currentSpeed) o.selected = true;
-      speedSel.appendChild(o);
+    markBtn = document.createElement("button");
+    markBtn.className = "btn btn-ghost btn-mark";
+    markBtn.addEventListener("click", function () {
+      practiced = togglePracticed(m.id);
+      updateMark();
     });
-    speedSel.addEventListener("change", function () {
-      saveSpeed(parseFloat(speedSel.value));
-    });
-    speedRow.appendChild(speedLabel);
-    speedRow.appendChild(speedSel);
-    head.appendChild(speedRow);
+    actions.appendChild(fullBtn);
+    actions.appendChild(markBtn);
+    head.appendChild(actions);
     reader.appendChild(head);
-    updateMarks();
+    updateMark();
 
-    var bodyCard = document.createElement("section");
-    bodyCard.className = "card";
-    var bodyTitle = document.createElement("h2");
-    bodyTitle.className = "section-title";
-    bodyTitle.textContent = "英文正文";
-    bodyCard.appendChild(bodyTitle);
-    m.segments.forEach(function (seg, idx) {
-      var div = document.createElement("div");
-      div.className = "para";
-      var phead = document.createElement("div");
-      phead.className = "para-head";
-      var pbtn = document.createElement("button");
-      pbtn.className = "btn-para";
-      pbtn.dataset.label = "第 " + (idx + 1) + " 段";
-      pbtn.innerHTML = '<span class="icon">▶</span><span>第 ' + (idx + 1) + " 段</span>";
-      if (seg.audio) {
-        pbtn.dataset.src = seg.audio;
-      } else {
-        pbtn.disabled = true;
-        pbtn.title = "该段音频暂不可用";
+    var modeSwitch = document.createElement("div");
+    modeSwitch.className = "mode-switch";
+    var btnRead = document.createElement("button");
+    btnRead.className = "mode-btn";
+    btnRead.textContent = "跟读模式";
+    var btnListen = document.createElement("button");
+    btnListen.className = "mode-btn";
+    btnListen.textContent = "精听模式";
+    modeSwitch.appendChild(btnRead);
+    modeSwitch.appendChild(btnListen);
+    reader.appendChild(modeSwitch);
+
+    var readView = buildReadView(m, materials);
+    var listenView = buildListenView(m);
+    reader.appendChild(readView);
+    reader.appendChild(listenView);
+
+    function setMode(mode) {
+      var listen = mode === "listen";
+      readView.hidden = listen;
+      listenView.hidden = !listen;
+      btnRead.classList.toggle("active", !listen);
+      btnListen.classList.toggle("active", listen);
+      try {
+        localStorage.setItem(MODE_KEY, mode);
+      } catch (err) {
+        /* 忽略 */
       }
-      var loopBtn = document.createElement("button");
-      loopBtn.className = "btn-loop";
-      loopBtn.textContent = "🔁 循环";
-      if (seg.audio) {
-        loopBtn.dataset.loopSrc = seg.audio;
-        loopBtn.title = "循环播放本段";
-      } else {
-        loopBtn.disabled = true;
-      }
-      phead.appendChild(pbtn);
-      phead.appendChild(loopBtn);
-      div.appendChild(phead);
-      var p = document.createElement("p");
-      p.className = "en-text";
-      p.innerHTML = m.paragraphs[idx];
-      div.appendChild(p);
-      bodyCard.appendChild(div);
-    });
-    reader.appendChild(bodyCard);
-
-    reader.appendChild(buildVocabSection(m));
-
-    var phraseCard = document.createElement("section");
-    phraseCard.className = "card";
-    var phraseTitle = document.createElement("h2");
-    phraseTitle.className = "section-title";
-    phraseTitle.textContent = "好词好句·短语积累";
-    phraseCard.appendChild(phraseTitle);
-    var wrap2 = document.createElement("div");
-    wrap2.className = "table-wrap";
-    var table2 = document.createElement("table");
-    var thead2 = document.createElement("thead");
-    var tr2 = document.createElement("tr");
-    ["表达", "意思", "文中出处"].forEach(function (h) {
-      var th = document.createElement("th");
-      th.textContent = h;
-      tr2.appendChild(th);
-    });
-    thead2.appendChild(tr2);
-    var tb2 = document.createElement("tbody");
-    m.phraseRows.forEach(function (row) {
-      var tr = document.createElement("tr");
-      row.forEach(function (cell, i) {
-        var td = document.createElement("td");
-        td.textContent = cell;
-        if (i === 0) td.className = "w-en";
-        tr.appendChild(td);
-      });
-      tb2.appendChild(tr);
-    });
-    table2.appendChild(thead2);
-    table2.appendChild(tb2);
-    wrap2.appendChild(table2);
-    phraseCard.appendChild(wrap2);
-    reader.appendChild(phraseCard);
-
-    var transCard = document.createElement("section");
-    transCard.className = "card";
-    var transTitle = document.createElement("h2");
-    transTitle.className = "section-title";
-    transTitle.textContent = "全文中文翻译";
-    transCard.appendChild(transTitle);
-    var toggleTrans = document.createElement("button");
-    toggleTrans.className = "btn trans-toggle";
-    toggleTrans.textContent = "展开中文翻译（建议先跟读再看）";
-    var box = document.createElement("div");
-    box.className = "trans-box";
-    box.hidden = true;
-    m.translation.forEach(function (t) {
-      var p = document.createElement("p");
-      p.textContent = t;
-      box.appendChild(p);
-    });
-    toggleTrans.addEventListener("click", function () {
-      var showing = !box.hidden;
-      box.hidden = showing;
-      toggleTrans.textContent = showing ? "展开中文翻译（建议先跟读再看）" : "收起中文翻译";
-    });
-    transCard.appendChild(toggleTrans);
-    transCard.appendChild(box);
-    reader.appendChild(transCard);
-
-    var markBottom = document.createElement("button");
-    markBottom.className = "btn btn-ghost btn-mark" + (practiced ? " active" : "");
-    markBottom.addEventListener("click", onMark);
-    markButtons.push(markBottom);
-    updateMarks();
-
-    var idx = materials.findIndex(function (x) { return x.id === m.id; });
-    var prev = idx > 0 ? materials[idx - 1] : null;
-    var next = idx >= 0 && idx < materials.length - 1 ? materials[idx + 1] : null;
-    var pager = document.createElement("nav");
-    pager.className = "pager";
-    if (prev) {
-      var a1 = document.createElement("a");
-      a1.className = "btn btn-ghost";
-      a1.href = "read.html?id=" + encodeURIComponent(prev.id);
-      a1.textContent = "← 上一篇：" + shorten(prev.titleCn);
-      pager.appendChild(a1);
     }
-    if (next) {
-      var a2 = document.createElement("a");
-      a2.className = "btn btn-ghost";
-      a2.href = "read.html?id=" + encodeURIComponent(next.id);
-      a2.textContent = "下一篇：" + shorten(next.titleCn) + " →";
-      pager.appendChild(a2);
+    btnRead.addEventListener("click", function () { setMode("read"); });
+    btnListen.addEventListener("click", function () { setMode("listen"); });
+    var saved = "read";
+    try {
+      saved = localStorage.getItem(MODE_KEY) || "read";
+    } catch (err) {
+      saved = "read";
     }
-    reader.appendChild(pager);
-    reader.appendChild(markBottom);
-  }
-
-  function shorten(text) {
-    text = String(text || "");
-    return text.length > 12 ? text.slice(0, 12) + "…" : text;
+    setMode(saved === "listen" ? "listen" : "read");
   }
 
   function onDataClick(e) {
-    var loopBtn = e.target.closest("[data-loop-src]");
-    if (loopBtn) {
-      playSrc(loopBtn.dataset.loopSrc, loopBtn, true);
-      return;
-    }
     var btn = e.target.closest("[data-src]");
-    if (btn) playSrc(btn.dataset.src, btn, false);
+    if (!btn) return;
+    playItem(btn.dataset.src, btn.dataset.label || "音频", btn);
   }
 
   async function loadMaterials() {
