@@ -1,6 +1,384 @@
 {
   "materials": [
     {
+      "id": "2026-09-18_011",
+      "num": "011",
+      "date": "2026-09-18",
+      "titleEn": "Why Writing Helps You Think",
+      "titleCn": "写作让你想得更清楚",
+      "stem": "2026-09-18_影子跟读011_写作让你想得更清楚",
+      "wordCountLabel": "259 词",
+      "durationLabel": "1 分 34 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Many people believe that writing is only a way to <strong>record</strong> ideas. In fact, it is often how ideas are made. When a thought stays in your head, it feels complete, but the moment you try to put it into words, you notice the <strong>gaps</strong>. Writing <strong>forces</strong> you to slow down and face what you actually <strong>understand</strong>.",
+        "Thoughts are usually <strong>unclear</strong> and <strong>tangled</strong>. A <strong>sentence</strong>, by contrast, must have a subject and a verb; an <strong>argument</strong> needs a claim, a reason, and <strong>evidence</strong>. Writing gives shape to the mess, and a clear <strong>structure</strong> shows you where the logic is weak. A vague feeling becomes a question you can actually answer.",
+        "This is why a first <strong>draft</strong> is never the point. You write to discover what you think, then <strong>revise</strong> to make it <strong>honest</strong>. Careful revision can <strong>reveal</strong> hidden <strong>assumptions</strong>, correct small <strong>mistakes</strong>, and sharpen the parts that matter. It is slow, but it is how thinking becomes precise. Each round of revision moves the idea a little closer to the truth.",
+        "A real <strong>audience</strong> changes everything. When you know that a <strong>reader</strong> will judge your ideas, you stop repeating yourself and start asking what they need. You become more <strong>patient</strong>, more <strong>confident</strong>, and better able to <strong>persuade</strong>. And you can watch your own <strong>progress</strong>: the essay that felt impossible last month now takes an hour. Writing is not just a record of your thoughts. It is a tool for building them. That is why writers often say they do not know what they think until they write it down."
+      ],
+      "sentences": [
+        {
+          "para": 1,
+          "html": "Many people believe that writing is only a way to <strong>record</strong> ideas.",
+          "text": "Many people believe that writing is only a way to record ideas.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s01.mp3"
+        },
+        {
+          "para": 1,
+          "html": "In fact, it is often how ideas are made.",
+          "text": "In fact, it is often how ideas are made.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s02.mp3"
+        },
+        {
+          "para": 1,
+          "html": "When a thought stays in your head, it feels complete, but the moment you try to put it into words, you notice the <strong>gaps</strong>.",
+          "text": "When a thought stays in your head, it feels complete, but the moment you try to put it into words, you notice the gaps.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s03.mp3"
+        },
+        {
+          "para": 1,
+          "html": "Writing <strong>forces</strong> you to slow down and face what you actually <strong>understand</strong>.",
+          "text": "Writing forces you to slow down and face what you actually understand.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s04.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Thoughts are usually <strong>unclear</strong> and <strong>tangled</strong>.",
+          "text": "Thoughts are usually unclear and tangled.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s05.mp3"
+        },
+        {
+          "para": 2,
+          "html": "A <strong>sentence</strong>, by contrast, must have a subject and a verb; an <strong>argument</strong> needs a claim, a reason, and <strong>evidence</strong>.",
+          "text": "A sentence, by contrast, must have a subject and a verb; an argument needs a claim, a reason, and evidence.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s06.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Writing gives shape to the mess, and a clear <strong>structure</strong> shows you where the logic is weak.",
+          "text": "Writing gives shape to the mess, and a clear structure shows you where the logic is weak.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s07.mp3"
+        },
+        {
+          "para": 2,
+          "html": "A vague feeling becomes a question you can actually answer.",
+          "text": "A vague feeling becomes a question you can actually answer.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s08.mp3"
+        },
+        {
+          "para": 3,
+          "html": "This is why a first <strong>draft</strong> is never the point.",
+          "text": "This is why a first draft is never the point.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s09.mp3"
+        },
+        {
+          "para": 3,
+          "html": "You write to discover what you think, then <strong>revise</strong> to make it <strong>honest</strong>.",
+          "text": "You write to discover what you think, then revise to make it honest.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s10.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Careful revision can <strong>reveal</strong> hidden <strong>assumptions</strong>, correct small <strong>mistakes</strong>, and sharpen the parts that matter.",
+          "text": "Careful revision can reveal hidden assumptions, correct small mistakes, and sharpen the parts that matter.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s11.mp3"
+        },
+        {
+          "para": 3,
+          "html": "It is slow, but it is how thinking becomes precise.",
+          "text": "It is slow, but it is how thinking becomes precise.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s12.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Each round of revision moves the idea a little closer to the truth.",
+          "text": "Each round of revision moves the idea a little closer to the truth.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s13.mp3"
+        },
+        {
+          "para": 4,
+          "html": "A real <strong>audience</strong> changes everything.",
+          "text": "A real audience changes everything.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s14.mp3"
+        },
+        {
+          "para": 4,
+          "html": "When you know that a <strong>reader</strong> will judge your ideas, you stop repeating yourself and start asking what they need.",
+          "text": "When you know that a reader will judge your ideas, you stop repeating yourself and start asking what they need.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s15.mp3"
+        },
+        {
+          "para": 4,
+          "html": "You become more <strong>patient</strong>, more <strong>confident</strong>, and better able to <strong>persuade</strong>.",
+          "text": "You become more patient, more confident, and better able to persuade.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s16.mp3"
+        },
+        {
+          "para": 4,
+          "html": "And you can watch your own <strong>progress</strong>: the essay that felt impossible last month now takes an hour.",
+          "text": "And you can watch your own progress: the essay that felt impossible last month now takes an hour.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s17.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Writing is not just a record of your thoughts.",
+          "text": "Writing is not just a record of your thoughts.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s18.mp3"
+        },
+        {
+          "para": 4,
+          "html": "It is a tool for building them.",
+          "text": "It is a tool for building them.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s19.mp3"
+        },
+        {
+          "para": 4,
+          "html": "That is why writers often say they do not know what they think until they write it down.",
+          "text": "That is why writers often say they do not know what they think until they write it down.",
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_s20.mp3"
+        }
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求\"再难一档\"；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "record",
+          "动词",
+          "记录",
+          "to write something down so you can keep it"
+        ],
+        [
+          "gaps",
+          "名词",
+          "空白、缺口",
+          "missing parts or spaces between things"
+        ],
+        [
+          "forces",
+          "动词",
+          "迫使",
+          "makes someone do something they may not want to do"
+        ],
+        [
+          "understand",
+          "动词",
+          "理解",
+          "to know what something means or how it works"
+        ],
+        [
+          "unclear",
+          "形容词",
+          "不清楚的",
+          "not easy to understand or see"
+        ],
+        [
+          "tangled",
+          "形容词",
+          "纠结的、混乱的",
+          "twisted together in a confusing way"
+        ],
+        [
+          "sentence",
+          "名词",
+          "句子",
+          "a group of words that expresses a complete idea"
+        ],
+        [
+          "argument",
+          "名词",
+          "论证、论点",
+          "a reason or set of reasons that supports an idea"
+        ],
+        [
+          "evidence",
+          "名词",
+          "证据",
+          "facts or signs that show something is true"
+        ],
+        [
+          "structure",
+          "名词",
+          "结构",
+          "the way parts are arranged to form a whole"
+        ],
+        [
+          "draft",
+          "名词",
+          "初稿",
+          "an early version of a piece of writing"
+        ],
+        [
+          "revise",
+          "动词",
+          "修改",
+          "to change and improve a piece of writing"
+        ],
+        [
+          "honest",
+          "形容词",
+          "诚实的",
+          "telling the truth and not cheating"
+        ],
+        [
+          "reveal",
+          "动词",
+          "揭示",
+          "to show something that was hidden"
+        ],
+        [
+          "assumption",
+          "名词",
+          "假设",
+          "something you accept as true without proof"
+        ],
+        [
+          "mistake",
+          "名词",
+          "错误",
+          "something done wrongly or an error"
+        ],
+        [
+          "audience",
+          "名词",
+          "读者、受众",
+          "the people who watch, read, or listen"
+        ],
+        [
+          "reader",
+          "名词",
+          "读者",
+          "a person who reads something"
+        ],
+        [
+          "patient",
+          "形容词",
+          "有耐心的",
+          "able to wait or accept difficulty calmly"
+        ],
+        [
+          "confident",
+          "形容词",
+          "自信的",
+          "sure that you can do something well"
+        ],
+        [
+          "persuade",
+          "动词",
+          "说服",
+          "to make someone agree with your idea"
+        ],
+        [
+          "progress",
+          "名词",
+          "进步",
+          "movement toward a better or more advanced state"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "a way to record ideas",
+          "记录想法的一种方式",
+          "...writing is only a way to record ideas."
+        ],
+        [
+          "the moment you try to put it into words",
+          "当你试图把它变成文字的那一刻",
+          "...the moment you try to put it into words..."
+        ],
+        [
+          "notice the gaps",
+          "发现空白与漏洞",
+          "...you notice the gaps."
+        ],
+        [
+          "slow down and face what you understand",
+          "慢下来，面对你真正理解的东西",
+          "...slow down and face what you actually understand."
+        ],
+        [
+          "unclear and tangled",
+          "模糊而混乱",
+          "Thoughts are usually unclear and tangled."
+        ],
+        [
+          "must have a subject and a verb",
+          "必须有主语和动词",
+          "A sentence, by contrast, must have a subject and a verb..."
+        ],
+        [
+          "give shape to the mess",
+          "给混乱赋予形状",
+          "Writing gives shape to the mess..."
+        ],
+        [
+          "show you where the logic is weak",
+          "让你看到逻辑薄弱之处",
+          "...a clear structure shows you where the logic is weak."
+        ],
+        [
+          "a first draft is never the point",
+          "初稿从来不是重点",
+          "This is why a first draft is never the point."
+        ],
+        [
+          "write to discover what you think",
+          "通过写作发现自己怎么想",
+          "You write to discover what you think..."
+        ],
+        [
+          "make it honest",
+          "让它变得诚实",
+          "...then revise to make it honest."
+        ],
+        [
+          "reveal hidden assumptions",
+          "揭示隐藏的假设",
+          "Careful revision can reveal hidden assumptions..."
+        ],
+        [
+          "sharpen the parts that matter",
+          "打磨真正重要的部分",
+          "...and sharpen the parts that matter."
+        ],
+        [
+          "a real audience changes everything",
+          "真实的读者会改变一切",
+          "A real audience changes everything."
+        ],
+        [
+          "better able to persuade",
+          "更有能力说服别人",
+          "You become ... better able to persuade."
+        ],
+        [
+          "a tool for building thoughts",
+          "构建思想的工具",
+          "It is a tool for building them."
+        ]
+      ],
+      "translation": [
+        "很多人认为写作只是记录想法的方式。事实上，想法常常是在写作中产生的。一个念头待在脑子里时显得很完整，可当你试图把它变成文字的那一刻，你就会发现其中的空白。写作迫使你慢下来，面对自己真正理解了什么。",
+        "脑子里的想法往往模糊而混乱。相比之下，一个句子必须有主语和动词；一个论证需要主张、理由和证据。写作给这团混乱赋予形状，而清晰的结构会告诉你，逻辑在哪里最薄弱。",
+        "这就是为什么初稿从来不是重点。你通过写作发现自己到底怎么想，再通过修改让它变得诚实。认真修改能揭示隐藏的假设、修正小错误，并打磨真正重要的部分。这个过程很慢，但思考就是这样变得精确的。",
+        "真实的读者会改变一切。当你知道有人会评判你的想法时，你就不再重复自己，而是开始问对方需要什么。你会变得更有耐心、更自信，也更有能力说服别人。你还能看到自己的进步：上个月觉得写不出来的文章，现在一小时就能完成。写作不只是记录你的想法，它更是构建想法的工具。"
+      ],
+      "audioFull": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-09-18_影子跟读011_写作让你想得更清楚_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-09-16_010",
       "num": "010",
       "date": "2026-09-16",
