@@ -466,22 +466,29 @@
         });
         return;
       }
-      for (var i = 0; i < list.length; i += GROUP_SIZE) {
-        var chunk = list.slice(i, i + GROUP_SIZE);
-        var gi = i / GROUP_SIZE;
+      // 组号按时间从旧到新：第 1 组 = 最早的一批（含 001）；
+      // 页面展示时把最新的组放在最上面，组内仍是新篇在前。
+      var asc = list.slice().reverse();
+      var groups = [];
+      for (var i = 0; i < asc.length; i += GROUP_SIZE) {
+        groups.push(asc.slice(i, i + GROUP_SIZE));
+      }
+      for (var gi = groups.length - 1; gi >= 0; gi--) {
+        var chunk = groups[gi];
+        var isNewest = gi === groups.length - 1;
         var body = document.createElement("div");
-        body.className = "group-body" + (gi === 0 ? "" : " collapsed");
-        chunk.forEach(function (m) {
+        body.className = "group-body" + (isNewest ? "" : " collapsed");
+        chunk.slice().reverse().forEach(function (m) {
           body.appendChild(makeCard(m, !!practiced[m.id], onToggle));
         });
+        var oldest = chunk[0];
+        var newest = chunk[chunk.length - 1];
+        var range = oldest.date === newest.date ? oldest.date : oldest.date + " ~ " + newest.date;
         var toggle = document.createElement("button");
         toggle.className = "group-toggle";
-        var first = chunk[0];
-        var last = chunk[chunk.length - 1];
-        var range = first.date === last.date ? first.date : last.date + " ~ " + first.date;
         toggle.innerHTML = '<span>第 ' + (gi + 1) + " 组 · " + range +
           '</span><span class="group-count">' + chunk.length + " 篇" +
-          '<span class="group-arrow">' + (gi === 0 ? "▲" : "▼") + "</span></span>";
+          '<span class="group-arrow">' + (isNewest ? "▲" : "▼") + "</span></span>";
         toggle.addEventListener("click", function (b) {
           return function () {
             b.classList.toggle("collapsed");
