@@ -1,6 +1,372 @@
 {
   "materials": [
     {
+      "id": "2026-09-20_012",
+      "num": "012",
+      "date": "2026-09-20",
+      "titleEn": "Why Reading Fiction Changes You",
+      "titleCn": "读小说如何改变你",
+      "stem": "2026-09-20_影子跟读012_读小说如何改变你",
+      "wordCountLabel": "270 词",
+      "durationLabel": "1 分 40 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "People often treat <strong>fiction</strong> as <strong>entertainment</strong>, something to enjoy on a train and forget by evening. But a good story does more than pass the time. When you follow <strong>characters</strong> through their problems, you are practising a rare skill: seeing the world from another person's <strong>perspective</strong>. A novel can show you a life you will never live.",
+        "Psychologists call this <strong>empathy</strong>, and it seems to grow with reading. To understand a story, you must <strong>imagine</strong> why people act as they do, guess their <strong>motives</strong>, and feel what they feel. In one study, readers of literary <strong>novels</strong> scored higher on tests that asked them to read other people's <strong>emotional</strong> states. <strong>Strangers</strong> became slightly less mysterious. That does not make readers kinder by magic, but it does make other minds easier to picture.",
+        "Fiction also trains <strong>patience</strong> and <strong>attention</strong>. A long book cannot be finished in one sitting; it asks you to hold many details in your <strong>mind</strong> and wait for them to connect. That slow <strong>understanding</strong> carries over into real life: you become more willing to listen before you <strong>judge</strong>, and better able to follow a complicated <strong>argument</strong>. Reading slowly is a skill, and it grows with practice.",
+        "This does not mean fiction makes you perfect. You can still lose your temper in a <strong>disagreement</strong> or fail to <strong>tolerate</strong> a different view. But stories offer something textbooks rarely do: they let you live other lives without paying the price. <strong>Vocabulary</strong> grows, <strong>habits</strong> of thought shift, and you gain <strong>insight</strong> into people you may never meet. Perhaps that is why readers often <strong>describe</strong> a favourite book as something that changed their mind."
+      ],
+      "sentences": [
+        {
+          "para": 1,
+          "html": "People often treat <strong>fiction</strong> as <strong>entertainment</strong>, something to enjoy on a train and forget by evening.",
+          "text": "People often treat fiction as entertainment, something to enjoy on a train and forget by evening.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s01.mp3"
+        },
+        {
+          "para": 1,
+          "html": "But a good story does more than pass the time.",
+          "text": "But a good story does more than pass the time.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s02.mp3"
+        },
+        {
+          "para": 1,
+          "html": "When you follow <strong>characters</strong> through their problems, you are practising a rare skill: seeing the world from another person's <strong>perspective</strong>.",
+          "text": "When you follow characters through their problems, you are practising a rare skill: seeing the world from another person's perspective.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s03.mp3"
+        },
+        {
+          "para": 1,
+          "html": "A novel can show you a life you will never live.",
+          "text": "A novel can show you a life you will never live.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s04.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Psychologists call this <strong>empathy</strong>, and it seems to grow with reading.",
+          "text": "Psychologists call this empathy, and it seems to grow with reading.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s05.mp3"
+        },
+        {
+          "para": 2,
+          "html": "To understand a story, you must <strong>imagine</strong> why people act as they do, guess their <strong>motives</strong>, and feel what they feel.",
+          "text": "To understand a story, you must imagine why people act as they do, guess their motives, and feel what they feel.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s06.mp3"
+        },
+        {
+          "para": 2,
+          "html": "In one study, readers of literary <strong>novels</strong> scored higher on tests that asked them to read other people's <strong>emotional</strong> states.",
+          "text": "In one study, readers of literary novels scored higher on tests that asked them to read other people's emotional states.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s07.mp3"
+        },
+        {
+          "para": 2,
+          "html": "<strong>Strangers</strong> became slightly less mysterious.",
+          "text": "Strangers became slightly less mysterious.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s08.mp3"
+        },
+        {
+          "para": 2,
+          "html": "That does not make readers kinder by magic, but it does make other minds easier to picture.",
+          "text": "That does not make readers kinder by magic, but it does make other minds easier to picture.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s09.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Fiction also trains <strong>patience</strong> and <strong>attention</strong>.",
+          "text": "Fiction also trains patience and attention.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s10.mp3"
+        },
+        {
+          "para": 3,
+          "html": "A long book cannot be finished in one sitting; it asks you to hold many details in your <strong>mind</strong> and wait for them to connect.",
+          "text": "A long book cannot be finished in one sitting; it asks you to hold many details in your mind and wait for them to connect.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s11.mp3"
+        },
+        {
+          "para": 3,
+          "html": "That slow <strong>understanding</strong> carries over into real life: you become more willing to listen before you <strong>judge</strong>, and better able to follow a complicated <strong>argument</strong>.",
+          "text": "That slow understanding carries over into real life: you become more willing to listen before you judge, and better able to follow a complicated argument.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s12.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Reading slowly is a skill, and it grows with practice.",
+          "text": "Reading slowly is a skill, and it grows with practice.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s13.mp3"
+        },
+        {
+          "para": 4,
+          "html": "This does not mean fiction makes you perfect.",
+          "text": "This does not mean fiction makes you perfect.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s14.mp3"
+        },
+        {
+          "para": 4,
+          "html": "You can still lose your temper in a <strong>disagreement</strong> or fail to <strong>tolerate</strong> a different view.",
+          "text": "You can still lose your temper in a disagreement or fail to tolerate a different view.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s15.mp3"
+        },
+        {
+          "para": 4,
+          "html": "But stories offer something textbooks rarely do: they let you live other lives without paying the price.",
+          "text": "But stories offer something textbooks rarely do: they let you live other lives without paying the price.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s16.mp3"
+        },
+        {
+          "para": 4,
+          "html": "<strong>Vocabulary</strong> grows, <strong>habits</strong> of thought shift, and you gain <strong>insight</strong> into people you may never meet.",
+          "text": "Vocabulary grows, habits of thought shift, and you gain insight into people you may never meet.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s17.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Perhaps that is why readers often <strong>describe</strong> a favourite book as something that changed their mind.",
+          "text": "Perhaps that is why readers often describe a favourite book as something that changed their mind.",
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_s18.mp3"
+        }
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求\"再难一档\"；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "entertainment",
+          "名词",
+          "娱乐",
+          "something that gives pleasure or amusement"
+        ],
+        [
+          "fiction",
+          "名词",
+          "小说、虚构作品",
+          "stories about imaginary people and events"
+        ],
+        [
+          "characters",
+          "名词",
+          "人物、角色",
+          "the people in a story or play"
+        ],
+        [
+          "perspective",
+          "名词",
+          "视角、看法",
+          "a way of thinking about or seeing something"
+        ],
+        [
+          "empathy",
+          "名词",
+          "同理心",
+          "the ability to understand another person's feelings"
+        ],
+        [
+          "imagine",
+          "动词",
+          "想象",
+          "to form a picture of something in your mind"
+        ],
+        [
+          "motives",
+          "名词",
+          "动机",
+          "the reasons why someone does something"
+        ],
+        [
+          "novels",
+          "名词",
+          "小说",
+          "long written stories about imaginary events"
+        ],
+        [
+          "emotional",
+          "形容词",
+          "情绪的",
+          "relating to feelings"
+        ],
+        [
+          "strangers",
+          "名词",
+          "陌生人",
+          "people you do not know"
+        ],
+        [
+          "patience",
+          "名词",
+          "耐心",
+          "the ability to wait or accept difficulty calmly"
+        ],
+        [
+          "attention",
+          "名词",
+          "注意力",
+          "the act of focusing your mind on something"
+        ],
+        [
+          "mind",
+          "名词",
+          "头脑、心智",
+          "the part of you that thinks and feels"
+        ],
+        [
+          "understanding",
+          "名词",
+          "理解",
+          "knowledge of what something means"
+        ],
+        [
+          "judge",
+          "动词",
+          "评判、判断",
+          "to form an opinion about someone or something"
+        ],
+        [
+          "argument",
+          "名词",
+          "论证；争论",
+          "a reason supporting an idea; a disagreement"
+        ],
+        [
+          "disagreement",
+          "名词",
+          "分歧、意见不合",
+          "a situation where people have different opinions"
+        ],
+        [
+          "tolerate",
+          "动词",
+          "容忍、包容",
+          "to accept something you do not like"
+        ],
+        [
+          "vocabulary",
+          "名词",
+          "词汇量",
+          "all the words a person knows or uses"
+        ],
+        [
+          "habits",
+          "名词",
+          "习惯",
+          "things you do regularly without thinking"
+        ],
+        [
+          "insight",
+          "名词",
+          "洞察、深刻理解",
+          "a clear and deep understanding of something"
+        ],
+        [
+          "describe",
+          "动词",
+          "描述",
+          "to say what someone or something is like"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "treat fiction as entertainment",
+          "把小说当成娱乐",
+          "People often treat fiction as entertainment..."
+        ],
+        [
+          "pass the time",
+          "打发时间",
+          "But a good story does more than pass the time."
+        ],
+        [
+          "see the world from another perspective",
+          "从别人的角度看世界",
+          "...seeing the world from another person's perspective."
+        ],
+        [
+          "grow with reading",
+          "随着阅读而增长",
+          "...it seems to grow with reading."
+        ],
+        [
+          "guess someone's motives",
+          "猜测某人的动机",
+          "...guess their motives, and feel what they feel."
+        ],
+        [
+          "feel what they feel",
+          "感受他们所感受的",
+          "...guess their motives, and feel what they feel."
+        ],
+        [
+          "score higher on tests",
+          "在测试中得分更高",
+          "...readers of literary novels scored higher on tests..."
+        ],
+        [
+          "become less mysterious",
+          "变得没那么神秘",
+          "Strangers became slightly less mysterious."
+        ],
+        [
+          "train patience and attention",
+          "训练耐心与注意力",
+          "Fiction also trains patience and attention."
+        ],
+        [
+          "hold many details in your mind",
+          "在脑中记住许多细节",
+          "...it asks you to hold many details in your mind..."
+        ],
+        [
+          "wait for them to connect",
+          "等它们彼此连接起来",
+          "...and wait for them to connect."
+        ],
+        [
+          "carry over into real life",
+          "迁移到现实生活中",
+          "That slow understanding carries over into real life..."
+        ],
+        [
+          "listen before you judge",
+          "先倾听，再评判",
+          "...you become more willing to listen before you judge..."
+        ],
+        [
+          "follow a complicated argument",
+          "跟上复杂的论证",
+          "...better able to follow a complicated argument."
+        ],
+        [
+          "lose your temper",
+          "发脾气",
+          "You can still lose your temper in a disagreement..."
+        ],
+        [
+          "gain insight into people",
+          "对人有更深的洞察",
+          "...you gain insight into people you may never meet."
+        ]
+      ],
+      "translation": [
+        "人们常把小说当成娱乐：在火车上读得开心，晚上就忘了。但一个好故事不只是打发时间。当你跟着人物经历他们的困境时，你其实在练习一种很少见的能力——从别人的视角看世界。",
+        "心理学家把这种能力叫作\"同理心\"，它似乎会随着阅读而增长。要理解一个故事，你必须想象人物为什么那样做，猜测他们的动机，并感受他们的感受。在一项研究里，读文学小说的人在\"读懂他人情绪\"的测试中得分更高；陌生人因此变得没那么神秘了。",
+        "小说还训练耐心和注意力。一本厚书不可能一口气读完，它要求你在脑中记住大量细节，并等待它们彼此连接起来。这种缓慢的理解会迁移到现实生活中：你会更愿意先倾听再评判，也更能跟上复杂的论证。",
+        "这不意味着小说会让人变得完美。你仍然可能在分歧中发脾气，也可能无法容忍不同的观点。但故事提供了教科书很少能提供的东西：让你不必付出代价，就体验别人的一生。词汇量会增长，思维习惯会改变，你也会对素未谋面的人获得更深的洞察。也许正因如此，读者常常说，某本心爱的书改变了他们的想法。"
+      ],
+      "audioFull": "audio/2026-09-20_影子跟读012_读小说如何改变你_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-09-20_影子跟读012_读小说如何改变你_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-09-18_011",
       "num": "011",
       "date": "2026-09-18",
