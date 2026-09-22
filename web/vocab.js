@@ -175,6 +175,42 @@
     return "later";
   }
 
+  /** 记下"今天动过这张卡"和先后顺序，供「今日复习」按原顺序再刷一遍 */
+  function markTouchedToday(id) {
+    var today = todayStr();
+    if (!progress.today || progress.today.date !== today || !Array.isArray(progress.today.ids)) {
+      progress.today = { date: today, ids: [] };
+    }
+    if (progress.today.ids.indexOf(id) === -1) progress.today.ids.push(id);
+  }
+
+  function todayQueueIds() {
+    var today = todayStr();
+    if (progress.today && progress.today.date === today && Array.isArray(progress.today.ids)) {
+      return progress.today.ids.slice();
+    }
+    return [];
+  }
+
+  /** 「今日复习」＝今天动过的卡，按今天刷的顺序；顺序记录缺失时退回"最后动过的日期＝今天" */
+  function todayCards(pool) {
+    var byId = {};
+    pool.forEach(function (c) {
+      byId[c.id] = c;
+    });
+    var queue = todayQueueIds()
+      .map(function (id) {
+        return byId[id];
+      })
+      .filter(Boolean);
+    if (queue.length) return queue;
+    var today = todayStr();
+    return pool.filter(function (c) {
+      var rec = progress.cards[c.id];
+      return rec && rec.lastAt === today;
+    });
+  }
+
   function makeQueue(kind, mode) {
     var pool = filteredCards();
     var due = [];
@@ -194,6 +230,7 @@
     if (kind === "due") queue = due.slice(0, progress.settings.reviewLimit);
     else if (kind === "new") queue = fresh.slice(0, progress.settings.newLimit);
     else if (kind === "wrong") queue = wrong;
+    else if (kind === "today") queue = todayCards(pool);
     else queue = due.slice(0, progress.settings.reviewLimit).concat(fresh.slice(0, progress.settings.newLimit));
     if (mode === "mcq") {
       queue = queue.filter(function (c) {
@@ -236,6 +273,7 @@
     }
     rec.lastAt = today;
     progress.cards[card.id] = rec;
+    markTouchedToday(card.id);
     saveProgress();
   }
 
@@ -266,6 +304,8 @@
           ? "没有新词了。"
           : kind === "wrong"
           ? "没有需要重刷的错词。"
+          : kind === "today"
+          ? "今天还没有刷过卡。「今日复习」是把今天刷过的再刷一遍。"
           : "今天的到期复习与新词都已经刷完了。";
       window.alert(why + "（可以换一个队列，或点「只刷新词」继续推新词。）");
       return;
@@ -528,6 +568,7 @@
       ["due", "只刷到期"],
       ["new", "只刷新词"],
       ["wrong", "只刷错词"],
+      ["today", "今日复习"],
     ].forEach(function (pair) {
       var b = el("button", "btn btn-ghost vpick", pair[1]);
       b.dataset.queue = pair[0];
@@ -618,14 +659,14 @@
     });
     actions.appendChild(startBtn);
     var s = computeSummary();
-    actions.appendChild(
-      el(
-        "span",
-        "note",
-        "本次将按「" + queueLabel(filters.queue) + " · " + (progress.settings.mode === "mcq" ? "选择题" : "翻面自评") +
-          "」出 " + previewCount() + " 张（待复习 " + s.due + " / 新词 " + s.fresh + "）"
-      )
-    );
+    var previewText =
+      "本次将按「" + queueLabel(filters.queue) + " · " +
+      (progress.settings.mode === "mcq" ? "选择题" : "翻面自评") + "」出 " + previewCount() + " 张";
+    previewText +=
+      filters.queue === "today"
+        ? "（今天刷过的再来一遍，顺序和今天一致）"
+        : "（待复习 " + s.due + " / 新词 " + s.fresh + "）";
+    actions.appendChild(el("span", "note", previewText));
     card.appendChild(actions);
     return card;
   }
@@ -650,7 +691,15 @@
   }
 
   function queueLabel(kind) {
-    return kind === "due" ? "只刷到期" : kind === "new" ? "只刷新词" : kind === "wrong" ? "只刷错词" : "今天的一轮";
+    return kind === "due"
+      ? "只刷到期"
+      : kind === "new"
+      ? "只刷新词"
+      : kind === "wrong"
+      ? "只刷错词"
+      : kind === "today"
+      ? "今日复习"
+      : "今天的一轮";
   }
 
   function previewCount() {
@@ -777,7 +826,7 @@
       actions.appendChild(showBtn);
     } else {
       if (card.cn) {
-        var cnBtn = el("button", "btn btn-ghost", session.showCn ? "收起中文" : "看中文");
+        var cnBtn = el("button", "btn btn-ghost", session.showCn ? "收起中文（空格）" : "看中文（空格）");
         cnBtn.addEventListener("click", function () {
           session.showCn = !session.showCn;
           persistSession();
@@ -911,6 +960,7 @@
       updatedAt: progress.updatedAt,
       cards: progress.cards,
       settings: progress.settings,
+      today: progress.today || null,
       session: savedSession || null,
     };
     var blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
@@ -968,6 +1018,13 @@
         return;
       }
       var n = mergeProgress(data);
+      if (data.today && data.today.date === todayStr() && Array.isArray(data.today.ids)) {
+        var mergedToday = todayQueueIds();
+        data.today.ids.forEach(function (id) {
+          if (mergedToday.indexOf(id) === -1) mergedToday.push(id);
+        });
+        progress.today = { date: todayStr(), ids: mergedToday };
+      }
       saveProgress();
       var note = "已合并 " + n + " 张卡的进度（同一张卡取课时更高、时间更晚的一次）。";
       if (data.session && data.session.queueIds && data.session.queueIds.length) {
@@ -1013,6 +1070,16 @@
       if (key === " " || key === "Enter") {
         e.preventDefault();
         session.revealed = true;
+        persistSession();
+        render();
+      }
+      return;
+    }
+    if (key === " ") {
+      var cur = currentCard();
+      if (cur && cur.cn) {
+        e.preventDefault();
+        session.showCn = !session.showCn;
         persistSession();
         render();
       }
