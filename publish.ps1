@@ -10,7 +10,14 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
-Write-Host "第二步：提交并推送..."
+Write-Host "第二步：构建生词复习库（web\vocab.json）..."
+& node (Join-Path $root "scripts\build_vocab_deck.js")
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "生词库构建失败，未发布（先看上面 [FAIL] 的具体原因）。"
+    exit 1
+}
+
+Write-Host "第三步：提交并推送..."
 git add -A
 $staged = git diff --cached --name-only
 if (-not $staged) {

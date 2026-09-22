@@ -4,20 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#FAF6EF">
-  <title>影子跟读 · 材料库</title>
+  <title>英语练习台</title>
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
   <header class="topbar">
     <div class="container topbar-inner">
-      <h1>影子跟读</h1>
-      <p class="topbar-sub">六级口语练习材料库 · 听一句，跟一句</p>
+      <h1>英语练习台</h1>
+      <p class="topbar-sub">影子跟读 · 生词复习 · 六级备考</p>
     </div>
   </header>
-  <main id="app" class="container" aria-live="polite"></main>
+  <main id="home" class="container">
+    <section class="module-grid">
+      <a class="module-card" href="materials.html">
+        <h2>影子跟读</h2>
+        <p class="module-desc">听一句，跟一句 · 整篇与分段音频 · 精听听写</p>
+        <p class="module-stat" id="stat-shadow">已练 — / 共 —</p>
+      </a>
+      <a class="module-card" href="vocab.html">
+        <h2>生词复习</h2>
+        <p class="module-desc">翻面自评 + 选择题 · 1 / 3 / 7 / 16 / 35 天递增复扫</p>
+        <p class="module-stat" id="stat-vocab">今日待复习 —</p>
+      </a>
+    </section>
+    <section class="card">
+      <h2 class="section-title">怎么用</h2>
+      <p class="note">跟读练语感与听力精度，生词复习练记忆，两边共用同一批生词：跟读材料里的标粗词也会进复习库。</p>
+      <p class="note">复习只看英文——先自己说词性和英文意思，再翻面对答案；中文默认收起来，想看再点。</p>
+    </section>
+  </main>
   <footer class="container footer">
-    <p>建议：先扫生词 → 影子跟读两遍 → 合上音频自己读一遍并录音。</p>
+    <p>跟读建议：先扫生词 → 跟读两遍 → 合上音频自己读一遍并录音。</p>
+    <p>进度只存在本机浏览器；换设备用「生词复习 → 导出 / 导入」搬运。</p>
   </footer>
-  <script src="app.js"></script>
+  <script src="home.js"></script>
 </body>
 </html>

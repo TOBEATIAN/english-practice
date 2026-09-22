@@ -701,3 +701,243 @@ body { padding-bottom: 92px; }
   .pb-label { display: none; }
   .pb-time { font-size: 11px; }
 }
+
+/* ---------- 顶部条与首页（双模块） ---------- */
+
+.topbar-inner { display: flex; flex-direction: column; }
+
+.topbar-slim .topbar-inner {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.module-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin: 18px 0 0;
+}
+
+@media (min-width: 620px) {
+  .module-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.module-card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px 18px;
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: 0 2px 8px rgba(140, 59, 30, 0.05);
+}
+
+.module-card:active { background: var(--accent-soft); }
+
+.module-card h2 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  color: var(--accent-strong);
+}
+
+.module-desc {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.module-stat {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* ---------- 生词复习 ---------- */
+
+.vstat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .vstat-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.vstat {
+  background: #F7F1E6;
+  border-radius: 12px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.vstat-num {
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent-strong);
+  line-height: 1.3;
+}
+
+.vstat-label {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.vrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.vrow-label {
+  color: var(--muted);
+  font-size: 13px;
+  min-width: 58px;
+}
+
+.vpick {
+  min-height: 40px;
+  padding: 6px 14px;
+  font-size: 14px;
+}
+
+.vpick.active {
+  background: var(--accent);
+  color: #FFF;
+  border-color: var(--accent);
+}
+
+.vselect,
+.vnum input {
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--ink);
+  background: #FFF;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  min-height: 40px;
+  padding: 6px 10px;
+}
+
+.vnum {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.vnum input { width: 72px; }
+
+.vhead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.vhead-left { flex: 1 1 auto; font-size: 14px; color: var(--muted); }
+.vhead-right { font-size: 13px; color: var(--accent-strong); }
+.vquit { min-height: 40px; padding: 6px 14px; font-size: 14px; }
+
+.vcard { padding: 22px 18px 18px; }
+
+.vmeta {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.vterm {
+  margin: 0 0 14px;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--accent-strong);
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.vspeak {
+  min-height: 40px;
+  padding: 6px 14px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.vanswer {
+  border-top: 1px dashed var(--line);
+  padding-top: 14px;
+}
+
+.vpos { margin: 0 0 6px; color: var(--muted); font-size: 14px; }
+.ven { margin: 0 0 10px; font-size: 19px; line-height: 1.6; }
+.vex { margin: 0 0 10px; font-size: 16px; line-height: 1.7; color: #5C5348; }
+
+.vex-tag {
+  display: inline-block;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-radius: 999px;
+  font-size: 12px;
+  padding: 1px 10px;
+  margin-right: 8px;
+}
+
+.vcn { margin: 10px 0 0; font-size: 17px; color: var(--accent-strong); }
+
+.vactions { margin-top: 16px; }
+
+.btn-know {
+  background: #E6EFE6;
+  color: #35553B;
+  border: 1px solid #BFD6BF;
+}
+
+.btn-fuzzy {
+  background: #FBF0DC;
+  color: #7A5A20;
+  border: 1px solid #E6D2A8;
+}
+
+.btn-no {
+  background: #F8E4E0;
+  color: #8C3B1E;
+  border: 1px solid #E5BDB4;
+}
+
+.voptions { display: grid; gap: 10px; }
+
+.voption {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  background: #FFF;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 14px;
+  min-height: 48px;
+  cursor: pointer;
+}
+
+.voption:active { background: var(--accent-soft); }
+
+.voption.right {
+  background: #E6EFE6;
+  border-color: #7FA37F;
+  color: #2F4A34;
+  font-weight: 600;
+}
+
+.voption.dim { opacity: 0.55; }
+
+.vverdict { margin: 14px 0 0; font-size: 16px; font-weight: 600; }
