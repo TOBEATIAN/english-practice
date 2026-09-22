@@ -1,6 +1,372 @@
 {
   "materials": [
     {
+      "id": "2026-09-22_013",
+      "num": "013",
+      "date": "2026-09-22",
+      "titleEn": "Why Curiosity Beats Talent",
+      "titleCn": "好奇心为什么胜过天赋",
+      "stem": "2026-09-22_影子跟读013_好奇心为什么胜过天赋",
+      "wordCountLabel": "278 词",
+      "durationLabel": "1 分 49 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Most people assume talent decides who learns fastest. A child who picks up a tune quickly looks <strong>gifted</strong>, while a classmate who stumbles over the same <strong>grammar</strong> looks hopeless. Yet when researchers follow learners over several years, the early advantage often <strong>fades</strong>. The people who keep improving are not usually the ones who started ahead, but the ones who stayed <strong>curious</strong>.",
+        "Psychologists describe curiosity as an information <strong>gap</strong>: the uncomfortable sense that you almost know something but do not yet. That small discomfort is powerful. In one <strong>experiment</strong>, <strong>volunteers</strong> were first made curious about a question, then asked to <strong>memorise</strong> unrelated facts. They remembered far more of them than people who were not curious, because the brain treats new information as <strong>valuable</strong> when it is attached to a <strong>puzzle</strong>. Curiosity prepares the mind before the lesson begins.",
+        "Curiosity also changes how you spend your time. A curious learner asks questions that no exam <strong>requires</strong>, reads one <strong>extra</strong> page, and tries a second <strong>explanation</strong> when the first one fails. A talented learner who is not curious does the opposite: he does exactly what is asked and stops. Over a year, those extra <strong>attempts</strong> <strong>accumulate</strong>, while a fixed talent stays fixed, and <strong>effort</strong> feels lighter when you actually want the answer.",
+        "This does not mean talent is a <strong>myth</strong>. Some people do learn certain <strong>skills</strong> faster, and curiosity cannot <strong>replace</strong> daily practice. But curiosity is the part you can <strong>control</strong>. You cannot choose how quickly a grammar rule clicks; you can choose to keep asking why. In the long run, that <strong>habit</strong>, rather than an early head start, is what <strong>separates</strong> people who stop learning from people who never do."
+      ],
+      "sentences": [
+        {
+          "para": 1,
+          "html": "Most people assume talent decides who learns fastest.",
+          "text": "Most people assume talent decides who learns fastest.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s01.mp3"
+        },
+        {
+          "para": 1,
+          "html": "A child who picks up a tune quickly looks <strong>gifted</strong>, while a classmate who stumbles over the same <strong>grammar</strong> looks hopeless.",
+          "text": "A child who picks up a tune quickly looks gifted, while a classmate who stumbles over the same grammar looks hopeless.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s02.mp3"
+        },
+        {
+          "para": 1,
+          "html": "Yet when researchers follow learners over several years, the early advantage often <strong>fades</strong>.",
+          "text": "Yet when researchers follow learners over several years, the early advantage often fades.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s03.mp3"
+        },
+        {
+          "para": 1,
+          "html": "The people who keep improving are not usually the ones who started ahead, but the ones who stayed <strong>curious</strong>.",
+          "text": "The people who keep improving are not usually the ones who started ahead, but the ones who stayed curious.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s04.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Psychologists describe curiosity as an information <strong>gap</strong>: the uncomfortable sense that you almost know something but do not yet.",
+          "text": "Psychologists describe curiosity as an information gap: the uncomfortable sense that you almost know something but do not yet.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s05.mp3"
+        },
+        {
+          "para": 2,
+          "html": "That small discomfort is powerful.",
+          "text": "That small discomfort is powerful.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s06.mp3"
+        },
+        {
+          "para": 2,
+          "html": "In one <strong>experiment</strong>, <strong>volunteers</strong> were first made curious about a question, then asked to <strong>memorise</strong> unrelated facts.",
+          "text": "In one experiment, volunteers were first made curious about a question, then asked to memorise unrelated facts.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s07.mp3"
+        },
+        {
+          "para": 2,
+          "html": "They remembered far more of them than people who were not curious, because the brain treats new information as <strong>valuable</strong> when it is attached to a <strong>puzzle</strong>.",
+          "text": "They remembered far more of them than people who were not curious, because the brain treats new information as valuable when it is attached to a puzzle.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s08.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Curiosity prepares the mind before the lesson begins.",
+          "text": "Curiosity prepares the mind before the lesson begins.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s09.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Curiosity also changes how you spend your time.",
+          "text": "Curiosity also changes how you spend your time.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s10.mp3"
+        },
+        {
+          "para": 3,
+          "html": "A curious learner asks questions that no exam <strong>requires</strong>, reads one <strong>extra</strong> page, and tries a second <strong>explanation</strong> when the first one fails.",
+          "text": "A curious learner asks questions that no exam requires, reads one extra page, and tries a second explanation when the first one fails.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s11.mp3"
+        },
+        {
+          "para": 3,
+          "html": "A talented learner who is not curious does the opposite: he does exactly what is asked and stops.",
+          "text": "A talented learner who is not curious does the opposite: he does exactly what is asked and stops.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s12.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Over a year, those extra <strong>attempts</strong> <strong>accumulate</strong>, while a fixed talent stays fixed, and <strong>effort</strong> feels lighter when you actually want the answer.",
+          "text": "Over a year, those extra attempts accumulate, while a fixed talent stays fixed, and effort feels lighter when you actually want the answer.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s13.mp3"
+        },
+        {
+          "para": 4,
+          "html": "This does not mean talent is a <strong>myth</strong>.",
+          "text": "This does not mean talent is a myth.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s14.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Some people do learn certain <strong>skills</strong> faster, and curiosity cannot <strong>replace</strong> daily practice.",
+          "text": "Some people do learn certain skills faster, and curiosity cannot replace daily practice.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s15.mp3"
+        },
+        {
+          "para": 4,
+          "html": "But curiosity is the part you can <strong>control</strong>.",
+          "text": "But curiosity is the part you can control.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s16.mp3"
+        },
+        {
+          "para": 4,
+          "html": "You cannot choose how quickly a grammar rule clicks; you can choose to keep asking why.",
+          "text": "You cannot choose how quickly a grammar rule clicks; you can choose to keep asking why.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s17.mp3"
+        },
+        {
+          "para": 4,
+          "html": "In the long run, that <strong>habit</strong>, rather than an early head start, is what <strong>separates</strong> people who stop learning from people who never do.",
+          "text": "In the long run, that habit, rather than an early head start, is what separates people who stop learning from people who never do.",
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_s18.mp3"
+        }
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求“再难一档”；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "gifted",
+          "形容词",
+          "有天赋的",
+          "having natural ability or talent"
+        ],
+        [
+          "grammar",
+          "名词",
+          "语法",
+          "the rules for how words are used together"
+        ],
+        [
+          "fades",
+          "动词",
+          "消退、减弱",
+          "becomes weaker or less clear over time"
+        ],
+        [
+          "curious",
+          "形容词",
+          "好奇的",
+          "wanting to know or learn about something"
+        ],
+        [
+          "gap",
+          "名词",
+          "缺口、空白",
+          "a space or difference between two things"
+        ],
+        [
+          "experiment",
+          "名词",
+          "实验",
+          "a scientific test done to find out something"
+        ],
+        [
+          "volunteers",
+          "名词",
+          "志愿者",
+          "people who offer to do something without being paid"
+        ],
+        [
+          "memorise",
+          "动词",
+          "记住、背下来",
+          "to learn something so you can remember it exactly"
+        ],
+        [
+          "valuable",
+          "形容词",
+          "有价值的",
+          "worth a lot, or very useful"
+        ],
+        [
+          "puzzle",
+          "名词",
+          "谜题",
+          "something difficult to understand that needs solving"
+        ],
+        [
+          "requires",
+          "动词",
+          "需要、要求",
+          "needs something in order to happen"
+        ],
+        [
+          "extra",
+          "形容词",
+          "额外的",
+          "more than the usual or expected amount"
+        ],
+        [
+          "explanation",
+          "名词",
+          "解释、说明",
+          "a reason or description that makes something clear"
+        ],
+        [
+          "attempts",
+          "名词",
+          "尝试、努力",
+          "efforts to do something"
+        ],
+        [
+          "accumulate",
+          "动词",
+          "积累、逐渐增加",
+          "to gradually increase in number or amount"
+        ],
+        [
+          "effort",
+          "名词",
+          "努力、力气",
+          "the energy you use to do something"
+        ],
+        [
+          "myth",
+          "名词",
+          "迷思、不实的说法",
+          "an idea that many people believe but is false"
+        ],
+        [
+          "skills",
+          "名词",
+          "技能",
+          "abilities to do something well"
+        ],
+        [
+          "replace",
+          "动词",
+          "取代、替代",
+          "to take the place of something else"
+        ],
+        [
+          "control",
+          "动词",
+          "掌控、控制",
+          "to make something do what you want"
+        ],
+        [
+          "habit",
+          "名词",
+          "习惯",
+          "a thing you do often and almost automatically"
+        ],
+        [
+          "separates",
+          "动词",
+          "区分开、分开",
+          "keeps people or things apart"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "pick up a tune",
+          "学会一段旋律",
+          "A child who picks up a tune quickly looks gifted..."
+        ],
+        [
+          "stumble over",
+          "在……上卡壳、学得很吃力",
+          "...a classmate who stumbles over the same grammar looks hopeless."
+        ],
+        [
+          "the early advantage fades",
+          "早期的优势会消退",
+          "...the early advantage often fades."
+        ],
+        [
+          "start ahead",
+          "起点领先",
+          "...the ones who started ahead."
+        ],
+        [
+          "an information gap",
+          "信息缺口",
+          "Psychologists describe curiosity as an information gap..."
+        ],
+        [
+          "be made curious about",
+          "被激起对……的好奇",
+          "...volunteers were first made curious about a question..."
+        ],
+        [
+          "treat something as valuable",
+          "把某物当作有价值的东西",
+          "...the brain treats new information as valuable..."
+        ],
+        [
+          "be attached to",
+          "与……联系在一起",
+          "...when it is attached to a puzzle."
+        ],
+        [
+          "prepare the mind",
+          "让头脑做好准备",
+          "Curiosity prepares the mind before the lesson begins."
+        ],
+        [
+          "do the opposite",
+          "反其道而行",
+          "...often does the opposite..."
+        ],
+        [
+          "do exactly what is asked",
+          "只做被要求做的事",
+          "...he does exactly what is asked and stops."
+        ],
+        [
+          "attempts accumulate",
+          "尝试会累积起来",
+          "Over a year, those extra attempts accumulate..."
+        ],
+        [
+          "effort feels lighter",
+          "努力感觉更轻松",
+          "...and effort feels lighter when you actually want the answer."
+        ],
+        [
+          "in the long run",
+          "从长远看",
+          "In the long run, that habit..."
+        ],
+        [
+          "an early head start",
+          "起步早的优势",
+          "...rather than an early head start..."
+        ],
+        [
+          "separate A from B",
+          "把 A 与 B 区分开",
+          "...is what separates people who stop learning from people who never do."
+        ]
+      ],
+      "translation": [
+        "大多数人以为，天赋决定谁学得最快。一个孩子很快学会一段旋律，看上去就很有天赋；而同学在同一套语法上磕磕绊绊，就显得没什么希望。但当研究者用几年时间追踪学习者时，早期的那点优势往往会消退。真正持续进步的人，通常不是起点领先的那一批，而是一直保持好奇的那一批。",
+        "心理学家把好奇心描述成一种“信息缺口”：你已经快要知道了、却还没知道时那种不太舒服的感觉。这种小小的不适很有力量。在一项实验里，志愿者先被激起对某个问题的好奇，随后被要求记住一些毫不相关的事实。相比没有被激起好奇的人，他们记住了多得多的事实——因为当新信息与一个谜题绑在一起时，大脑会把它当作有价值的东西。好奇心似乎在上课之前，就已经让头脑做好了准备。",
+        "好奇心还会改变你使用时间的方式。好奇的学习者会去问考试根本不要求的问题，会多读一页，也会在第一种解释行不通时去找第二种。有天赋但不怎么好奇的人常常正好相反：只做被要求做的事，然后停下。一年下来，那些额外的尝试会一点点累积起来，而固定的天赋依旧固定。当你是真的想知道答案时，努力也会感觉轻一些。",
+        "这并不是说天赋是虚构出来的。有些人在某些技能上确实学得更快，好奇心也替代不了每天的练习。但好奇心是你能掌控的那一部分：你没法选择一条语法规则多快就能想通，但你可以选择继续追问为什么。从长远看，真正把“停止学习的人”和“永远在学的人”区分开的，是习惯，而不是起步早。"
+      ],
+      "audioFull": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-09-22_影子跟读013_好奇心为什么胜过天赋_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-09-20_012",
       "num": "012",
       "date": "2026-09-20",
