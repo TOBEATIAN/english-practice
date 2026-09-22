@@ -24,7 +24,7 @@ if (-not $staged) {
     Write-Host "没有变更，无需发布。"
     exit 0
 }
-git commit -m "更新影子跟读网站"
+git commit -m "更新英语练习台网站"
 
 $proxies = @(
     "http://127.0.0.1:7897",
@@ -60,4 +60,4 @@ if (-not $pushed) {
     Write-Host "推送失败：请确认 VPN/代理已开启后重试（或双击本脚本）。"
     exit 1
 }
-Write-Host "已发布：https://tobeatian.github.io/shadow-reading/"
+Write-Host "已发布：https://tobeatian.github.io/english-practice/"

@@ -3,7 +3,7 @@
 """影子跟读 md 源稿 -> A4 精简打印版 docx。
 
 用法:
-    python build_print_docx.py                 # 处理上级目录(影子跟读/)下全部 md
+    python build_print_docx.py                 # 处理上级目录(英语练习台/)下全部 md
     python build_print_docx.py 某篇.md         # 只处理指定文件
 
 打印版只保留：英文正文 -> 生词自查表 -> 好词好句·短语积累 -> 全文中文翻译(最下方)。
