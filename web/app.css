@@ -460,6 +460,8 @@ td.w-en { font-weight: 600; color: var(--accent-strong); white-space: nowrap; }
 
 td.w-def { color: #4A5A4E; font-size: 14px; }
 
+td.w-ipa { color: var(--muted); font-size: 14px; }
+
 .vocab-card {
   border: 1px solid var(--line);
   border-radius: 12px;
@@ -475,6 +477,12 @@ td.w-def { color: #4A5A4E; font-size: 14px; }
 }
 
 .vocab-card .vpos {
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.vocab-card .vipa-sm {
   margin-left: 8px;
   color: var(--muted);
   font-size: 13px;
@@ -870,6 +878,13 @@ body { padding-bottom: 92px; }
   padding: 6px 14px;
   font-size: 14px;
   margin-bottom: 14px;
+}
+
+.vipa {
+  margin: -8px 0 14px;
+  color: var(--muted);
+  font-size: 17px;
+  letter-spacing: 0.5px;
 }
 
 .vanswer {

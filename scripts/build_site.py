@@ -23,6 +23,7 @@ ROOT_DIR = SCRIPT_DIR.parent
 WEB_DIR = ROOT_DIR / "web"
 AUDIO_DIR = WEB_DIR / "audio"
 OUT_JSON = WEB_DIR / "materials.json"
+IPA_FILE = ROOT_DIR.parent / "docs" / "生词_音标库.json"
 REQUIRED_HEADS = (
     "## English Text",
     "## 生词自查表",
@@ -35,6 +36,34 @@ PROXY = os.environ.get("EDGE_TTS_PROXY", "http://127.0.0.1:7897")
 
 def log(*args):
     print(*args)
+
+
+_IPA_CACHE = None
+
+
+def ipa_words() -> dict:
+    """词形 → IPA（docs\\生词_音标库.json，由 build_ipa.py 生成、专名手工补）"""
+    global _IPA_CACHE
+    if _IPA_CACHE is None:
+        try:
+            with IPA_FILE.open("r", encoding="utf-8") as fh:
+                _IPA_CACHE = json.load(fh).get("words", {}) or {}
+        except Exception:
+            _IPA_CACHE = {}
+    return _IPA_CACHE
+
+
+def ipa_for(term: str, table: dict) -> str:
+    """词条 → IPA：短语逐词拼；只要有一个词缺音标就整条留空（半截音标会误导）"""
+    parts = []
+    for chunk in re.findall(r"[A-Za-z][A-Za-z'\-]*", str(term)):
+        for piece in chunk.replace("-", " ").split():
+            w = piece.lower().strip("'")
+            if w:
+                parts.append(table.get(w, ""))
+    if not parts or any(not p for p in parts):
+        return ""
+    return " ".join(parts)
 
 
 def split_sentences(text: str):
@@ -143,6 +172,10 @@ def parse_md(md: Path) -> dict:
         n = len(en.split())
         if n < 3 or n > 14:
             raise ValueError(f"{md.name}：{word} 的英文释义需 3-14 词，实际 {n} 词：{en}")
+    # 第 5 列：音标（复习卡片与跟读生词表共用同一份音标库）
+    ipa_map = ipa_words()
+    for row in vocab_rows:
+        row.append(ipa_for(row[0], ipa_map))
 
     # 短语表
     phrase_rows = parse_table(section_body("## 好词好句·短语积累", "## 全文中文翻译"))

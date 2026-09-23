@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-09-22T11:50:34",
+ "generatedAt": "2026-09-23T09:30:50",
  "stats": {
   "total": 809,
   "byBucket": {
@@ -13,6 +13,11 @@
    "word": 588,
    "pattern": 12,
    "phrase": 209
+  },
+  "ipa": {
+   "covered": 797,
+   "counted": 797,
+   "missing": 0
   },
   "raw": {
    "mock": 484,
@@ -31,7 +36,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "bead",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "biːd"
   },
   {
    "id": "consequence",
@@ -44,7 +50,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q27"
+   "tag": "Section A Q27",
+   "ipa": "ˈkɑːnsəkwəns"
   },
   {
    "id": "consideration",
@@ -57,7 +64,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "kənˌsɪdərˈeɪʃən"
   },
   {
    "id": "consistently",
@@ -70,7 +78,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Section A Q31"
+   "tag": "Section A Q31",
+   "ipa": "kənˈsɪstəntli"
   },
   {
    "id": "deliberately",
@@ -83,7 +92,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Section A Q29"
+   "tag": "Section A Q29",
+   "ipa": "dɪˈlɪbərətli"
   },
   {
    "term": "electronic calculator",
@@ -96,7 +106,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "electronic-calculator",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˌɪˌlɛkˈtrɑːnɪk ˈkælkjəˌleɪtər"
   },
   {
    "term": "fade out",
@@ -109,7 +120,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "fade-out",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "feɪd aʊt"
   },
   {
    "id": "gradually",
@@ -122,7 +134,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "ˈgræʤuəli"
   },
   {
    "term": "horizontal bar",
@@ -135,7 +148,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "horizontal-bar",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˌhɔːrəˈzɑːntəl bɑːr"
   },
   {
    "id": "inspection",
@@ -148,7 +162,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "ˌɪnˈspɛkʃən"
   },
   {
    "term": "made of",
@@ -161,7 +176,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "made-of",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "meɪd əv"
   },
   {
    "term": "mental arithmetic",
@@ -174,7 +190,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "mental-arithmetic",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈmɛntəl ˌɛrɪθˈmɛtɪk"
   },
   {
    "term": "method of calculation",
@@ -187,7 +204,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "method-of-calculation",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈmɛθəd əv ˌkælkjəˈleɪʃən"
   },
   {
    "term": "mnemonic rhyme",
@@ -200,7 +218,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "mnemonic-rhyme",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "nɪˈmɑːnɪk raɪm"
   },
   {
    "id": "remarkable",
@@ -213,7 +232,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "rɪˈmɑːrkəbəl"
   },
   {
    "id": "substantial",
@@ -226,7 +246,8 @@
    "bucket": "wrong",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Section A Q33"
+   "tag": "Section A Q33",
+   "ipa": "səbˈstænʃəl"
   },
   {
    "term": "subtraction",
@@ -239,7 +260,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "subtraction",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "səbˈtrækʃən"
   },
   {
    "term": "the four operations",
@@ -252,7 +274,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "the-four-operations",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ðə fɔːr ˌɑːpərˈeɪʃənz"
   },
   {
    "term": "a protruding part / a recess",
@@ -265,7 +288,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "a-protruding-part-a-recess",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "ə proʊˈtruːdɪŋ pɑːrt ə ˈriːsɛs"
   },
   {
    "term": "ancient wisdom",
@@ -278,7 +302,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "ancient-wisdom",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "ˈeɪnʧənt ˈwɪzdəm"
   },
   {
    "id": "clean",
@@ -291,7 +316,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-21",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "kliːn"
   },
   {
    "term": "contagious",
@@ -304,7 +330,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "contagious",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "kənˈteɪʤəs"
   },
   {
    "term": "draw on sth",
@@ -317,7 +344,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "draw-on-sth",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "drɔː ɔːn ˈsʌmθɪŋ"
   },
   {
    "id": "evidence",
@@ -330,7 +358,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-08",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "ˈɛvədəns"
   },
   {
    "id": "humidity",
@@ -343,7 +372,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-21",
-   "tag": "Section A Q26"
+   "tag": "Section A Q26",
+   "ipa": "hjuːˈmɪdəti"
   },
   {
    "term": "interlock",
@@ -356,7 +386,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "interlock",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "ˌɪntərˈlɑːk"
   },
   {
    "id": "measure",
@@ -369,7 +400,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-14",
-   "tag": "Section A Q28"
+   "tag": "Section A Q28",
+   "ipa": "ˈmɛʒər"
   },
   {
    "id": "moisture",
@@ -382,7 +414,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-04",
-   "tag": ""
+   "tag": "",
+   "ipa": "ˈmɔɪsʧər"
   },
   {
    "term": "mortise and tenon joint",
@@ -395,7 +428,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "mortise-and-tenon-joint",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "ˈmɔːrtɪs ənd ˈtenən ʤɔɪnt"
   },
   {
    "term": "mutual support",
@@ -408,7 +442,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "mutual-support",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "mˈjuːʧuəl səˈpɔːrt"
   },
   {
    "term": "nails",
@@ -421,7 +456,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "nails",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "neɪlz"
   },
   {
    "id": "reduce",
@@ -434,7 +470,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q33"
+   "tag": "Section A Q33",
+   "ipa": "rɪˈduːs"
   },
   {
    "id": "sources",
@@ -447,7 +484,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-21",
-   "tag": "Section A Q27"
+   "tag": "Section A Q27",
+   "ipa": "ˈsɔːrsəz"
   },
   {
    "term": "take apart and put together again",
@@ -460,7 +498,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "take-apart-and-put-together-again",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "teɪk əˈpɑːrt ənd pʊt təˈgɛðər əˈgɛn"
   },
   {
    "id": "works",
@@ -473,7 +512,8 @@
    "bucket": "wrong",
    "date": "2026-09-21",
    "firstDate": "2026-09-21",
-   "tag": "Section A Q31"
+   "tag": "Section A Q31",
+   "ipa": "wərks"
   },
   {
    "id": "insight",
@@ -486,7 +526,8 @@
    "bucket": "wrong",
    "date": "2026-09-20",
    "firstDate": "2026-09-04",
-   "tag": "影子跟读012"
+   "tag": "影子跟读012",
+   "ipa": "ˈɪnˌsaɪt"
   },
   {
    "id": "tolerate",
@@ -499,7 +540,8 @@
    "bucket": "wrong",
    "date": "2026-09-20",
    "firstDate": "2026-09-19",
-   "tag": "Section A Q33"
+   "tag": "Section A Q33",
+   "ipa": "ˈtɑːlərˌeɪt"
   },
   {
    "id": "burden",
@@ -512,7 +554,8 @@
    "bucket": "wrong",
    "date": "2026-09-19",
    "firstDate": "2026-09-19",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "ˈbərdən"
   },
   {
    "id": "exposure",
@@ -525,7 +568,8 @@
    "bucket": "wrong",
    "date": "2026-09-19",
    "firstDate": "2026-09-19",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "ɪkˈspoʊʒər"
   },
   {
    "id": "hygiene",
@@ -538,7 +582,8 @@
    "bucket": "wrong",
    "date": "2026-09-19",
    "firstDate": "2026-09-19",
-   "tag": "Section A Q27"
+   "tag": "Section A Q27",
+   "ipa": "ˈhaɪˌʤiːn"
   },
   {
    "id": "mature",
@@ -551,7 +596,8 @@
    "bucket": "wrong",
    "date": "2026-09-19",
    "firstDate": "2026-09-19",
-   "tag": "Section A Q29"
+   "tag": "Section A Q29",
+   "ipa": "məˈʧʊr"
   },
   {
    "id": "effective",
@@ -564,7 +610,8 @@
    "bucket": "wrong",
    "date": "2026-09-18",
    "firstDate": "2026-09-08",
-   "tag": "Section A Q32"
+   "tag": "Section A Q32",
+   "ipa": "ˈiːfɛktɪv"
   },
   {
    "id": "establish",
@@ -577,7 +624,8 @@
    "bucket": "wrong",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Section A Q28"
+   "tag": "Section A Q28",
+   "ipa": "ɪˈstæblɪʃ"
   },
   {
    "id": "reality",
@@ -590,7 +638,8 @@
    "bucket": "wrong",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Section A Q33"
+   "tag": "Section A Q33",
+   "ipa": "ˌriːˈæləˌtiː"
   },
   {
    "id": "record",
@@ -603,7 +652,8 @@
    "bucket": "wrong",
    "date": "2026-09-18",
    "firstDate": "2026-09-04",
-   "tag": "影子跟读011"
+   "tag": "影子跟读011",
+   "ipa": "ˈrɛkərd"
   },
   {
    "id": "shed",
@@ -616,7 +666,8 @@
    "bucket": "wrong",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "ʃɛd"
   },
   {
    "id": "shown",
@@ -629,7 +680,8 @@
    "bucket": "wrong",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Section A Q31"
+   "tag": "Section A Q31",
+   "ipa": "ʃoʊn"
   },
   {
    "id": "conclusion",
@@ -642,7 +694,8 @@
    "bucket": "wrong",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "kənˈkluːʒən"
   },
   {
    "id": "fortify",
@@ -655,7 +708,8 @@
    "bucket": "wrong",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q33"
+   "tag": "Section A Q33",
+   "ipa": "ˈfɔːrtɪˌfaɪ"
   },
   {
    "id": "mixed",
@@ -668,7 +722,8 @@
    "bucket": "wrong",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q29"
+   "tag": "Section A Q29",
+   "ipa": "mɪkst"
   },
   {
    "id": "opportunity",
@@ -681,7 +736,8 @@
    "bucket": "wrong",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "ˌɑːpərˈtuːnəti"
   },
   {
    "id": "planned",
@@ -694,7 +750,8 @@
    "bucket": "wrong",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "plænd"
   },
   {
    "id": "sensible",
@@ -707,7 +764,8 @@
    "bucket": "wrong",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q32"
+   "tag": "Section A Q32",
+   "ipa": "ˈsɛnsəbəl"
   },
   {
    "id": "warn",
@@ -720,7 +778,8 @@
    "bucket": "wrong",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Section A Q31"
+   "tag": "Section A Q31",
+   "ipa": "wɔːrn"
   },
   {
    "id": "benefits",
@@ -733,7 +792,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-14",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "ˈbɛnəfɪts"
   },
   {
    "id": "detected",
@@ -746,7 +806,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q26"
+   "tag": "Section A Q26",
+   "ipa": "dɪˈtɛktɪd"
   },
   {
    "id": "difficult",
@@ -759,7 +820,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "ˈdɪfəkəlt"
   },
   {
    "id": "encouraging",
@@ -772,7 +834,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q32"
+   "tag": "Section A Q32",
+   "ipa": "ɪnˈkərəʤɪŋ"
   },
   {
    "id": "expensive",
@@ -785,7 +848,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-13",
-   "tag": "Section A Q29"
+   "tag": "Section A Q29",
+   "ipa": "ɪkˈspɛnsɪv"
   },
   {
    "id": "independent",
@@ -798,7 +862,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "ˌɪndɪˈpɛndənt"
   },
   {
    "id": "install",
@@ -811,7 +876,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q27"
+   "tag": "Section A Q27",
+   "ipa": "ˌɪnˈstɔːl"
   },
   {
    "id": "lack",
@@ -824,7 +890,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q31"
+   "tag": "Section A Q31",
+   "ipa": "læk"
   },
   {
    "id": "modest",
@@ -837,7 +904,8 @@
    "bucket": "wrong",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "ˈmɑːdəst"
   },
   {
    "id": "available",
@@ -850,7 +918,8 @@
    "bucket": "wrong",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Section A Q27"
+   "tag": "Section A Q27",
+   "ipa": "əˈveɪləbəl"
   },
   {
    "id": "balance",
@@ -863,7 +932,8 @@
    "bucket": "wrong",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Section A Q32"
+   "tag": "Section A Q32",
+   "ipa": "ˈbæləns"
   },
   {
    "id": "digital",
@@ -876,7 +946,8 @@
    "bucket": "wrong",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Section A Q28"
+   "tag": "Section A Q28",
+   "ipa": "ˈdɪʤɪtəl"
   },
   {
    "id": "possible",
@@ -889,7 +960,8 @@
    "bucket": "wrong",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "ˈpɑːsəbəl"
   },
   {
    "id": "training",
@@ -902,7 +974,8 @@
    "bucket": "wrong",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "ˈtreɪnɪŋ"
   },
   {
    "id": "activity",
@@ -915,7 +988,8 @@
    "bucket": "wrong",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Section A Q26"
+   "tag": "Section A Q26",
+   "ipa": "ækˈtɪvɪti"
   },
   {
    "id": "economic",
@@ -928,7 +1002,8 @@
    "bucket": "wrong",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "ˌɛkəˈnɑːmɪk"
   },
   {
    "id": "finite",
@@ -941,7 +1016,8 @@
    "bucket": "wrong",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Section A Q33"
+   "tag": "Section A Q33",
+   "ipa": "ˈfaɪˌnaɪt"
   },
   {
    "id": "invisible",
@@ -954,7 +1030,8 @@
    "bucket": "wrong",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Section A Q28"
+   "tag": "Section A Q28",
+   "ipa": "ˌɪnˈvɪzəbəl"
   },
   {
    "id": "measured",
@@ -967,7 +1044,8 @@
    "bucket": "wrong",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Section A Q32"
+   "tag": "Section A Q32",
+   "ipa": "ˈmɛʒərd"
   },
   {
    "id": "value",
@@ -980,7 +1058,8 @@
    "bucket": "wrong",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Section A Q35"
+   "tag": "Section A Q35",
+   "ipa": "ˈvælju"
   },
   {
    "id": "costly",
@@ -993,7 +1072,8 @@
    "bucket": "wrong",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q32"
+   "tag": "Section A Q32",
+   "ipa": "ˈkɔːstli"
   },
   {
    "id": "disrupted",
@@ -1006,7 +1086,8 @@
    "bucket": "wrong",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "dɪsˈrəptɪd"
   },
   {
    "id": "glare",
@@ -1019,7 +1100,8 @@
    "bucket": "wrong",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q31"
+   "tag": "Section A Q31",
+   "ipa": "glɛr"
   },
   {
    "id": "nocturnal",
@@ -1032,7 +1114,8 @@
    "bucket": "wrong",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q27"
+   "tag": "Section A Q27",
+   "ipa": "nɑːkˈtərnəl"
   },
   {
    "id": "ordinances",
@@ -1045,7 +1128,8 @@
    "bucket": "wrong",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q28"
+   "tag": "Section A Q28",
+   "ipa": "ˈɔːrdənənsɪz"
   },
   {
    "id": "shielded",
@@ -1058,7 +1142,8 @@
    "bucket": "wrong",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q29"
+   "tag": "Section A Q29",
+   "ipa": "ˈʃiːldɪd"
   },
   {
    "id": "visibility",
@@ -1071,7 +1156,8 @@
    "bucket": "wrong",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "ˌvɪzəˈbɪlɪti"
   },
   {
    "id": "burnout",
@@ -1084,7 +1170,8 @@
    "bucket": "wrong",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Section A Q30"
+   "tag": "Section A Q30",
+   "ipa": "ˈbərˌnaʊt"
   },
   {
    "id": "flexible",
@@ -1097,7 +1184,8 @@
    "bucket": "wrong",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Section A Q34"
+   "tag": "Section A Q34",
+   "ipa": "ˈflɛksəbəl"
   },
   {
    "id": "productivity",
@@ -1110,7 +1198,8 @@
    "bucket": "wrong",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Section A Q29"
+   "tag": "Section A Q29",
+   "ipa": "ˌproʊdəkˈtɪvɪti"
   },
   {
    "id": "recruit",
@@ -1123,7 +1212,8 @@
    "bucket": "wrong",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Section A Q32"
+   "tag": "Section A Q32",
+   "ipa": "rɪˈkruːt"
   },
   {
    "id": "retain",
@@ -1136,7 +1226,8 @@
    "bucket": "wrong",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Section A Q31"
+   "tag": "Section A Q31",
+   "ipa": "rɪˈteɪn"
   },
   {
    "id": "sceptics",
@@ -1149,7 +1240,8 @@
    "bucket": "wrong",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Section A Q26"
+   "tag": "Section A Q26",
+   "ipa": "ˈskeptɪks"
   },
   {
    "id": "trials",
@@ -1162,7 +1254,8 @@
    "bucket": "wrong",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Section A Q27"
+   "tag": "Section A Q27",
+   "ipa": "traɪəlz"
   },
   {
    "id": "notification",
@@ -1175,7 +1268,8 @@
    "bucket": "wrong",
    "date": "2026-09-10",
    "firstDate": "2026-09-05",
-   "tag": "影子跟读004"
+   "tag": "影子跟读004",
+   "ipa": "ˌnoʊtəfəˈkeɪʃən"
   },
   {
    "term": "constellation",
@@ -1188,7 +1282,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "constellation",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌkɑːnstəˈleɪʃən"
   },
   {
    "term": "debris",
@@ -1201,7 +1296,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "debris",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "dəˈbriː"
   },
   {
    "term": "delay",
@@ -1214,7 +1310,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "delay",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "dɪˈleɪ"
   },
   {
    "term": "destination",
@@ -1227,7 +1324,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "destination",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌdɛstɪˈneɪʃən"
   },
   {
    "term": "high orbit",
@@ -1240,7 +1338,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "high-orbit",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "haɪ ˈɔːrbət"
   },
   {
    "term": "interfere with telescopes",
@@ -1253,7 +1352,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "interfere-with-telescopes",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌɪnərˈfɪr wɪθ ˈtɛləˌskoʊps"
   },
   {
    "term": "latency",
@@ -1266,7 +1366,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "latency",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈleɪtənsi"
   },
   {
    "term": "low orbit",
@@ -1279,7 +1380,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "low-orbit",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "loʊ ˈɔːrbət"
   },
   {
    "term": "task-switching overhead",
@@ -1292,7 +1394,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "task-switching-overhead",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "tæsk sˈwɪʧɪŋ ˈoʊvərˈhɛd"
   },
   {
    "term": "technical passage",
@@ -1305,7 +1408,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "technical-passage",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈtɛknɪkəl ˈpæsɪʤ"
   },
   {
    "term": "archive",
@@ -1318,7 +1422,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "archive",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈɑːrˌkaɪv"
   },
   {
    "term": "attendance",
@@ -1331,7 +1436,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "attendance",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "əˈtɛndəns"
   },
   {
    "term": "chlorofluorocarbons (CFCs)",
@@ -1344,7 +1450,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "chlorofluorocarbons-cfcs",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈklɔːroʊˈflɔːroʊˈkɑːrbɑnz ˌsiːɛfˈsiːz"
   },
   {
    "term": "cortex",
@@ -1357,7 +1464,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "cortex",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈkɔːrtɛks"
   },
   {
    "term": "critical period",
@@ -1370,7 +1478,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "critical-period",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈkrɪtɪkəl ˈpɪriəd"
   },
   {
    "term": "footfall",
@@ -1383,7 +1492,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "footfall",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈfʊtˌfɔːl"
   },
   {
    "term": "hippocampus",
@@ -1396,7 +1506,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "hippocampus",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˌhɪpoʊˈkæmpəs"
   },
   {
    "term": "immigrant",
@@ -1409,7 +1520,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "immigrant",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈɪməgrənt"
   },
   {
    "term": "intensive teaching",
@@ -1422,7 +1534,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "intensive-teaching",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˌɪnˈtɛnsɪv ˈtiːʧɪŋ"
   },
   {
    "term": "Montreal Protocol",
@@ -1435,7 +1548,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "montreal-protocol",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˌməntriˈɔːl ˈproʊtəˌkɔːl"
   },
   {
    "term": "narrow",
@@ -1448,7 +1562,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "narrow",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈnɛroʊ"
   },
   {
    "term": "overcrowded",
@@ -1461,7 +1576,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "overcrowded",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈoʊvərˌkraʊdɪd"
   },
   {
    "term": "phase out",
@@ -1474,7 +1590,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "phase-out",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "feɪz aʊt"
   },
   {
    "term": "pinpoint",
@@ -1487,7 +1604,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "pinpoint",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈpɪnˌpɔɪnt"
   },
   {
    "term": "receptive",
@@ -1500,7 +1618,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "receptive",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "rɪˈsɛptɪv"
   },
   {
    "term": "respond",
@@ -1513,7 +1632,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "respond",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "rɪˈspɑːnd"
   },
   {
    "term": "sponsor",
@@ -1526,7 +1646,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "sponsor",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈspɑːnsər"
   },
   {
    "term": "survive",
@@ -1539,7 +1660,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "survive",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "sərˈvaɪv"
   },
   {
    "term": "ultraviolet radiation",
@@ -1552,7 +1674,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "ultraviolet-radiation",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˌəltrəˈvaɪəlɪt ˌreɪdiˈeɪʃən"
   },
   {
    "term": "active practice",
@@ -1565,7 +1688,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "active-practice",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈæktɪv ˈpræktɪs"
   },
   {
    "term": "adaptable",
@@ -1578,7 +1702,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "adaptable",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "əˈdæptəbəl"
   },
   {
    "term": "adopt",
@@ -1591,7 +1716,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "adopt",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "əˈdɑːpt"
   },
   {
    "term": "alert",
@@ -1604,7 +1730,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "alert",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "əˈlərt"
   },
   {
    "term": "arousal",
@@ -1617,7 +1744,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "arousal",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ərˈaʊzəl"
   },
   {
    "term": "emotional barrier",
@@ -1630,7 +1758,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "emotional-barrier",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈiːˌmoʊʃənəl ˈbɛriər"
   },
   {
    "term": "foresight",
@@ -1643,7 +1772,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "foresight",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈfɔːrˌsaɪt"
   },
   {
    "term": "passive listening",
@@ -1656,7 +1786,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "passive-listening",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈpæsɪv ˈlɪsənɪŋ"
   },
   {
    "term": "pose",
@@ -1669,7 +1800,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "pose",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "poʊz"
   },
   {
    "term": "promote",
@@ -1682,7 +1814,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "promote",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "prəˈmoʊt"
   },
   {
    "term": "refuges",
@@ -1695,7 +1828,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "refuges",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "rɛfˈjuːʤɪz"
   },
   {
    "term": "reproduce",
@@ -1708,7 +1842,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "reproduce",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˌriːprəˈduːs"
   },
   {
    "term": "reserve",
@@ -1721,7 +1856,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "reserve",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "rɪˈzərv"
   },
   {
    "term": "self-criticism",
@@ -1734,7 +1870,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "self-criticism",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "sɛlf ˈkrɪtɪˌsɪzəm"
   },
   {
    "term": "sonata",
@@ -1747,7 +1884,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "sonata",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "səˈnɑːtə"
   },
   {
    "term": "spatial reasoning",
@@ -1760,7 +1898,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "spatial-reasoning",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈspeɪʃəl ˈriːzənɪŋ"
   },
   {
    "term": "tutoring",
@@ -1773,7 +1912,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "tutoring",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈtuːtərɪŋ"
   },
   {
    "term": "a substantial share of",
@@ -1786,7 +1926,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "a-substantial-share-of",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": ""
   },
   {
    "term": "deliberately = 意图 / consistently = 频率",
@@ -1799,7 +1940,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "deliberately-consistently",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": ""
   },
   {
    "term": "Each is reasonable on its own. What is not reasonable is the assumption that…",
@@ -1812,7 +1954,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "each-is-reasonable-on-its-own-what-is-not-reasonable-is-the-assumption-that",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": ""
   },
   {
    "term": "It arrives as …, as …, or as …",
@@ -1825,7 +1968,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "it-arrives-as-as-or-as",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": ""
   },
   {
    "term": "out of consideration for",
@@ -1838,7 +1982,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "out-of-consideration-for",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": ""
   },
   {
    "term": "The value of X lies not only in A; it is also …",
@@ -1851,7 +1996,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "the-value-of-x-lies-not-only-in-a-it-is-also",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": ""
   },
   {
    "term": "X, though, is a skill rather than a personality trait.",
@@ -1864,7 +2010,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "x-though-is-a-skill-rather-than-a-personality-trait",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": ""
   },
   {
    "term": "Because …, … has stood for nearly a thousand years.",
@@ -1877,7 +2024,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "because-has-stood-for-nearly-a-thousand-years",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": ""
   },
   {
    "term": "It uses no A; instead B … so that …",
@@ -1890,7 +2038,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "it-uses-no-a-instead-b-so-that",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": ""
   },
   {
    "term": "not only a technique but also an idea: …",
@@ -1903,7 +2052,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "not-only-a-technique-but-also-an-idea",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": ""
   },
   {
    "term": "So the useful advice is not to A but to B: …",
@@ -1916,7 +2066,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "so-the-useful-advice-is-not-to-a-but-to-b",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": ""
   },
   {
    "term": "The difference is not A but B.",
@@ -1929,7 +2080,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "the-difference-is-not-a-but-b",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": ""
   },
   {
    "term": "a Taoist priest",
@@ -1942,7 +2094,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "a-taoist-priest",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "ə daʊɪst priːst"
   },
   {
    "term": "be dispersed to",
@@ -1955,7 +2108,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "be-dispersed-to",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "biː dɪˈspərst tɪ"
   },
   {
    "term": "documents",
@@ -1968,7 +2122,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "documents",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "ˈdɑːkjəmənts"
   },
   {
    "term": "Dunhuang",
@@ -1981,7 +2136,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "dunhuang",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "dʊnˈhwɑːŋ"
   },
   {
    "term": "natural weathering",
@@ -1994,7 +2150,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "natural-weathering",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "ˈnæʧərəl ˈwɛðərɪŋ"
   },
   {
    "term": "the fourth century AD",
@@ -2007,7 +2164,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "the-fourth-century-ad",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "ðə fɔːrθ ˈsɛnʧəri æd"
   },
   {
    "term": "the Gobi Desert",
@@ -2020,7 +2178,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "the-gobi-desert",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "ðə ˈgoʊbi ˈdɛzərt"
   },
   {
    "term": "the Mogao Caves",
@@ -2033,7 +2192,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "the-mogao-caves",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "ðə moʊˈɡaʊ keɪvz"
   },
   {
    "term": "Wang Yuanlu",
@@ -2046,7 +2206,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "wang-yuanlu",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "wæŋ jwɛnˈluː"
   },
   {
    "term": "BC",
@@ -2059,7 +2220,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "bc",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˌbiːˈsiː"
   },
   {
    "term": "Buddhism",
@@ -2072,7 +2234,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "buddhism",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈbuːdɪzəm"
   },
   {
    "term": "Central Asia",
@@ -2085,7 +2248,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "central-asia",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈsɛntrəl ˈeɪʒə"
   },
   {
    "term": "geographer",
@@ -2098,7 +2262,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "geographer",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ʤiːˈɑːgrəfər"
   },
   {
    "term": "the dynasties of the Central Plains",
@@ -2111,7 +2276,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "the-dynasties-of-the-central-plains",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ðə ˈdaɪnəstiz əv ðə ˈsɛntrəl pleɪnz"
   },
   {
    "term": "the Western Regions",
@@ -2124,7 +2290,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "the-western-regions",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ðə ˈwɛstərn ˈriːʤənz"
   },
   {
    "term": "trade route",
@@ -2137,7 +2304,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "trade-route",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "treɪd ruːt"
   },
   {
    "term": "walnuts",
@@ -2150,7 +2318,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "walnuts",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈwɔːlˌnəts"
   },
   {
    "term": "West Asia",
@@ -2163,7 +2332,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "west-asia",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "wɛst ˈeɪʒə"
   },
   {
    "term": "board game",
@@ -2176,7 +2346,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "board-game",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "bɔːrd geɪm"
   },
   {
    "term": "capture stones",
@@ -2189,7 +2360,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "capture-stones",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "ˈkæpʧər stoʊnz"
   },
   {
    "term": "dan rank",
@@ -2202,7 +2374,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "dan-rank",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "dæn ræŋk"
   },
   {
    "term": "Go",
@@ -2215,7 +2388,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "go",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "goʊ"
   },
   {
    "term": "intersection",
@@ -2228,7 +2402,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "intersection",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "ˌɪntərˈsɛkʃən"
   },
   {
    "term": "surround territory",
@@ -2241,7 +2416,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "surround-territory",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "səraʊnd ˈtɛrɪˌtɔːri"
   },
   {
    "term": "take turns placing stones",
@@ -2254,7 +2430,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "take-turns-placing-stones",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "teɪk tərnz ˈpleɪsɪŋ stoʊnz"
   },
   {
    "term": "the qin, Go, calligraphy and painting",
@@ -2267,7 +2444,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "the-qin-go-calligraphy-and-painting",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "ðə kɪn goʊ kəˈlɪgrəfi ənd ˈpeɪnɪŋ"
   },
   {
    "term": "chariot",
@@ -2280,7 +2458,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "chariot",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈʧɛriət"
   },
   {
    "term": "lifelike",
@@ -2293,7 +2472,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "lifelike",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈlaɪˌflaɪk"
   },
   {
    "term": "pottery fragments",
@@ -2306,7 +2486,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "pottery-fragments",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈpɑːtəri ˈfrægmənts"
   },
   {
    "term": "Shaanxi Province",
@@ -2319,7 +2500,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "shaanxi-province",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈʃɑːŋksi ˈprɑːvɪns"
   },
   {
    "term": "the mausoleum of Qin Shi Huang",
@@ -2332,7 +2514,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "the-mausoleum-of-qin-shi-huang",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ðə ˌmɔːsəˈliːəm əv kɪn ʃiː hwɑːŋ"
   },
   {
    "term": "the Terracotta Warriors",
@@ -2345,7 +2528,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "the-terracotta-warriors",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ðə ˌterəˈkɑːtə ˈwɔːrjərz"
   },
   {
    "term": "the UNESCO World Heritage List",
@@ -2358,7 +2542,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "the-unesco-world-heritage-list",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ðə juːˈnɛˌskoʊ wərld ˈhɛrɪtɪʤ lɪst"
   },
   {
    "term": "unearth",
@@ -2371,7 +2556,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "unearth",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "əˈnərθ"
   },
   {
    "term": "combine",
@@ -2384,7 +2570,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "combine",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈkɑːmbaɪn"
   },
   {
    "term": "deceit",
@@ -2397,7 +2584,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "deceit",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "dɪˈsiːt"
   },
   {
    "term": "facial makeup",
@@ -2410,7 +2598,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "facial-makeup",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈfeɪʃəl ˈmeɪˌkəp"
   },
   {
    "term": "movement",
@@ -2423,7 +2612,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "movement",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈmuːvmənt"
   },
   {
    "term": "Peking Opera",
@@ -2436,7 +2626,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "peking-opera",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈpiːˈkɪŋ ˈɑːprə"
   },
   {
    "term": "sheng, dan, jing and chou",
@@ -2449,7 +2640,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "sheng-dan-jing-and-chou",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ʃɛŋ dæn ʤɪŋ ənd ʧuː"
   },
   {
    "term": "singing, recitation, acting and acrobatics",
@@ -2462,7 +2654,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "singing-recitation-acting-and-acrobatics",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈsɪŋɪŋ ˌrɛsəˈteɪʃən ˈæktɪŋ ənd ˌækrəˈbætɪks"
   },
   {
    "term": "staging",
@@ -2475,7 +2668,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "staging",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈsteɪʤɪŋ"
   },
   {
    "term": "take shape",
@@ -2488,7 +2682,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "take-shape",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "teɪk ʃeɪp"
   },
   {
    "term": "at the mercy of floods and droughts",
@@ -2501,7 +2696,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "at-the-mercy-of-floods-and-droughts",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "æt ðə ˈmərsi əv flədz ənd draʊts"
   },
   {
    "id": "caffeine",
@@ -2514,7 +2710,8 @@
    "bucket": "keyphrase",
    "date": "2026-09-13",
    "firstDate": "2026-09-05",
-   "tag": "影子跟读006"
+   "tag": "影子跟读006",
+   "ipa": "kæˈfiːn"
   },
   {
    "term": "diversion dike",
@@ -2527,7 +2724,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "diversion-dike",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "dɪˈvərʒən daɪk"
   },
   {
    "term": "governor of Shu Commandery",
@@ -2540,7 +2738,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "governor-of-shu-commandery",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈgəvərnər əv ʃuː kəˈmændəri"
   },
   {
    "term": "hectare",
@@ -2553,7 +2752,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "hectare",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈhɛkˌtɑːr"
   },
   {
    "term": "Li Bing",
@@ -2566,7 +2766,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "li-bing",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "liː bɪŋ"
   },
   {
    "term": "silt",
@@ -2579,7 +2780,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "silt",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "sɪlt"
   },
   {
    "term": "silt up",
@@ -2592,7 +2794,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "silt-up",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "sɪlt əp"
   },
   {
    "term": "the Land of Abundance",
@@ -2605,7 +2808,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "the-land-of-abundance",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ðə lænd əv əˈbəndəns"
   },
   {
    "term": "the Min River",
@@ -2618,7 +2822,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "the-min-river",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ðə mɪn ˈrɪvər"
   },
   {
    "term": "water-conservancy project",
@@ -2631,7 +2836,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "water-conservancy-project",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈwɔːtər kənˈsərvənsi ˈprɑːʤɛkt"
   },
   {
    "term": "applying glaze",
@@ -2644,7 +2850,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "applying-glaze",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "əˈplaɪɪŋ gleɪz"
   },
   {
    "term": "blue-and-white",
@@ -2657,7 +2864,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "blue-and-white",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "bluː ənd waɪt"
   },
   {
    "term": "famille rose",
@@ -2670,7 +2878,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "famille-rose",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "fæˈmiːj roʊz"
   },
   {
    "term": "kaolin",
@@ -2683,7 +2892,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "kaolin",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "ˈkeɪoʊlɪn"
   },
   {
    "term": "pine wood",
@@ -2696,7 +2906,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "pine-wood",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "paɪn wʊd"
   },
   {
    "term": "porcelain",
@@ -2709,7 +2920,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "porcelain",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "ˈpɔːrsələn"
   },
   {
    "term": "porcelain capital",
@@ -2722,7 +2934,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "porcelain-capital",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "ˈpɔːrsələn ˈkæpɪtəl"
   },
   {
    "term": "throwing the clay",
@@ -2735,7 +2948,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "throwing-the-clay",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "θroʊɪŋ ðə kleɪ"
   },
   {
    "term": "trimming",
@@ -2748,7 +2962,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "trimming",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "ˈtrɪmɪŋ"
   },
   {
    "term": "clothing",
@@ -2761,7 +2976,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "clothing",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈkloʊðɪŋ"
   },
   {
    "term": "farming civilisation",
@@ -2774,7 +2990,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "farming-civilisation",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈfɑːrmɪŋ ˌsɪvəlaɪˈzeɪʃən"
   },
   {
    "term": "festival customs",
@@ -2787,7 +3004,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "festival-customs",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈfɛstɪvəl ˈkəstəmz"
   },
   {
    "term": "go out to enjoy the greenery",
@@ -2800,7 +3018,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "go-out-to-enjoy-the-greenery",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "goʊ aʊt tɪ ˌɛnˈʤɔɪ ðə ˈgriːnəri"
   },
   {
    "term": "intangible cultural heritage",
@@ -2813,7 +3032,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "intangible-cultural-heritage",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˌɪnˈtænʤəbəl ˈkəlʧərəl ˈhɛrɪtɪʤ"
   },
   {
    "term": "Pure Brightness",
@@ -2826,7 +3046,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "pure-brightness",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "pjʊr ˈbraɪtnəs"
   },
   {
    "term": "sowing, irrigation and harvesting",
@@ -2839,7 +3060,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "sowing-irrigation-and-harvesting",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "soʊɪŋ ˌɪrəˈgeɪʃən ənd ˈhɑːrvəstɪŋ"
   },
   {
    "term": "the Beginning of Spring",
@@ -2852,7 +3074,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "the-beginning-of-spring",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ðə bɪˈgɪnɪŋ əv spərɪŋ"
   },
   {
    "term": "the twenty-four solar terms",
@@ -2865,7 +3088,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "the-twenty-four-solar-terms",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ðə tˈwɛnti fɔːr ˈsoʊlər tərmz"
   },
   {
    "term": "the Winter Solstice",
@@ -2878,7 +3102,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "the-winter-solstice",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ðə ˈwɪntər ˈsɔːlstɪs"
   },
   {
    "term": "timetable",
@@ -2891,7 +3116,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "timetable",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈtaɪmˌteɪbəl"
   },
   {
    "term": "UNESCO",
@@ -2904,7 +3130,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "unesco",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "juːˈnɛˌskoʊ"
   },
   {
    "term": "a history of more than 3,000 years",
@@ -2917,7 +3144,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "a-history-of-more-than-3-000-years",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ə ˈhɪstəri əv mɔːr ðən jɪrz"
   },
   {
    "term": "a window into",
@@ -2930,7 +3158,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "a-window-into",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ə ˈwɪndoʊ ˈɪntu"
   },
   {
    "term": "brush",
@@ -2943,7 +3172,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "brush",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "brəʃ"
   },
   {
    "term": "calligraphy",
@@ -2956,7 +3186,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "calligraphy",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "kəˈlɪgrəfi"
   },
   {
    "term": "cultivate the mind",
@@ -2969,7 +3200,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "cultivate-the-mind",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈkəltəˌveɪt ðə maɪnd"
   },
   {
    "term": "cursive script",
@@ -2982,7 +3214,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "cursive-script",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈkɝːsɪv skrɪpt"
   },
   {
    "term": "focus on the present moment",
@@ -2995,7 +3228,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "focus-on-the-present-moment",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈfoʊkɪs ɔːn ðə ˈprɛzənt ˈmoʊmənt"
   },
   {
    "term": "lifting, pausing and finishing the brushstroke",
@@ -3008,7 +3242,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "lifting-pausing-and-finishing-the-brushstroke",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈlɪftɪŋ ˈpɔːzɪŋ ənd ˈfɪnɪʃɪŋ ðə ˈbrʌʃstroʊk"
   },
   {
    "term": "regular script",
@@ -3021,7 +3256,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "regular-script",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈrɛgjələr skrɪpt"
   },
   {
    "term": "running script",
@@ -3034,7 +3270,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "running-script",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈrənɪŋ skrɪpt"
   },
   {
    "term": "strength, structure and rhythm",
@@ -3047,7 +3284,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "strength-structure-and-rhythm",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "strɛŋθ ˈstrəkʧər ənd ˈrɪðəm"
   },
   {
    "term": "stroke",
@@ -3060,7 +3298,8 @@
    "date": "2026-09-10",
    "tag": "",
    "id": "stroke",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "stroʊk"
   },
   {
    "term": "beacon towers",
@@ -3073,7 +3312,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "beacon-towers",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈbiːkən taʊərz"
   },
   {
    "term": "light beacon fires to send messages",
@@ -3086,7 +3326,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "light-beacon-fires-to-send-messages",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "laɪt ˈbiːkən faɪərz tɪ sɛnd ˈmɛsɪʤɪz"
   },
   {
    "term": "majestic",
@@ -3099,7 +3340,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "majestic",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "məˈʤɛstɪk"
   },
   {
    "term": "military project",
@@ -3112,7 +3354,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "military-project",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈmɪlɪˌtɛri ˈprɑːʤɛkt"
   },
   {
    "term": "northern nomadic tribes",
@@ -3125,7 +3368,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "northern-nomadic-tribes",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈnɔːrðərn noʊˈmædɪk traɪbz"
   },
   {
    "term": "passes",
@@ -3138,7 +3382,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "passes",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈpæsɪz"
   },
   {
    "term": "perseverance",
@@ -3151,7 +3396,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "perseverance",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˌpərsəˈvɪrəns"
   },
   {
    "term": "run along mountain ridges",
@@ -3164,7 +3410,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "run-along-mountain-ridges",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "rən əˈlɔːŋ ˈmaʊntən ˈrɪʤɪz"
   },
   {
    "term": "stand on the wall and look into the distance",
@@ -3177,7 +3424,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "stand-on-the-wall-and-look-into-the-distance",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "stænd ɔːn ðə wɔːl ənd lʊk ˈɪntu ðə ˈdɪstəns"
   },
   {
    "term": "the Great Wall",
@@ -3190,7 +3438,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "the-great-wall",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ðə greɪt wɔːl"
   },
   {
    "term": "the Seven Wonders",
@@ -3203,7 +3452,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "the-seven-wonders",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ðə ˈsɛvən ˈwəndərz"
   },
   {
    "term": "the Spring and Autumn and Warring States periods",
@@ -3216,7 +3466,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "the-spring-and-autumn-and-warring-states-periods",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ðə spərɪŋ ənd ˈɔːtəm ənd ˈwɔːrɪŋ steɪts ˈpɪriədz"
   },
   {
    "term": "tourist attraction",
@@ -3229,7 +3480,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "tourist-attraction",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈtʊrɪst əˈtrækʃən"
   },
   {
    "term": "vassal states",
@@ -3242,7 +3494,8 @@
    "date": "2026-09-09",
    "tag": "",
    "id": "vassal-states",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈvæsəl steɪts"
   },
   {
    "term": "a sense of ease and connection",
@@ -3255,7 +3508,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "a-sense-of-ease-and-connection",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ə sɛns əv iːz ənd kəˈnɛkʃən"
   },
   {
    "term": "beverage",
@@ -3268,7 +3522,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "beverage",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈbɛvərɪʤ"
   },
   {
    "term": "black tea",
@@ -3281,7 +3536,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "black-tea",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "blæk tiː"
   },
   {
    "term": "cultural confidence",
@@ -3294,7 +3550,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "cultural-confidence",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈkəlʧərəl ˈkɑːnfədɛns"
   },
   {
    "term": "degree of fermentation",
@@ -3307,7 +3564,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "degree-of-fermentation",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "dɪˈgriː əv ˌfərmənˈteɪʃən"
   },
   {
    "term": "gongfu tea",
@@ -3320,7 +3578,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "gongfu-tea",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈɡʊŋfuː tiː"
   },
   {
    "term": "green tea",
@@ -3333,7 +3592,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "green-tea",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "griːn tiː"
   },
   {
    "term": "lingering sweetness and fragrance",
@@ -3346,7 +3606,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "lingering-sweetness-and-fragrance",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈlɪŋgərɪŋ sˈwiːtnəs ənd ˈfreɪgrəns"
   },
   {
    "term": "oolong tea",
@@ -3359,7 +3620,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "oolong-tea",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈuːlɔŋ tiː"
   },
   {
    "term": "the home of tea",
@@ -3372,7 +3634,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "the-home-of-tea",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ðə hoʊm əv tiː"
   },
   {
    "term": "treat guests with tea",
@@ -3385,7 +3648,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "treat-guests-with-tea",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "triːt gɛsts wɪθ tiː"
   },
   {
    "term": "water temperature, utensils and rhythm",
@@ -3398,7 +3662,8 @@
    "date": "2026-09-08",
    "tag": "",
    "id": "water-temperature-utensils-and-rhythm",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈwɔːtər ˈtɛmpərəʧər juːˈtɛnsəlz ənd ˈrɪðəm"
   },
   {
    "term": "a shining national calling card",
@@ -3411,7 +3676,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "a-shining-national-calling-card",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ə ˈʃaɪnɪŋ ˈnæʃənəl ˈkɔːlɪŋ kɑːrd"
   },
   {
    "term": "alertness",
@@ -3424,7 +3690,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "alertness",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "əˈlərtnəs"
   },
   {
    "term": "beneficial",
@@ -3437,7 +3704,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "beneficial",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌbɛnəˈfɪʃəl"
   },
   {
    "term": "compound",
@@ -3450,7 +3718,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "compound",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈkɑːmpaʊnd"
   },
   {
    "term": "diuretic",
@@ -3463,7 +3732,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "diuretic",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌdaɪuˈrɛtɪk"
   },
   {
    "term": "economic exchange and regional development",
@@ -3476,7 +3746,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "economic-exchange-and-regional-development",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌɛkəˈnɑːmɪk ɪksˈʧeɪnʤ ənd ˈriːʤənəl dɪˈvɛləpmənt"
   },
   {
    "term": "exceed",
@@ -3489,7 +3760,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "exceed",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ɪkˈsiːd"
   },
   {
    "term": "genetic",
@@ -3502,7 +3774,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "genetic",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ʤəˈnɛtɪk"
   },
   {
    "term": "inflammation",
@@ -3515,7 +3788,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "inflammation",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌɪnfləˈmeɪʃən"
   },
   {
    "term": "insomnia",
@@ -3528,7 +3802,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "insomnia",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˌɪnˈsɑːmniə"
   },
   {
    "term": "moderate",
@@ -3541,7 +3816,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "moderate",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈmɑːdərˌeɪt"
   },
   {
    "term": "operating mileage",
@@ -3554,7 +3830,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "operating-mileage",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈɔːpərˌeɪtɪŋ ˈmaɪlɪʤ"
   },
   {
    "term": "provincial capitals",
@@ -3567,7 +3844,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "provincial-capitals",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "prəˈvɪnʃəl ˈkæpɪtəlz"
   },
   {
    "term": "reach out to the world",
@@ -3580,7 +3858,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "reach-out-to-the-world",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "riːʧ aʊt tɪ ðə wərld"
   },
   {
    "term": "shorten journeys",
@@ -3593,7 +3872,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "shorten-journeys",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈʃɔːrtən ˈʤərniz"
   },
   {
    "term": "the Beijing-Tianjin Intercity Railway",
@@ -3606,7 +3886,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "the-beijing-tianjin-intercity-railway",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ðə ˌbeɪˈʒɪŋ tiːˈænʤɪn ˈɪnərˌsɪti ˈreɪlˌweɪ"
   },
   {
    "term": "the way people travel",
@@ -3619,7 +3900,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "the-way-people-travel",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ðə weɪ ˈpiːpəl ˈtrævəl"
   },
   {
    "term": "tolerance",
@@ -3632,7 +3914,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "tolerance",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈtɑːlərəns"
   },
   {
    "term": "travel at up to",
@@ -3645,7 +3928,8 @@
    "date": "2026-09-05",
    "tag": "",
    "id": "travel-at-up-to",
-   "firstDate": "2026-09-05"
+   "firstDate": "2026-09-05",
+   "ipa": "ˈtrævəl æt əp tɪ"
   },
   {
    "term": "a flowing history",
@@ -3658,7 +3942,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "a-flowing-history",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ə floʊɪŋ ˈhɪstəri"
   },
   {
    "term": "along the canal's banks",
@@ -3671,7 +3956,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "along-the-canal-s-banks",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "əˈlɔːŋ ðə kəˈnælz bæŋks"
   },
   {
    "term": "be inscribed on the World Heritage List",
@@ -3684,7 +3970,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "be-inscribed-on-the-world-heritage-list",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "biː ˌɪnˈskraɪbd ɔːn ðə wərld ˈhɛrɪtɪʤ lɪst"
   },
   {
    "term": "link the north and the south",
@@ -3697,7 +3984,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "link-the-north-and-the-south",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "lɪŋk ðə nɔːrθ ənd ðə saʊθ"
   },
   {
    "term": "regain one's vitality",
@@ -3710,7 +3998,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "regain-one-s-vitality",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "rɪˈgeɪn wənz vaɪˈtæləti"
   },
   {
    "term": "restoration",
@@ -3723,7 +4012,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "restoration",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˌrɛstərˈeɪʃən"
   },
   {
    "term": "the Beijing-Hangzhou Grand Canal",
@@ -3736,7 +4026,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "the-beijing-hangzhou-grand-canal",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ðə ˌbeɪˈʒɪŋ hɑːŋˈdʒoʊ grænd kəˈnæl"
   },
   {
    "term": "the main artery of canal grain transport",
@@ -3749,7 +4040,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "the-main-artery-of-canal-grain-transport",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ðə meɪn ˈɑːrtəri əv kəˈnæl greɪn ˈtrænspɔrt"
   },
   {
    "term": "the Spring and Autumn Period",
@@ -3762,7 +4054,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "the-spring-and-autumn-period",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ðə spərɪŋ ənd ˈɔːtəm ˈpɪriəd"
   },
   {
    "term": "the Sui Dynasty",
@@ -3775,7 +4068,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "the-sui-dynasty",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ðə swiː ˈdaɪnəsti"
   },
   {
    "term": "tourist cruises",
@@ -3788,7 +4082,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "tourist-cruises",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈtʊrɪst ˈkruːzɪz"
   },
   {
    "term": "water-control project",
@@ -3801,7 +4096,8 @@
    "date": "2026-09-04",
    "tag": "",
    "id": "water-control-project",
-   "firstDate": "2026-09-04"
+   "firstDate": "2026-09-04",
+   "ipa": "ˈwɔːtər kənˈtroʊl ˈprɑːʤɛkt"
   },
   {
    "term": "a calling card",
@@ -3814,7 +4110,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "a-calling-card",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ə ˈkɔːlɪŋ kɑːrd"
   },
   {
    "term": "acupoint",
@@ -3827,7 +4124,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "acupoint",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈækjupɔɪnt"
   },
   {
    "term": "acupuncture",
@@ -3840,7 +4138,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "acupuncture",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈækjuˌpəŋkʧər"
   },
   {
    "term": "chronic diseases",
@@ -3853,7 +4152,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "chronic-diseases",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈkrɑːnɪk dɪˈziːzɪz"
   },
   {
    "term": "formal healthcare system",
@@ -3866,7 +4166,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "formal-healthcare-system",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈfɔːrməl ˈhɛlθˌkɛr ˈsɪstəm"
   },
   {
    "term": "harmony between humans and nature",
@@ -3879,7 +4180,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "harmony-between-humans-and-nature",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˈhɑːrməni bɪtˈwiːn ˈjuːmənz ənd ˈneɪʧər"
   },
   {
    "term": "improve sleep",
@@ -3892,7 +4194,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "improve-sleep",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "ˌɪmˈpruːv sliːp"
   },
   {
    "term": "meridian",
@@ -3905,7 +4208,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "meridian",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "mərˈɪdiən"
   },
   {
    "term": "relieve pain",
@@ -3918,7 +4222,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "relieve-pain",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "rɪˈliːv peɪn"
   },
   {
    "term": "thin needle",
@@ -3931,7 +4236,8 @@
    "date": "2026-09-03",
    "tag": "",
    "id": "thin-needle",
-   "firstDate": "2026-09-03"
+   "firstDate": "2026-09-03",
+   "ipa": "θɪn ˈniːdəl"
   },
   {
    "term": "abundance",
@@ -3944,7 +4250,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "abundance",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "əˈbəndəns"
   },
   {
    "id": "accumulate",
@@ -3957,7 +4264,8 @@
    "bucket": "bank",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "影子跟读013"
+   "tag": "影子跟读013",
+   "ipa": "əˈkjuːmjəˌleɪt"
   },
   {
    "id": "estimate",
@@ -3970,7 +4278,8 @@
    "bucket": "bank",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Q32"
+   "tag": "Q32",
+   "ipa": "ˈɛstəˌmeɪt"
   },
   {
    "id": "explanation",
@@ -3983,7 +4292,8 @@
    "bucket": "bank",
    "date": "2026-09-22",
    "firstDate": "2026-09-22",
-   "tag": "Q26"
+   "tag": "Q26",
+   "ipa": "ˌɛkspləˈneɪʃən"
   },
   {
    "term": "generations",
@@ -3996,7 +4306,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "generations",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˌʤɛnərˈeɪʃənz"
   },
   {
    "term": "obligations",
@@ -4009,7 +4320,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "obligations",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˌɑːbləˈgeɪʃənz"
   },
   {
    "term": "preserved",
@@ -4022,7 +4334,8 @@
    "date": "2026-09-22",
    "tag": "",
    "id": "preserved",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "prɪˈzərvd"
   },
   {
    "id": "replace",
@@ -4035,7 +4348,8 @@
    "bucket": "bank",
    "date": "2026-09-22",
    "firstDate": "2026-09-21",
-   "tag": "影子跟读013"
+   "tag": "影子跟读013",
+   "ipa": "ˌriːˈpleɪs"
   },
   {
    "id": "attribute",
@@ -4048,7 +4362,8 @@
    "bucket": "bank",
    "date": "2026-09-21",
    "firstDate": "2026-09-21",
-   "tag": "Q29"
+   "tag": "Q29",
+   "ipa": "əˈtrɪˌbjuːt"
   },
   {
    "term": "constant",
@@ -4061,7 +4376,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "constant",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "ˈkɑːnstənt"
   },
   {
    "id": "escape",
@@ -4074,7 +4390,8 @@
    "bucket": "bank",
    "date": "2026-09-21",
    "firstDate": "2026-09-09",
-   "tag": "影子跟读003"
+   "tag": "影子跟读003",
+   "ipa": "ɪˈskeɪp"
   },
   {
    "id": "recognise",
@@ -4087,7 +4404,8 @@
    "bucket": "bank",
    "date": "2026-09-21",
    "firstDate": "2026-09-13",
-   "tag": "Q34"
+   "tag": "Q34",
+   "ipa": "ˈrɛkəgˌnaɪz"
   },
   {
    "term": "reliable",
@@ -4100,7 +4418,8 @@
    "date": "2026-09-21",
    "tag": "",
    "id": "reliable",
-   "firstDate": "2026-09-21"
+   "firstDate": "2026-09-21",
+   "ipa": "rɪˈlaɪəbəl"
   },
   {
    "id": "schedule",
@@ -4113,7 +4432,8 @@
    "bucket": "bank",
    "date": "2026-09-21",
    "firstDate": "2026-09-21",
-   "tag": "Q32"
+   "tag": "Q32",
+   "ipa": "ˈskɛʤʊl"
   },
   {
    "id": "immune",
@@ -4126,7 +4446,8 @@
    "bucket": "bank",
    "date": "2026-09-19",
    "firstDate": "2026-09-13",
-   "tag": "影子跟读006"
+   "tag": "影子跟读006",
+   "ipa": "ˌɪmˈjuːn"
   },
   {
    "id": "infections",
@@ -4139,7 +4460,8 @@
    "bucket": "bank",
    "date": "2026-09-19",
    "firstDate": "2026-09-19",
-   "tag": "Q28"
+   "tag": "Q28",
+   "ipa": "ˌɪnˈfɛkʃənz"
   },
   {
    "term": "mild",
@@ -4152,7 +4474,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "mild",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "maɪld"
   },
   {
    "id": "partly",
@@ -4165,7 +4488,8 @@
    "bucket": "bank",
    "date": "2026-09-19",
    "firstDate": "2026-09-19",
-   "tag": "Q32"
+   "tag": "Q32",
+   "ipa": "ˈpɑːrtli"
   },
   {
    "id": "protect",
@@ -4178,7 +4502,8 @@
    "bucket": "bank",
    "date": "2026-09-19",
    "firstDate": "2026-09-16",
-   "tag": "影子跟读010"
+   "tag": "影子跟读010",
+   "ipa": "prəˈtɛkt"
   },
   {
    "term": "rise",
@@ -4191,7 +4516,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "rise",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "raɪz"
   },
   {
    "term": "rival",
@@ -4204,7 +4530,8 @@
    "date": "2026-09-19",
    "tag": "",
    "id": "rival",
-   "firstDate": "2026-09-19"
+   "firstDate": "2026-09-19",
+   "ipa": "ˈraɪvəl"
   },
   {
    "id": "uncommon",
@@ -4217,7 +4544,8 @@
    "bucket": "bank",
    "date": "2026-09-19",
    "firstDate": "2026-09-19",
-   "tag": "Q26"
+   "tag": "Q26",
+   "ipa": "ənˈkɑːmən"
   },
   {
    "id": "concern",
@@ -4230,7 +4558,8 @@
    "bucket": "bank",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Q26"
+   "tag": "Q26",
+   "ipa": "kənˈsərn"
   },
   {
    "term": "eventually",
@@ -4243,7 +4572,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "eventually",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ɪˈvɛnʧəwəli"
   },
   {
    "id": "missed",
@@ -4256,7 +4586,8 @@
    "bucket": "bank",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Q27"
+   "tag": "Q27",
+   "ipa": "mɪst"
   },
   {
    "id": "ordinary",
@@ -4269,7 +4600,8 @@
    "bucket": "bank",
    "date": "2026-09-18",
    "firstDate": "2026-09-13",
-   "tag": ""
+   "tag": "",
+   "ipa": "ˈɔːrdəˌnɛri"
   },
   {
    "id": "refuse",
@@ -4282,7 +4614,8 @@
    "bucket": "bank",
    "date": "2026-09-18",
    "firstDate": "2026-09-14",
-   "tag": ""
+   "tag": "",
+   "ipa": "ˈrɛfˌjuːz"
   },
   {
    "term": "savings",
@@ -4295,7 +4628,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "savings",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈseɪvɪŋz"
   },
   {
    "id": "solutions",
@@ -4308,7 +4642,8 @@
    "bucket": "bank",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Q30"
+   "tag": "Q30",
+   "ipa": "səˈluːʃənz"
   },
   {
    "id": "solve",
@@ -4321,7 +4656,8 @@
    "bucket": "bank",
    "date": "2026-09-18",
    "firstDate": "2026-09-18",
-   "tag": "Q34"
+   "tag": "Q34",
+   "ipa": "sɑːlv"
   },
   {
    "term": "waste",
@@ -4334,7 +4670,8 @@
    "date": "2026-09-18",
    "tag": "",
    "id": "waste",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "weɪst"
   },
   {
    "id": "ignore",
@@ -4347,7 +4684,8 @@
    "bucket": "bank",
    "date": "2026-09-17",
    "firstDate": "2026-09-16",
-   "tag": ""
+   "tag": "",
+   "ipa": "ˌɪgˈnɔːr"
   },
   {
    "term": "probably",
@@ -4360,7 +4698,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "probably",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "ˈprɑːbəˌbliː"
   },
   {
    "id": "recommend",
@@ -4373,7 +4712,8 @@
    "bucket": "bank",
    "date": "2026-09-17",
    "firstDate": "2026-09-17",
-   "tag": "Q28"
+   "tag": "Q28",
+   "ipa": "ˌrɛkəˈmɛnd"
   },
   {
    "id": "shortage",
@@ -4386,7 +4726,8 @@
    "bucket": "bank",
    "date": "2026-09-17",
    "firstDate": "2026-09-16",
-   "tag": ""
+   "tag": "",
+   "ipa": "ˈʃɔːrtɪʤ"
   },
   {
    "term": "weaken",
@@ -4399,7 +4740,8 @@
    "date": "2026-09-17",
    "tag": "",
    "id": "weaken",
-   "firstDate": "2026-09-17"
+   "firstDate": "2026-09-17",
+   "ipa": "ˈwiːkən"
   },
   {
    "id": "continuously",
@@ -4412,7 +4754,8 @@
    "bucket": "bank",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Q28"
+   "tag": "Q28",
+   "ipa": "kənˈtɪnjuəsli"
   },
   {
    "term": "frequent",
@@ -4425,7 +4768,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "frequent",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈfriːkˌwɛnt"
   },
   {
    "term": "gradual",
@@ -4438,7 +4782,8 @@
    "date": "2026-09-16",
    "tag": "",
    "id": "gradual",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈgræʤuəl"
   },
   {
    "id": "warnings",
@@ -4451,7 +4796,8 @@
    "bucket": "bank",
    "date": "2026-09-16",
    "firstDate": "2026-09-16",
-   "tag": "Q33"
+   "tag": "Q33",
+   "ipa": "ˈwɔːrnɪŋz"
   },
   {
    "term": "affordable",
@@ -4464,7 +4810,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "affordable",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "əˈfɔːrdəbəl"
   },
   {
    "id": "complicated",
@@ -4477,7 +4824,8 @@
    "bucket": "bank",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Q26"
+   "tag": "Q26",
+   "ipa": "ˈkɑːmpləˌkeɪtəd"
   },
   {
    "id": "extend",
@@ -4490,7 +4838,8 @@
    "bucket": "bank",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Q33"
+   "tag": "Q33",
+   "ipa": "ɪkˈstɛnd"
   },
   {
    "term": "machinery",
@@ -4503,7 +4852,8 @@
    "date": "2026-09-14",
    "tag": "",
    "id": "machinery",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "məˈʃiːnəri"
   },
   {
    "id": "steady",
@@ -4516,7 +4866,8 @@
    "bucket": "bank",
    "date": "2026-09-14",
    "firstDate": "2026-09-14",
-   "tag": "Q31"
+   "tag": "Q31",
+   "ipa": "ˈstɛdi"
   },
   {
    "term": "abundant",
@@ -4529,7 +4880,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "abundant",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "əˈbəndənt"
   },
   {
    "id": "damaged",
@@ -4542,7 +4894,8 @@
    "bucket": "bank",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Q27"
+   "tag": "Q27",
+   "ipa": "ˈdæmɪʤd"
   },
   {
    "id": "disturbed",
@@ -4555,7 +4908,8 @@
    "bucket": "bank",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Q30"
+   "tag": "Q30",
+   "ipa": "dɪˈstərbd"
   },
   {
    "term": "economy",
@@ -4568,7 +4922,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "economy",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ɪˈkɑːnəmi"
   },
   {
    "term": "investment",
@@ -4581,7 +4936,8 @@
    "date": "2026-09-13",
    "tag": "",
    "id": "investment",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˌɪnˈvɛstmənt"
   },
   {
    "id": "recovery",
@@ -4594,7 +4950,8 @@
    "bucket": "bank",
    "date": "2026-09-13",
    "firstDate": "2026-09-13",
-   "tag": "Q31"
+   "tag": "Q31",
+   "ipa": "rɪˈkəvəri"
   },
   {
    "term": "astronomy",
@@ -4607,7 +4964,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "astronomy",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "əˈstrɑːnəmi"
   },
   {
    "id": "dimming",
@@ -4620,7 +4978,8 @@
    "bucket": "bank",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Q33"
+   "tag": "Q33",
+   "ipa": "ˈdɪmɪŋ"
   },
   {
    "id": "habitats",
@@ -4633,7 +4992,8 @@
    "bucket": "bank",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Q26"
+   "tag": "Q26",
+   "ipa": "ˈhæbəˌtæts"
   },
   {
    "id": "insects",
@@ -4646,7 +5006,8 @@
    "bucket": "bank",
    "date": "2026-09-12",
    "firstDate": "2026-09-12",
-   "tag": "Q35"
+   "tag": "Q35",
+   "ipa": "ˈɪnˌsɛkts"
   },
   {
    "term": "migrate",
@@ -4659,7 +5020,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "migrate",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "ˈmaɪˌgreɪt"
   },
   {
    "term": "permit",
@@ -4672,7 +5034,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "permit",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "ˈpərˌmɪt"
   },
   {
    "term": "restore",
@@ -4685,7 +5048,8 @@
    "date": "2026-09-12",
    "tag": "",
    "id": "restore",
-   "firstDate": "2026-09-12"
+   "firstDate": "2026-09-12",
+   "ipa": "rɪˈstɔːr"
   },
   {
    "term": "commuting",
@@ -4698,7 +5062,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "commuting",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "kəmˈjuːtɪŋ"
   },
   {
    "id": "compressed",
@@ -4711,7 +5076,8 @@
    "bucket": "bank",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Q28"
+   "tag": "Q28",
+   "ipa": "kəmˈprɛst"
   },
   {
    "term": "morale",
@@ -4724,7 +5090,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "morale",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "məræl"
   },
   {
    "term": "overtime",
@@ -4737,7 +5104,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "overtime",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈoʊvərˌtaɪm"
   },
   {
    "term": "rigid",
@@ -4750,7 +5118,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "rigid",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈrɪʤɪd"
   },
   {
    "term": "sectors",
@@ -4763,7 +5132,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "sectors",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈsɛktərz"
   },
   {
    "term": "steadily",
@@ -4776,7 +5146,8 @@
    "date": "2026-09-11",
    "tag": "",
    "id": "steadily",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈstɛdəli"
   },
   {
    "id": "voluntarily",
@@ -4789,7 +5160,8 @@
    "bucket": "bank",
    "date": "2026-09-11",
    "firstDate": "2026-09-11",
-   "tag": "Q35"
+   "tag": "Q35",
+   "ipa": "ˌvɑːlənˈtɛrəli"
   },
   {
    "term": "an early head start",
@@ -4802,7 +5174,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "an-early-head-start",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ən ˈərli hɛd stɑːrt"
   },
   {
    "term": "an information gap",
@@ -4815,7 +5188,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "an-information-gap",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ən ˌɪnˌfɔːrˈmeɪʃən gæp"
   },
   {
    "term": "attempts",
@@ -4828,7 +5202,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "attempts",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "əˈtɛmpts"
   },
   {
    "term": "attempts accumulate",
@@ -4841,7 +5216,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "attempts-accumulate",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "əˈtɛmpts əˈkjuːmjəˌleɪt"
   },
   {
    "term": "be attached to",
@@ -4854,7 +5230,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "be-attached-to",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "biː əˈtæʧt tɪ"
   },
   {
    "term": "be made curious about",
@@ -4867,7 +5244,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "be-made-curious-about",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "biː meɪd ˈkjʊriəs əˈbaʊt"
   },
   {
    "term": "control",
@@ -4880,7 +5258,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "control",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "kənˈtroʊl"
   },
   {
    "term": "curious",
@@ -4893,7 +5272,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "curious",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈkjʊriəs"
   },
   {
    "term": "do exactly what is asked",
@@ -4906,7 +5286,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "do-exactly-what-is-asked",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "duː ɪgˈzæktli wət ɪz æst"
   },
   {
    "term": "do the opposite",
@@ -4919,7 +5300,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "do-the-opposite",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "duː ðə ˈɑːpəzɪt"
   },
   {
    "id": "effort",
@@ -4932,7 +5314,8 @@
    "bucket": "shadow",
    "date": "2026-09-22",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读013"
+   "tag": "影子跟读013",
+   "ipa": "ˈɛfərt"
   },
   {
    "term": "effort feels lighter",
@@ -4945,7 +5328,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "effort-feels-lighter",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈɛfərt fiːlz ˈlaɪtər"
   },
   {
    "id": "experiment",
@@ -4958,7 +5342,8 @@
    "bucket": "shadow",
    "date": "2026-09-22",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读013"
+   "tag": "影子跟读013",
+   "ipa": "ɪkˈspɛrəmənt"
   },
   {
    "term": "extra",
@@ -4971,7 +5356,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "extra",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈɛkstrə"
   },
   {
    "term": "fades",
@@ -4984,7 +5370,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "fades",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "feɪdz"
   },
   {
    "term": "gap",
@@ -4997,7 +5384,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "gap",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "gæp"
   },
   {
    "term": "gifted",
@@ -5010,7 +5398,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "gifted",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈgɪftɪd"
   },
   {
    "term": "grammar",
@@ -5023,7 +5412,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "grammar",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈgræmər"
   },
   {
    "term": "habit",
@@ -5036,7 +5426,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "habit",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈhæbət"
   },
   {
    "term": "in the long run",
@@ -5049,7 +5440,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "in-the-long-run",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ɪn ðə lɔːŋ rən"
   },
   {
    "term": "memorise",
@@ -5062,7 +5454,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "memorise",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈmeməraɪz"
   },
   {
    "term": "myth",
@@ -5075,7 +5468,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "myth",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "mɪθ"
   },
   {
    "term": "pick up a tune",
@@ -5088,7 +5482,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "pick-up-a-tune",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "pɪk əp ə tuːn"
   },
   {
    "term": "prepare the mind",
@@ -5101,7 +5496,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "prepare-the-mind",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "priːˈpɛr ðə maɪnd"
   },
   {
    "term": "puzzle",
@@ -5114,7 +5510,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "puzzle",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈpəzəl"
   },
   {
    "term": "requires",
@@ -5127,7 +5524,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "requires",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "riːkˈwaɪərz"
   },
   {
    "term": "separate A from B",
@@ -5140,7 +5538,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "separate-a-from-b",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈsɛpərˌeɪt ə frəm biː"
   },
   {
    "term": "separates",
@@ -5153,7 +5552,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "separates",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈsɛpərˌeɪts"
   },
   {
    "term": "skills",
@@ -5166,7 +5566,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "skills",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "skɪlz"
   },
   {
    "term": "start ahead",
@@ -5179,7 +5580,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "start-ahead",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "stɑːrt əˈhɛd"
   },
   {
    "term": "stumble over",
@@ -5192,7 +5594,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "stumble-over",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˈstəmbəl ˈoʊvər"
   },
   {
    "term": "the early advantage fades",
@@ -5205,7 +5608,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "the-early-advantage-fades",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ðə ˈərli ædˈvæntɪʤ feɪdz"
   },
   {
    "term": "treat something as valuable",
@@ -5218,7 +5622,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "treat-something-as-valuable",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "triːt ˈsəmθɪŋ ɛz ˈvæljəbəl"
   },
   {
    "id": "valuable",
@@ -5231,7 +5636,8 @@
    "bucket": "shadow",
    "date": "2026-09-22",
    "firstDate": "2026-09-10",
-   "tag": "影子跟读013"
+   "tag": "影子跟读013",
+   "ipa": "ˈvæljəbəl"
   },
   {
    "term": "volunteers",
@@ -5244,7 +5650,8 @@
    "date": "2026-09-22",
    "tag": "影子跟读013",
    "id": "volunteers",
-   "firstDate": "2026-09-22"
+   "firstDate": "2026-09-22",
+   "ipa": "ˌvɑːlənˈtɪrz"
   },
   {
    "id": "argument",
@@ -5257,7 +5664,8 @@
    "bucket": "shadow",
    "date": "2026-09-20",
    "firstDate": "2026-09-18",
-   "tag": "影子跟读012"
+   "tag": "影子跟读012",
+   "ipa": "ˈɑːrgjəmənt"
   },
   {
    "id": "attention",
@@ -5270,7 +5678,8 @@
    "bucket": "shadow",
    "date": "2026-09-20",
    "firstDate": "2026-09-10",
-   "tag": "影子跟读012"
+   "tag": "影子跟读012",
+   "ipa": "əˈtɛnʃən"
   },
   {
    "term": "become less mysterious",
@@ -5283,7 +5692,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "become-less-mysterious",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "bɪˈkəm lɛs mɪˈstɪriəs"
   },
   {
    "term": "carry over into real life",
@@ -5296,7 +5706,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "carry-over-into-real-life",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈkɛri ˈoʊvər ˈɪntu riːl laɪf"
   },
   {
    "term": "characters",
@@ -5309,7 +5720,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "characters",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈkɛrɪktərz"
   },
   {
    "id": "describe",
@@ -5322,7 +5734,8 @@
    "bucket": "shadow",
    "date": "2026-09-20",
    "firstDate": "2026-09-09",
-   "tag": "影子跟读012"
+   "tag": "影子跟读012",
+   "ipa": "dɪˈskraɪb"
   },
   {
    "term": "disagreement",
@@ -5335,7 +5748,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "disagreement",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "dɪsəˈgriːmənt"
   },
   {
    "term": "emotional",
@@ -5348,7 +5762,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "emotional",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈiːˌmoʊʃənəl"
   },
   {
    "term": "empathy",
@@ -5361,7 +5776,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "empathy",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈɛmpəθi"
   },
   {
    "term": "entertainment",
@@ -5374,7 +5790,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "entertainment",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˌɛnərˈteɪnmənt"
   },
   {
    "term": "feel what they feel",
@@ -5387,7 +5804,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "feel-what-they-feel",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "fiːl wət ðeɪ fiːl"
   },
   {
    "term": "fiction",
@@ -5400,7 +5818,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "fiction",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈfɪkʃən"
   },
   {
    "term": "follow a complicated argument",
@@ -5413,7 +5832,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "follow-a-complicated-argument",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈfɑːloʊ ə ˈkɑːmpləˌkeɪtəd ˈɑːrgjəmənt"
   },
   {
    "term": "gain insight into people",
@@ -5426,7 +5846,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "gain-insight-into-people",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "geɪn ˈɪnˌsaɪt ˈɪntu ˈpiːpəl"
   },
   {
    "term": "grow with reading",
@@ -5439,7 +5860,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "grow-with-reading",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "groʊ wɪθ ˈrɛdɪŋ"
   },
   {
    "term": "guess someone's motives",
@@ -5452,7 +5874,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "guess-someone-s-motives",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "gɛs ˈsəmˌwənz ˈmoʊtɪvz"
   },
   {
    "term": "habits",
@@ -5465,7 +5888,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "habits",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈhæbəts"
   },
   {
    "term": "hold many details in your mind",
@@ -5478,7 +5902,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "hold-many-details-in-your-mind",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "hoʊld ˈmɛni ˈdiːteɪlz ɪn jʊr maɪnd"
   },
   {
    "term": "imagine",
@@ -5491,7 +5916,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "imagine",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˌɪˈmæʤən"
   },
   {
    "term": "judge",
@@ -5504,7 +5930,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "judge",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ʤəʤ"
   },
   {
    "term": "listen before you judge",
@@ -5517,7 +5944,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "listen-before-you-judge",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈlɪsən ˌbiːˈfɔːr juː ʤəʤ"
   },
   {
    "term": "lose your temper",
@@ -5530,7 +5958,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "lose-your-temper",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "luːz jʊr ˈtɛmpər"
   },
   {
    "term": "mind",
@@ -5543,7 +5972,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "mind",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "maɪnd"
   },
   {
    "term": "motives",
@@ -5556,7 +5986,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "motives",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈmoʊtɪvz"
   },
   {
    "term": "novels",
@@ -5569,7 +6000,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "novels",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈnɑːvəlz"
   },
   {
    "term": "pass the time",
@@ -5582,7 +6014,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "pass-the-time",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "pæs ðə taɪm"
   },
   {
    "id": "patience",
@@ -5595,7 +6028,8 @@
    "bucket": "shadow",
    "date": "2026-09-20",
    "firstDate": "2026-09-13",
-   "tag": "影子跟读012"
+   "tag": "影子跟读012",
+   "ipa": "ˈpeɪʃəns"
   },
   {
    "term": "perspective",
@@ -5608,7 +6042,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "perspective",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "pərˈspɛktɪv"
   },
   {
    "term": "score higher on tests",
@@ -5621,7 +6056,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "score-higher-on-tests",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "skɔːr haɪər ɔːn tɛsts"
   },
   {
    "term": "see the world from another perspective",
@@ -5634,7 +6070,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "see-the-world-from-another-perspective",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "siː ðə wərld frəm əˈnəðər pərˈspɛktɪv"
   },
   {
    "term": "strangers",
@@ -5647,7 +6084,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "strangers",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˈstreɪnʤərz"
   },
   {
    "term": "train patience and attention",
@@ -5660,7 +6098,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "train-patience-and-attention",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "treɪn ˈpeɪʃəns ənd əˈtɛnʃən"
   },
   {
    "term": "treat fiction as entertainment",
@@ -5673,7 +6112,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "treat-fiction-as-entertainment",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "triːt ˈfɪkʃən ɛz ˌɛnərˈteɪnmənt"
   },
   {
    "term": "understanding",
@@ -5686,7 +6126,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "understanding",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "ˌəndərˈstændɪŋ"
   },
   {
    "term": "vocabulary",
@@ -5699,7 +6140,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "vocabulary",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "voʊˈkæbjəˌlɛri"
   },
   {
    "term": "wait for them to connect",
@@ -5712,7 +6154,8 @@
    "date": "2026-09-20",
    "tag": "影子跟读012",
    "id": "wait-for-them-to-connect",
-   "firstDate": "2026-09-20"
+   "firstDate": "2026-09-20",
+   "ipa": "weɪt fər ðɛm tɪ kəˈnɛkt"
   },
   {
    "term": "a first draft is never the point",
@@ -5725,7 +6168,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "a-first-draft-is-never-the-point",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ə fərst dræft ɪz ˈnɛvər ðə pɔɪnt"
   },
   {
    "term": "a real audience changes everything",
@@ -5738,7 +6182,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "a-real-audience-changes-everything",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ə riːl ˈɔːdiəns ˈʧeɪnʤɪz ˈɛvriˌθɪŋ"
   },
   {
    "term": "a tool for building thoughts",
@@ -5751,7 +6196,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "a-tool-for-building-thoughts",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ə tuːl fər ˈbɪldɪŋ θɔːts"
   },
   {
    "term": "a way to record ideas",
@@ -5764,7 +6210,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "a-way-to-record-ideas",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ə weɪ tɪ ˈrɛkərd aɪˈdiːəz"
   },
   {
    "id": "assumption",
@@ -5777,7 +6224,8 @@
    "bucket": "shadow",
    "date": "2026-09-18",
    "firstDate": "2026-09-16",
-   "tag": "影子跟读011"
+   "tag": "影子跟读011",
+   "ipa": "əˈsəmpʃən"
   },
   {
    "id": "audience",
@@ -5790,7 +6238,8 @@
    "bucket": "shadow",
    "date": "2026-09-18",
    "firstDate": "2026-09-13",
-   "tag": "影子跟读011"
+   "tag": "影子跟读011",
+   "ipa": "ˈɔːdiəns"
   },
   {
    "term": "better able to persuade",
@@ -5803,7 +6252,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "better-able-to-persuade",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈbɛtər ˈeɪbəl tɪ pərsˈweɪd"
   },
   {
    "term": "confident",
@@ -5816,7 +6266,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "confident",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈkɑːnfədənt"
   },
   {
    "term": "draft",
@@ -5829,7 +6280,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "draft",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "dræft"
   },
   {
    "term": "forces",
@@ -5842,7 +6294,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "forces",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈfɔːrsɪz"
   },
   {
    "term": "gaps",
@@ -5855,7 +6308,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "gaps",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "gæps"
   },
   {
    "term": "give shape to the mess",
@@ -5868,7 +6322,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "give-shape-to-the-mess",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "gɪv ʃeɪp tɪ ðə mɛs"
   },
   {
    "id": "honest",
@@ -5881,7 +6336,8 @@
    "bucket": "shadow",
    "date": "2026-09-18",
    "firstDate": "2026-09-13",
-   "tag": "影子跟读011"
+   "tag": "影子跟读011",
+   "ipa": "ˈɑːnəst"
   },
   {
    "term": "make it honest",
@@ -5894,7 +6350,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "make-it-honest",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "meɪk ɪt ˈɑːnəst"
   },
   {
    "id": "mistake",
@@ -5907,7 +6364,8 @@
    "bucket": "shadow",
    "date": "2026-09-18",
    "firstDate": "2026-09-16",
-   "tag": "影子跟读011"
+   "tag": "影子跟读011",
+   "ipa": "mɪˈsteɪk"
   },
   {
    "term": "must have a subject and a verb",
@@ -5920,7 +6378,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "must-have-a-subject-and-a-verb",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "məst hæv ə ˈsəbʤɪkt ənd ə vərb"
   },
   {
    "term": "notice the gaps",
@@ -5933,7 +6392,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "notice-the-gaps",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈnoʊtɪs ðə gæps"
   },
   {
    "term": "patient",
@@ -5946,7 +6406,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "patient",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈpeɪʃənt"
   },
   {
    "term": "persuade",
@@ -5959,7 +6420,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "persuade",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "pərsˈweɪd"
   },
   {
    "term": "progress",
@@ -5972,7 +6434,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "progress",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈprɑːˌgrɛs"
   },
   {
    "term": "reader",
@@ -5985,7 +6448,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "reader",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈriːdər"
   },
   {
    "term": "reveal",
@@ -5998,7 +6462,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "reveal",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "rɪˈviːl"
   },
   {
    "term": "reveal hidden assumptions",
@@ -6011,7 +6476,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "reveal-hidden-assumptions",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "rɪˈviːl ˈhɪdən əˈsəmpʃənz"
   },
   {
    "term": "revise",
@@ -6024,7 +6490,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "revise",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "rɪˈvaɪz"
   },
   {
    "term": "sentence",
@@ -6037,7 +6504,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "sentence",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈsɛntəns"
   },
   {
    "term": "sharpen the parts that matter",
@@ -6050,7 +6518,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "sharpen-the-parts-that-matter",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈʃɑːrpən ðə pɑːrts ðət ˈmætər"
   },
   {
    "term": "show you where the logic is weak",
@@ -6063,7 +6532,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "show-you-where-the-logic-is-weak",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ʃoʊ juː wɛr ðə ˈlɑːʤɪk ɪz wiːk"
   },
   {
    "term": "slow down and face what you understand",
@@ -6076,7 +6546,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "slow-down-and-face-what-you-understand",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "sloʊ daʊn ənd feɪs wət juː ˌəndərˈstænd"
   },
   {
    "term": "structure",
@@ -6089,7 +6560,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "structure",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈstrəkʧər"
   },
   {
    "term": "tangled",
@@ -6102,7 +6574,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "tangled",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˈtæŋgəld"
   },
   {
    "term": "the moment you try to put it into words",
@@ -6115,7 +6588,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "the-moment-you-try-to-put-it-into-words",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ðə ˈmoʊmənt juː traɪ tɪ pʊt ɪt ˈɪntu wərdz"
   },
   {
    "term": "unclear",
@@ -6128,7 +6602,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "unclear",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ənˈklɪr"
   },
   {
    "term": "unclear and tangled",
@@ -6141,7 +6616,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "unclear-and-tangled",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ənˈklɪr ənd ˈtæŋgəld"
   },
   {
    "term": "understand",
@@ -6154,7 +6630,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "understand",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "ˌəndərˈstænd"
   },
   {
    "term": "write to discover what you think",
@@ -6167,7 +6644,8 @@
    "date": "2026-09-18",
    "tag": "影子跟读011",
    "id": "write-to-discover-what-you-think",
-   "firstDate": "2026-09-18"
+   "firstDate": "2026-09-18",
+   "ipa": "raɪt tɪ dɪˈskəvər wət juː θɪŋk"
   },
   {
    "term": "a heroic single session",
@@ -6180,7 +6658,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "a-heroic-single-session",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ə hɪˈroʊɪk ˈsɪŋgəl ˈsɛʃən"
   },
   {
    "term": "a routine you can repeat",
@@ -6193,7 +6672,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "a-routine-you-can-repeat",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ə ruːˈtiːn juː kən rɪˈpiːt"
   },
   {
    "term": "active",
@@ -6206,7 +6686,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "active",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈæktɪv"
   },
   {
    "term": "adjust",
@@ -6219,7 +6700,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "adjust",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "əˈʤəst"
   },
   {
    "term": "admit",
@@ -6232,7 +6714,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "admit",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ədˈmɪt"
   },
   {
    "term": "admit what went wrong",
@@ -6245,7 +6728,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "admit-what-went-wrong",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ədˈmɪt wət wɛnt rɔːŋ"
   },
   {
    "term": "after a workout",
@@ -6258,7 +6742,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "after-a-workout",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈæftər ə ˈwərˌkaʊt"
   },
   {
    "term": "bad luck",
@@ -6271,7 +6756,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "bad-luck",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "bæd lək"
   },
   {
    "term": "be limited to the gym",
@@ -6284,7 +6770,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "be-limited-to-the-gym",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "biː ˈlɪmɪtɪd tɪ ðə ʤɪm"
   },
   {
    "term": "brisk",
@@ -6297,7 +6784,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "brisk",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "brɪsk"
   },
   {
    "term": "build prototypes rather than perfect products",
@@ -6310,7 +6798,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "build-prototypes-rather-than-perfect-products",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "bɪld ˈproʊtoʊˌtaɪps ˈrəðər ðən ˈpərˌfɪkt ˈprɑːdəkts"
   },
   {
    "term": "build resilience",
@@ -6323,7 +6812,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "build-resilience",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "bɪld rɪˈzɪljəns"
   },
   {
    "term": "buy knowledge cheaply",
@@ -6336,7 +6826,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "buy-knowledge-cheaply",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "baɪ ˈnɑːlɪʤ ˈʧiːpli"
   },
   {
    "term": "by contrast",
@@ -6349,7 +6840,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "by-contrast",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "baɪ ˈkɑːntræst"
   },
   {
    "term": "careless",
@@ -6362,7 +6854,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "careless",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈkɛrlɛs"
   },
   {
    "term": "chemical",
@@ -6375,7 +6868,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "chemical",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈkɛmɪkəl"
   },
   {
    "term": "concentrate",
@@ -6388,7 +6882,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "concentrate",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈkɑːnsənˌtreɪt"
   },
   {
    "term": "concentrate better in class",
@@ -6401,7 +6896,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "concentrate-better-in-class",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈkɑːnsənˌtreɪt ˈbɛtər ɪn klæs"
   },
   {
    "term": "courage",
@@ -6414,7 +6910,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "courage",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "kərɪʤ"
   },
   {
    "term": "cycle",
@@ -6427,7 +6924,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "cycle",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈsaɪkəl"
   },
   {
    "term": "differently",
@@ -6440,7 +6938,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "differently",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈdɪfərˈɛntli"
   },
   {
    "term": "drama",
@@ -6453,7 +6952,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "drama",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈdrɑːmə"
   },
   {
    "term": "examine",
@@ -6466,7 +6966,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "examine",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ɪgˈzæmɪn"
   },
   {
    "term": "examine errors honestly",
@@ -6479,7 +6980,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "examine-errors-honestly",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ɪgˈzæmɪn ˈɛrərz ˈɑːnəstli"
   },
   {
    "term": "excuse",
@@ -6492,7 +6994,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "excuse",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ɪkˈskjuːz"
   },
   {
    "id": "failure",
@@ -6505,7 +7008,8 @@
    "bucket": "shadow",
    "date": "2026-09-16",
    "firstDate": "2026-09-13",
-   "tag": "影子跟读009"
+   "tag": "影子跟读009",
+   "ipa": "ˈfeɪljər"
   },
   {
    "term": "feedback",
@@ -6518,7 +7022,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "feedback",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈfiːdˌbæk"
   },
   {
    "term": "go over your mistakes",
@@ -6531,7 +7036,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "go-over-your-mistakes",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "goʊ ˈoʊvər jʊr mɪˈsteɪks"
   },
   {
    "term": "handle",
@@ -6544,7 +7050,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "handle",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈhændəl"
   },
   {
    "term": "handle a bad day",
@@ -6557,7 +7064,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "handle-a-bad-day",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈhændəl ə bæd deɪ"
   },
   {
    "id": "heroic",
@@ -6570,7 +7078,8 @@
    "bucket": "shadow",
    "date": "2026-09-16",
    "firstDate": "2026-09-13",
-   "tag": "影子跟读010"
+   "tag": "影子跟读010",
+   "ipa": "hɪˈroʊɪk"
   },
   {
    "term": "hide the evidence",
@@ -6583,7 +7092,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "hide-the-evidence",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "haɪd ðə ˈɛvədəns"
   },
   {
    "term": "improve mood",
@@ -6596,7 +7106,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "improve-mood",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˌɪmˈpruːv muːd"
   },
   {
    "term": "increase blood flow",
@@ -6609,7 +7120,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "increase-blood-flow",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˌɪnˈkriːs bləd floʊ"
   },
   {
    "term": "just check the score",
@@ -6622,7 +7134,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "just-check-the-score",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ʤɪst ʧɛk ðə skɔːr"
   },
   {
    "term": "knowledge",
@@ -6635,7 +7148,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "knowledge",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈnɑːlɪʤ"
   },
   {
    "term": "lesson",
@@ -6648,7 +7162,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "lesson",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈlɛsən"
   },
   {
    "term": "lose weight",
@@ -6661,7 +7176,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "lose-weight",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "luːz weɪt"
   },
   {
    "id": "memory",
@@ -6674,7 +7190,8 @@
    "bucket": "shadow",
    "date": "2026-09-16",
    "firstDate": "2026-09-13",
-   "tag": "影子跟读010"
+   "tag": "影子跟读010",
+   "ipa": "ˈmɛməri"
   },
   {
    "term": "motivation",
@@ -6687,7 +7204,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "motivation",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˌmoʊtəˈveɪʃən"
   },
   {
    "term": "nutrient",
@@ -6700,7 +7218,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "nutrient",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈnuːtriənt"
   },
   {
    "term": "oxygen",
@@ -6713,7 +7232,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "oxygen",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈɑːksɪʤən"
   },
   {
    "term": "prize",
@@ -6726,7 +7246,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "prize",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "praɪz"
   },
   {
    "term": "protect memory",
@@ -6739,7 +7260,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "protect-memory",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "prəˈtɛkt ˈmɛməri"
   },
   {
    "term": "prototype",
@@ -6752,7 +7274,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "prototype",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈproʊtoʊˌtaɪp"
   },
   {
    "term": "reduce stress",
@@ -6765,7 +7288,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "reduce-stress",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "rɪˈduːs strɛs"
   },
   {
    "term": "rejected",
@@ -6778,7 +7302,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "rejected",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "rɪˈʤɛktɪd"
   },
   {
    "term": "release",
@@ -6791,7 +7316,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "release",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "riːˈliːs"
   },
   {
    "term": "repeat",
@@ -6804,7 +7330,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "repeat",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "rɪˈpiːt"
   },
   {
    "term": "resilience",
@@ -6817,7 +7344,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "resilience",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "rɪˈzɪljəns"
   },
   {
    "id": "routine",
@@ -6830,7 +7358,8 @@
    "bucket": "shadow",
    "date": "2026-09-16",
    "firstDate": "2026-09-10",
-   "tag": "影子跟读010"
+   "tag": "影子跟读010",
+   "ipa": "ruːˈtiːn"
   },
   {
    "term": "score",
@@ -6843,7 +7372,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "score",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "skɔːr"
   },
   {
    "term": "shame",
@@ -6856,7 +7386,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "shame",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ʃeɪm"
   },
   {
    "term": "sharpen",
@@ -6869,7 +7400,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "sharpen",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈʃɑːrpən"
   },
   {
    "term": "sharpen your attention",
@@ -6882,7 +7414,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "sharpen-your-attention",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈʃɑːrpən jʊr əˈtɛnʃən"
   },
   {
    "term": "stay active",
@@ -6895,7 +7428,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "stay-active",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "steɪ ˈæktɪv"
   },
   {
    "term": "stress",
@@ -6908,7 +7442,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "stress",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "strɛs"
   },
   {
    "term": "teach more than smooth success does",
@@ -6921,7 +7456,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "teach-more-than-smooth-success-does",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "tiːʧ mɔːr ðən smuːð səkˈsɛs dɪz"
   },
   {
    "term": "tell you why",
@@ -6934,7 +7470,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "tell-you-why",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "tɛl juː waɪ"
   },
   {
    "term": "ten minutes of movement counts",
@@ -6947,7 +7484,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "ten-minutes-of-movement-counts",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "tɛn ˈmɪnəts əv ˈmuːvmənt kaʊnts"
   },
   {
    "term": "the assumption was wrong",
@@ -6960,7 +7498,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "the-assumption-was-wrong",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ðə əˈsəmpʃən wɑːz rɔːŋ"
   },
   {
    "term": "the most interesting ones",
@@ -6973,7 +7512,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "the-most-interesting-ones",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ðə moʊst ˈɪntəˌrɛstɪŋ wənz"
   },
   {
    "term": "throw away the lesson",
@@ -6986,7 +7526,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "throw-away-the-lesson",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "θroʊ əˈweɪ ðə ˈlɛsən"
   },
   {
    "term": "treat",
@@ -6999,7 +7540,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "treat",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "triːt"
   },
   {
    "term": "treat A as B",
@@ -7012,7 +7554,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "treat-a-as-b",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "triːt ə ɛz biː"
   },
   {
    "term": "treat movement as part of your day",
@@ -7025,7 +7568,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读010",
    "id": "treat-movement-as-part-of-your-day",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "triːt ˈmuːvmənt ɛz pɑːrt əv jʊr deɪ"
   },
   {
    "term": "try again",
@@ -7038,7 +7582,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "try-again",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "traɪ əˈgɛn"
   },
   {
    "term": "verdict",
@@ -7051,7 +7596,8 @@
    "date": "2026-09-16",
    "tag": "影子跟读009",
    "id": "verdict",
-   "firstDate": "2026-09-16"
+   "firstDate": "2026-09-16",
+   "ipa": "ˈvərdɪkt"
   },
   {
    "term": "a small favour turns into a heavy duty",
@@ -7064,7 +7610,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "a-small-favour-turns-into-a-heavy-duty",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ə smɔːl ˈfeɪvər tərnz ˈɪntu ə ˈhɛvi ˈduːti"
   },
   {
    "term": "a temporary \"no\"",
@@ -7077,7 +7624,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "a-temporary-no",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ə ˈtɛmpərˌɛri noʊ"
   },
   {
    "term": "apology",
@@ -7090,7 +7638,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "apology",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "əˈpɑːləˌʤiː"
   },
   {
    "term": "boundary",
@@ -7103,7 +7652,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "boundary",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈbaʊndəri"
   },
   {
    "term": "calm",
@@ -7116,7 +7666,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "calm",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "kɑːm"
   },
   {
    "term": "capacity",
@@ -7129,7 +7680,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "capacity",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "kəˈpæsɪti"
   },
   {
    "term": "clear boundaries",
@@ -7142,7 +7694,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "clear-boundaries",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "klɪr ˈbaʊndəriz"
   },
   {
    "term": "confuse A with B",
@@ -7155,7 +7708,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "confuse-a-with-b",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "kənfˈjuːz ə wɪθ biː"
   },
   {
    "term": "count on someone",
@@ -7168,7 +7722,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "count-on-someone",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "kaʊnt ɔːn ˈsəmˌwən"
   },
   {
    "term": "decline",
@@ -7181,7 +7736,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "decline",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "dɪˈklaɪn"
   },
   {
    "term": "duty",
@@ -7194,7 +7750,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "duty",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈduːti"
   },
   {
    "term": "energy",
@@ -7207,7 +7764,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "energy",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈɛnərʤi"
   },
   {
    "term": "even when the calendar is already full",
@@ -7220,7 +7778,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "even-when-the-calendar-is-already-full",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈiːvɪn wɪn ðə ˈkæləndər ɪz ɔːˈrɛdi fʊl"
   },
   {
    "term": "favour",
@@ -7233,7 +7792,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "favour",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈfeɪvər"
   },
   {
    "term": "generous",
@@ -7246,7 +7806,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "generous",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈʤɛnərəs"
   },
   {
    "term": "guilt",
@@ -7259,7 +7820,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "guilt",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "gɪlt"
   },
   {
    "term": "guilt is not a good guide",
@@ -7272,7 +7834,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "guilt-is-not-a-good-guide",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "gɪlt ɪz nɑːt ə gʊd gaɪd"
   },
   {
    "term": "instead",
@@ -7285,7 +7848,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "instead",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˌɪnˈstɛd"
   },
   {
    "term": "limited",
@@ -7298,7 +7862,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "limited",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈlɪmɪtɪd"
   },
   {
    "term": "lose themselves",
@@ -7311,7 +7876,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "lose-themselves",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "luːz ðɛmˈsɛlvz"
   },
   {
    "term": "offer what you can instead of what you cannot",
@@ -7324,7 +7890,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "offer-what-you-can-instead-of-what-you-cannot",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈɔːfər wət juː kən ˌɪnˈstɛd əv wət juː ˈkænɑt"
   },
   {
    "term": "overcommit",
@@ -7337,7 +7904,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "overcommit",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˌoʊvərkəˈmɪt"
   },
   {
    "term": "overcommit first and consider the cost later",
@@ -7350,7 +7918,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "overcommit-first-and-consider-the-cost-later",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˌoʊvərkəˈmɪt fərst ənd kənˈsɪdər ðə kɔːst ˈleɪtər"
   },
   {
    "term": "priority",
@@ -7363,7 +7932,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "priority",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "praɪˈɔːrəti"
   },
   {
    "term": "promise what you will regret later",
@@ -7376,7 +7946,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "promise-what-you-will-regret-later",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈprɑːməs wət juː wɪl rɪˈgrɛt ˈleɪtər"
   },
   {
    "term": "protect your capacity",
@@ -7389,7 +7960,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "protect-your-capacity",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "prəˈtɛkt jʊr kəˈpæsɪti"
   },
   {
    "term": "refusal",
@@ -7402,7 +7974,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "refusal",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "rɪfˈjuːzəl"
   },
   {
    "term": "regret",
@@ -7415,7 +7988,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "regret",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "rɪˈgrɛt"
   },
   {
    "term": "request",
@@ -7428,7 +8002,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "request",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "rɪkˈwɛst"
   },
   {
    "term": "resent",
@@ -7441,7 +8016,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "resent",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "rɪˈzɛnt"
   },
   {
    "term": "say yes before you have time to think",
@@ -7454,7 +8030,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "say-yes-before-you-have-time-to-think",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "seɪ jɛs ˌbiːˈfɔːr juː hæv taɪm tɪ θɪŋk"
   },
   {
    "term": "selfish",
@@ -7467,7 +8044,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "selfish",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈsɛlfɪʃ"
   },
   {
    "term": "start with apology-free clarity",
@@ -7480,7 +8058,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "start-with-apology-free-clarity",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "stɑːrt wɪθ əˈpɑːləˌʤiː friː ˈklɛrɪti"
   },
   {
    "term": "stay calm",
@@ -7493,7 +8072,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "stay-calm",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "steɪ kɑːm"
   },
   {
    "id": "temporary",
@@ -7506,7 +8086,8 @@
    "bucket": "shadow",
    "date": "2026-09-14",
    "firstDate": "2026-09-09",
-   "tag": "影子跟读008"
+   "tag": "影子跟读008",
+   "ipa": "ˈtɛmpərˌɛri"
   },
   {
    "term": "treating your energy as limited is not selfish",
@@ -7519,7 +8100,8 @@
    "date": "2026-09-14",
    "tag": "影子跟读008",
    "id": "treating-your-energy-as-limited-is-not-selfish",
-   "firstDate": "2026-09-14"
+   "firstDate": "2026-09-14",
+   "ipa": "ˈtriːtɪŋ jʊr ˈɛnərʤi ɛz ˈlɪmɪtɪd ɪz nɑːt ˈsɛlfɪʃ"
   },
   {
    "id": "trust",
@@ -7532,7 +8114,8 @@
    "bucket": "shadow",
    "date": "2026-09-14",
    "firstDate": "2026-09-11",
-   "tag": "影子跟读008"
+   "tag": "影子跟读008",
+   "ipa": "trəst"
   },
   {
    "term": "a highlight reel",
@@ -7545,7 +8128,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "a-highlight-reel",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ə ˈhaɪˌlaɪt riːl"
   },
   {
    "term": "a parade of perfect lives",
@@ -7558,7 +8142,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "a-parade-of-perfect-lives",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ə pəreɪd əv ˈpərˌfɪkt lɪvz"
   },
   {
    "term": "a series of failures",
@@ -7571,7 +8156,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "a-series-of-failures",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ə ˈsɪriz əv ˈfeɪljərz"
   },
   {
    "term": "achievement",
@@ -7584,7 +8170,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "achievement",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "əˈʧiːvmənt"
   },
   {
    "term": "admiration",
@@ -7597,7 +8184,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "admiration",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˌædmərˈeɪʃən"
   },
   {
    "term": "aim",
@@ -7610,7 +8198,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "aim",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "eɪm"
   },
   {
    "term": "aim for seven to eight hours",
@@ -7623,7 +8212,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "aim-for-seven-to-eight-hours",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "eɪm fər ˈsɛvən tɪ eɪt aʊərz"
   },
   {
    "term": "anxious",
@@ -7636,7 +8226,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "anxious",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈæŋʃəs"
   },
   {
    "term": "be chosen for an audience",
@@ -7649,7 +8240,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "be-chosen-for-an-audience",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "biː ˈʧoʊzən fər ən ˈɔːdiəns"
   },
   {
    "term": "be more likely to do something",
@@ -7662,7 +8254,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "be-more-likely-to-do-something",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "biː mɔːr ˈlaɪkli tɪ duː ˈsəmθɪŋ"
   },
   {
    "term": "bedtime",
@@ -7675,7 +8268,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "bedtime",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈbɛdˌtaɪm"
   },
   {
    "term": "calm the mind",
@@ -7688,7 +8282,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "calm-the-mind",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "kɑːm ðə maɪnd"
   },
   {
    "term": "celebrate",
@@ -7701,7 +8296,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "celebrate",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈsɛləˌbreɪt"
   },
   {
    "term": "compare",
@@ -7714,7 +8310,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "compare",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "kəmˈpɛr"
   },
   {
    "term": "consolidation",
@@ -7727,7 +8324,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "consolidation",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "kənˌsɑːləˈdeɪʃən"
   },
   {
    "term": "cut sleep",
@@ -7740,7 +8338,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "cut-sleep",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "kət sliːp"
   },
   {
    "term": "deadline",
@@ -7753,7 +8352,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "deadline",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈdɛˌdlaɪn"
   },
   {
    "term": "disaster",
@@ -7766,7 +8366,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "disaster",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "dɪˈzæstər"
   },
   {
    "term": "envy",
@@ -7779,7 +8380,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "envy",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈɛnvi"
   },
   {
    "term": "fail to recall it in an exam",
@@ -7792,7 +8394,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "fail-to-recall-it-in-an-exam",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "feɪl tɪ ˈriːˌkɔːl ɪt ɪn ən ɪgˈzæm"
   },
   {
    "term": "feed envy in small doses",
@@ -7805,7 +8408,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "feed-envy-in-small-doses",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "fiːd ˈɛnvi ɪn smɔːl ˈdoʊsɪz"
   },
   {
    "term": "filtered",
@@ -7818,7 +8422,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "filtered",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈfɪltərd"
   },
   {
    "term": "follow people who make you curious",
@@ -7831,7 +8436,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "follow-people-who-make-you-curious",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈfɑːloʊ ˈpiːpəl huː meɪk juː ˈkjʊriəs"
   },
   {
    "term": "fragile",
@@ -7844,7 +8450,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "fragile",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈfræʤəl"
   },
   {
    "id": "genuine",
@@ -7857,7 +8464,8 @@
    "bucket": "shadow",
    "date": "2026-09-13",
    "firstDate": "2026-09-11",
-   "tag": "影子跟读007"
+   "tag": "影子跟读007",
+   "ipa": "ˈʤɛnjuˌaɪn"
   },
   {
    "term": "give the brain a tiny reward",
@@ -7870,7 +8478,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "give-the-brain-a-tiny-reward",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "gɪv ðə breɪn ə ˈtaɪni rɪˈwɔːrd"
   },
   {
    "term": "grade",
@@ -7883,7 +8492,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "grade",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "greɪd"
   },
   {
    "id": "highlight",
@@ -7896,7 +8506,8 @@
    "bucket": "shadow",
    "date": "2026-09-13",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读007"
+   "tag": "影子跟读007",
+   "ipa": "ˈhaɪˌlaɪt"
   },
   {
    "term": "insecure",
@@ -7909,7 +8520,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "insecure",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈɪnsəkjər"
   },
   {
    "term": "it is hard not to compare",
@@ -7922,7 +8534,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "it-is-hard-not-to-compare",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ɪt ɪz hɑːrd nɑːt tɪ kəmˈpɛr"
   },
   {
    "term": "jealous",
@@ -7935,7 +8548,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "jealous",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈʤɛləs"
   },
   {
    "term": "keep a regular bedtime",
@@ -7948,7 +8562,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "keep-a-regular-bedtime",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "kiːp ə ˈrɛgjələr ˈbɛdˌtaɪm"
   },
   {
    "term": "keep the admiration, drop the trap",
@@ -7961,7 +8576,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "keep-the-admiration-drop-the-trap",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "kiːp ðə ˌædmərˈeɪʃən drɔːp ðə træp"
   },
   {
    "term": "less photogenic",
@@ -7974,7 +8590,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "less-photogenic",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "lɛs ˌfoʊtəˈʤɛnɪk"
   },
   {
    "term": "link A with B",
@@ -7987,7 +8604,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "link-a-with-b",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "lɪŋk ə wɪθ biː"
   },
   {
    "term": "make comparison honest again",
@@ -8000,7 +8618,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "make-comparison-honest-again",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "meɪk kəmˈpɛrəsən ˈɑːnəst əˈgɛn"
   },
   {
    "term": "make us feel uneasy",
@@ -8013,7 +8632,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "make-us-feel-uneasy",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "meɪk ˈjuːˈɛs fiːl əˈniːzi"
   },
   {
    "term": "misread",
@@ -8026,7 +8646,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "misread",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "mɪsˈrɛd"
   },
   {
    "term": "parade",
@@ -8039,7 +8660,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "parade",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "pəreɪd"
   },
   {
    "term": "point to a wish, not a fact",
@@ -8052,7 +8674,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "point-to-a-wish-not-a-fact",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "pɔɪnt tɪ ə wɪʃ nɑːt ə fækt"
   },
   {
    "id": "pressure",
@@ -8065,7 +8688,8 @@
    "bucket": "shadow",
    "date": "2026-09-13",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读007"
+   "tag": "影子跟读007",
+   "ipa": "ˈprɛʃər"
   },
   {
    "term": "reach for sugary snacks",
@@ -8078,7 +8702,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "reach-for-sugary-snacks",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "riːʧ fər ˈʃʊgəri snæks"
   },
   {
    "id": "recall",
@@ -8091,7 +8716,8 @@
    "bucket": "shadow",
    "date": "2026-09-13",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读006"
+   "tag": "影子跟读006",
+   "ipa": "ˈriːˌkɔːl"
   },
   {
    "term": "regular",
@@ -8104,7 +8730,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "regular",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈrɛgjələr"
   },
   {
    "term": "remind",
@@ -8117,7 +8744,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "remind",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "riːˈmaɪnd"
   },
   {
    "term": "repair",
@@ -8130,7 +8758,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "repair",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "rɪˈpɛr"
   },
   {
    "term": "rest",
@@ -8143,7 +8772,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "rest",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "rɛst"
   },
   {
    "term": "restless",
@@ -8156,7 +8786,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "restless",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈrɛstləs"
   },
   {
    "term": "run on willpower alone",
@@ -8169,7 +8800,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "run-on-willpower-alone",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "rən ɔːn ˈwɪlˌpaʊər əˈloʊn"
   },
   {
    "term": "sacrifice",
@@ -8182,7 +8814,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "sacrifice",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈsækrəˌfaɪs"
   },
   {
    "term": "scrolling",
@@ -8195,7 +8828,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "scrolling",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈskroʊlɪŋ"
   },
   {
    "term": "sort through what you learned",
@@ -8208,7 +8842,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "sort-through-what-you-learned",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "sɔːrt θruː wət juː ˈlərnɪd"
   },
   {
    "term": "stay awake longer",
@@ -8221,7 +8856,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "stay-awake-longer",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "steɪ əˈweɪk ˈlɔːŋgər"
   },
   {
    "term": "strengthen",
@@ -8234,7 +8870,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "strengthen",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈstrɛŋθən"
   },
   {
    "term": "strengthen memories",
@@ -8247,7 +8884,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "strengthen-memories",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈstrɛŋθən ˈmɛməriz"
   },
   {
    "term": "suffer more from A than from B",
@@ -8260,7 +8898,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "suffer-more-from-a-than-from-b",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈsəfər mɔːr frəm ə ðən frəm biː"
   },
   {
    "term": "the boring middle",
@@ -8273,7 +8912,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "the-boring-middle",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ðə ˈbɔːrɪŋ ˈmɪdəl"
   },
   {
    "term": "the first thing they sacrifice",
@@ -8286,7 +8926,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "the-first-thing-they-sacrifice",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ðə fərst θɪŋ ðeɪ ˈsækrəˌfaɪs"
   },
   {
    "term": "the opposite of studying",
@@ -8299,7 +8940,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "the-opposite-of-studying",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ðə ˈɑːpəzɪt əv ˈstədiɪŋ"
   },
   {
    "term": "the pressure behind the smile",
@@ -8312,7 +8954,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "the-pressure-behind-the-smile",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ðə ˈprɛʃər bɪˈhaɪnd ðə smaɪl"
   },
   {
    "term": "trap",
@@ -8325,7 +8968,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "trap",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "træp"
   },
   {
    "term": "treat sleep as an enemy",
@@ -8338,7 +8982,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "treat-sleep-as-an-enemy",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "triːt sliːp ɛz ən ˈɛnəmi"
   },
   {
    "term": "uneasy",
@@ -8351,7 +8996,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "uneasy",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "əˈniːzi"
   },
   {
    "term": "upward",
@@ -8364,7 +9010,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读007",
    "id": "upward",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "ˈəpwərd"
   },
   {
    "term": "when a deadline is close",
@@ -8377,7 +9024,8 @@
    "date": "2026-09-13",
    "tag": "影子跟读006",
    "id": "when-a-deadline-is-close",
-   "firstDate": "2026-09-13"
+   "firstDate": "2026-09-13",
+   "ipa": "wɪn ə ˈdɛˌdlaɪn ɪz kloʊz"
   },
   {
    "id": "willpower",
@@ -8390,7 +9038,8 @@
    "bucket": "shadow",
    "date": "2026-09-13",
    "firstDate": "2026-09-09",
-   "tag": "影子跟读006"
+   "tag": "影子跟读006",
+   "ipa": "ˈwɪlˌpaʊər"
   },
   {
    "term": "a brief exchange with a stranger",
@@ -8403,7 +9052,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "a-brief-exchange-with-a-stranger",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ə briːf ɪksˈʧeɪnʤ wɪθ ə ˈstreɪnʤər"
   },
   {
    "term": "a casual comment",
@@ -8416,7 +9066,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "a-casual-comment",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ə ˈkæʒəwəl ˈkɑːmɛnt"
   },
   {
    "term": "acknowledged",
@@ -8429,7 +9080,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "acknowledged",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ækˈnɑːlɪʤd"
   },
   {
    "term": "awkward",
@@ -8442,7 +9094,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "awkward",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈɔːkwərd"
   },
   {
    "term": "be willing to do something",
@@ -8455,7 +9108,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "be-willing-to-do-something",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "biː ˈwɪlɪŋ tɪ duː ˈsəmθɪŋ"
   },
   {
    "term": "brief",
@@ -8468,7 +9122,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "brief",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "briːf"
   },
   {
    "term": "build trust",
@@ -8481,7 +9136,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "build-trust",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "bɪld trəst"
   },
   {
    "term": "casual",
@@ -8494,7 +9150,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "casual",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈkæʒəwəl"
   },
   {
    "id": "connection",
@@ -8507,7 +9164,8 @@
    "bucket": "shadow",
    "date": "2026-09-11",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读005"
+   "tag": "影子跟读005",
+   "ipa": "kəˈnɛkʃən"
   },
   {
    "term": "conversation",
@@ -8520,7 +9178,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "conversation",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˌkɑːnvərˈseɪʃən"
   },
   {
    "term": "cooperate",
@@ -8533,7 +9192,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "cooperate",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "kˈwɑːpərˌeɪt"
   },
   {
    "term": "cooperate better",
@@ -8546,7 +9206,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "cooperate-better",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "kˈwɑːpərˌeɪt ˈbɛtər"
   },
   {
    "term": "exchange",
@@ -8559,7 +9220,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "exchange",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ɪksˈʧeɪnʤ"
   },
   {
    "term": "force a conversation",
@@ -8572,7 +9234,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "force-a-conversation",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "fɔːrs ə ˌkɑːnvərˈseɪʃən"
   },
   {
    "term": "forced",
@@ -8585,7 +9248,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "forced",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "fɔːrst"
   },
   {
    "term": "friendship",
@@ -8598,7 +9262,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "friendship",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈfrɛndʃɪp"
   },
   {
    "term": "grow into a friendship",
@@ -8611,7 +9276,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "grow-into-a-friendship",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "groʊ ˈɪntu ə ˈfrɛndʃɪp"
   },
   {
    "term": "hate small talk",
@@ -8624,7 +9290,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "hate-small-talk",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "heɪt smɔːl tɔːk"
   },
   {
    "term": "keep it light and genuine",
@@ -8637,7 +9304,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "keep-it-light-and-genuine",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "kiːp ɪt laɪt ənd ˈʤɛnjuˌaɪn"
   },
   {
    "term": "lift your mood",
@@ -8650,7 +9318,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "lift-your-mood",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "lɪft jʊr muːd"
   },
   {
    "id": "mood",
@@ -8663,7 +9332,8 @@
    "bucket": "shadow",
    "date": "2026-09-11",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读005"
+   "tag": "影子跟读005",
+   "ipa": "muːd"
   },
   {
    "term": "neighbor",
@@ -8676,7 +9346,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "neighbor",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈneɪbər"
   },
   {
    "term": "offer",
@@ -8689,7 +9360,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "offer",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈɔːfər"
   },
   {
    "term": "open doors that silence cannot",
@@ -8702,7 +9374,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "open-doors-that-silence-cannot",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈoʊpən dɔːrz ðət ˈsaɪləns ˈkænɑt"
   },
   {
    "term": "pay attention",
@@ -8715,7 +9388,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "pay-attention",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "peɪ əˈtɛnʃən"
   },
   {
    "term": "pointless",
@@ -8728,7 +9402,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "pointless",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈpɔɪntləs"
   },
   {
    "term": "predict",
@@ -8741,7 +9416,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "predict",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "prɪˈdɪkt"
   },
   {
    "id": "reward",
@@ -8754,7 +9430,8 @@
    "bucket": "shadow",
    "date": "2026-09-11",
    "firstDate": "2026-09-09",
-   "tag": "影子跟读005"
+   "tag": "影子跟读005",
+   "ipa": "rɪˈwɔːrd"
   },
   {
    "term": "send a simple signal",
@@ -8767,7 +9444,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "send-a-simple-signal",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "sɛnd ə ˈsɪmpəl ˈsɪgnəl"
   },
   {
    "id": "signal",
@@ -8780,7 +9458,8 @@
    "bucket": "shadow",
    "date": "2026-09-11",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读005"
+   "tag": "影子跟读005",
+   "ipa": "ˈsɪgnəl"
   },
   {
    "term": "stranger",
@@ -8793,7 +9472,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "stranger",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈstreɪnʤər"
   },
   {
    "term": "talk about the weather or the traffic",
@@ -8806,7 +9486,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "talk-about-the-weather-or-the-traffic",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "tɔːk əˈbaʊt ðə ˈwɛðər ər ðə ˈtræfɪk"
   },
   {
    "term": "treat being acknowledged as a reward",
@@ -8819,7 +9500,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "treat-being-acknowledged-as-a-reward",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "triːt biːɪŋ ækˈnɑːlɪʤd ɛz ə rɪˈwɔːrd"
   },
   {
    "term": "turn into a job offer",
@@ -8832,7 +9514,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "turn-into-a-job-offer",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "tərn ˈɪntu ə ʤɑːb ˈɔːfər"
   },
   {
    "term": "willing",
@@ -8845,7 +9528,8 @@
    "date": "2026-09-11",
    "tag": "影子跟读005",
    "id": "willing",
-   "firstDate": "2026-09-11"
+   "firstDate": "2026-09-11",
+   "ipa": "ˈwɪlɪŋ"
   },
   {
    "term": "a quick glance at a notification",
@@ -8858,7 +9542,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "a-quick-glance-at-a-notification",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ə kwɪk glæns æt ə ˌnoʊtəfəˈkeɪʃən"
   },
   {
    "term": "accuracy",
@@ -8871,7 +9556,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "accuracy",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈækjərəsi"
   },
   {
    "term": "add up",
@@ -8884,7 +9570,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "add-up",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "æd əp"
   },
   {
    "id": "avoid",
@@ -8897,7 +9584,8 @@
    "bucket": "shadow",
    "date": "2026-09-10",
    "firstDate": "2026-09-09",
-   "tag": "影子跟读004"
+   "tag": "影子跟读004",
+   "ipa": "əˈvɔɪd"
   },
   {
    "term": "be easy to underestimate",
@@ -8910,7 +9598,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "be-easy-to-underestimate",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "biː ˈiːzi tɪ ˈəndərˈɛstəˌmeɪt"
   },
   {
    "term": "boredom",
@@ -8923,7 +9612,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "boredom",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈbɔːrdəm"
   },
   {
    "term": "compete",
@@ -8936,7 +9626,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "compete",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "kəmˈpiːt"
   },
   {
    "term": "compete for the same mental resources",
@@ -8949,7 +9640,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "compete-for-the-same-mental-resources",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "kəmˈpiːt fər ðə seɪm ˈmɛntəl ˈriːsɔrsɪz"
   },
   {
    "term": "concentration",
@@ -8962,7 +9654,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "concentration",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˌkɑːnsənˈtreɪʃən"
   },
   {
    "term": "decide in advance",
@@ -8975,7 +9668,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "decide-in-advance",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˌdɪˈsaɪd ɪn ədˈvæns"
   },
   {
    "term": "demanding",
@@ -8988,7 +9682,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "demanding",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "dɪˈmændɪŋ"
   },
   {
    "term": "distracted",
@@ -9001,7 +9696,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "distracted",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "dɪˈstræktɪd"
   },
   {
    "term": "distraction",
@@ -9014,7 +9710,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "distraction",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "dɪˈstrækʃən"
   },
   {
    "term": "do several things at once",
@@ -9027,7 +9724,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "do-several-things-at-once",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "duː ˈsɛvərəl θɪŋz æt wəns"
   },
   {
    "term": "feel busy all the time",
@@ -9040,7 +9738,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "feel-busy-all-the-time",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "fiːl ˈbɪzi ɔːl ðə taɪm"
   },
   {
    "term": "give the brain a small reward",
@@ -9053,7 +9752,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "give-the-brain-a-small-reward",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "gɪv ðə breɪn ə smɔːl rɪˈwɔːrd"
   },
   {
    "term": "interruption",
@@ -9066,7 +9766,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "interruption",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˌɪntərˈəpʃən"
   },
   {
    "term": "jump between them",
@@ -9079,7 +9780,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "jump-between-them",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ʤəmp bɪtˈwiːn ðɛm"
   },
   {
    "term": "make the easy options harder to reach",
@@ -9092,7 +9794,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "make-the-easy-options-harder-to-reach",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "meɪk ðə ˈiːzi ˈɔːpʃənz ˈhɑːrdər tɪ riːʧ"
   },
   {
    "term": "mixture",
@@ -9105,7 +9808,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "mixture",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈmɪksʧər"
   },
   {
    "term": "parallel",
@@ -9118,7 +9822,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "parallel",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈpɛrəˌlɛl"
   },
   {
    "id": "productive",
@@ -9131,7 +9836,8 @@
    "bucket": "shadow",
    "date": "2026-09-10",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读004"
+   "tag": "影子跟读004",
+   "ipa": "pərˈdəktɪv"
   },
   {
    "term": "rapid switching",
@@ -9144,7 +9850,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "rapid-switching",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈræpɪd sˈwɪʧɪŋ"
   },
   {
    "term": "reduce boredom",
@@ -9157,7 +9864,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "reduce-boredom",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "rɪˈduːs ˈbɔːrdəm"
   },
   {
    "term": "resist",
@@ -9170,7 +9878,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "resist",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "rɪˈzɪst"
   },
   {
    "term": "resource",
@@ -9183,7 +9892,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "resource",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈriːsɔrs"
   },
   {
    "term": "return to deep concentration",
@@ -9196,7 +9906,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "return-to-deep-concentration",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "rɪˈtərn tɪ diːp ˌkɑːnsənˈtreɪʃən"
   },
   {
    "term": "run two demanding tasks in parallel",
@@ -9209,7 +9920,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "run-two-demanding-tasks-in-parallel",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "rən tuː dɪˈmændɪŋ tæsks ɪn ˈpɛrəˌlɛl"
   },
   {
    "term": "switch",
@@ -9222,7 +9934,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "switch",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "swɪʧ"
   },
   {
    "term": "tab",
@@ -9235,7 +9948,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "tab",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "tæb"
   },
   {
    "term": "the most valuable skill of our distracted age",
@@ -9248,7 +9962,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "the-most-valuable-skill-of-our-distracted-age",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ðə moʊst ˈvæljəbəl skɪl əv ɑːr dɪˈstræktɪd eɪʤ"
   },
   {
    "term": "train you to avoid difficult work",
@@ -9261,7 +9976,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "train-you-to-avoid-difficult-work",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "treɪn juː tɪ əˈvɔɪd ˈdɪfəkəlt wərk"
   },
   {
    "term": "underestimate",
@@ -9274,7 +9990,8 @@
    "date": "2026-09-10",
    "tag": "影子跟读004",
    "id": "underestimate",
-   "firstDate": "2026-09-10"
+   "firstDate": "2026-09-10",
+   "ipa": "ˈəndərˈɛstəˌmeɪt"
   },
   {
    "term": "a battle between two parts of the mind",
@@ -9287,7 +10004,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "a-battle-between-two-parts-of-the-mind",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ə ˈbætəl bɪtˈwiːn tuː pɑːrts əv ðə maɪnd"
   },
   {
    "term": "a short timer helps",
@@ -9300,7 +10018,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "a-short-timer-helps",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ə ʃɔːrt ˈtaɪmər hɛlps"
   },
   {
    "term": "a small burst of relief",
@@ -9313,7 +10032,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "a-small-burst-of-relief",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ə smɔːl bərst əv rɪˈliːf"
   },
   {
    "term": "act first and let motivation follow",
@@ -9326,7 +10046,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "act-first-and-let-motivation-follow",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ækt fərst ənd lɛt ˌmoʊtəˈveɪʃən ˈfɑːloʊ"
   },
   {
    "term": "battle",
@@ -9339,7 +10060,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "battle",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈbætəl"
   },
   {
    "term": "become experts at doing something",
@@ -9352,7 +10074,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "become-experts-at-doing-something",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "bɪˈkəm ˈɛkspərts æt duːɪŋ ˈsəmθɪŋ"
   },
   {
    "term": "chore",
@@ -9365,7 +10088,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "chore",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ʧɔːr"
   },
   {
    "term": "distant",
@@ -9378,7 +10102,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "distant",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈdɪstənt"
   },
   {
    "term": "escape a bad feeling",
@@ -9391,7 +10116,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "escape-a-bad-feeling",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ɪˈskeɪp ə bæd ˈfiːlɪŋ"
   },
   {
    "term": "future",
@@ -9404,7 +10130,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "future",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "fˈjuːʧər"
   },
   {
    "term": "grow heavier",
@@ -9417,7 +10144,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "grow-heavier",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "groʊ ˈhɛviər"
   },
   {
    "term": "heavier",
@@ -9430,7 +10158,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "heavier",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈhɛviər"
   },
   {
    "term": "immediate",
@@ -9443,7 +10172,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "immediate",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˌɪˈmiːˌdiːət"
   },
   {
    "term": "laziness",
@@ -9456,7 +10186,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "laziness",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈleɪzinəs"
   },
   {
    "term": "live in the present",
@@ -9469,7 +10200,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "live-in-the-present",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "lɪv ɪn ðə ˈprɛzənt"
   },
   {
    "term": "motivated",
@@ -9482,7 +10214,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "motivated",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈmoʊtəˌveɪtəd"
   },
   {
    "term": "need a smaller first step",
@@ -9495,7 +10228,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "need-a-smaller-first-step",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "niːd ə sˈmɔːlər fərst stɛp"
   },
   {
    "term": "payoff",
@@ -9508,7 +10242,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "payoff",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "peɪɔf"
   },
   {
    "term": "present",
@@ -9521,7 +10256,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "present",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈprɛzənt"
   },
   {
    "term": "psychologist",
@@ -9534,7 +10270,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "psychologist",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "saɪˈkɑːləʤəst"
   },
   {
    "term": "put something off",
@@ -9547,7 +10284,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "put-something-off",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "pʊt ˈsəmθɪŋ ɔːf"
   },
   {
    "term": "relief",
@@ -9560,7 +10298,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "relief",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "rɪˈliːf"
   },
   {
    "term": "shrink from terrifying to boring",
@@ -9573,7 +10312,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "shrink-from-terrifying-to-boring",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ʃrɪŋk frəm ˈtɛrəˌfaɪɪŋ tɪ ˈbɔːrɪŋ"
   },
   {
    "term": "sit on our list",
@@ -9586,7 +10326,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "sit-on-our-list",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "sɪt ɔːn ɑːr lɪst"
   },
   {
    "term": "take the tiniest possible action",
@@ -9599,7 +10340,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "take-the-tiniest-possible-action",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "teɪk ðə ˈtaɪniəst ˈpɑːsəbəl ˈækʃən"
   },
   {
    "term": "terrifying",
@@ -9612,7 +10354,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "terrifying",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈtɛrəˌfaɪɪŋ"
   },
   {
    "term": "the payoff feels distant and vague",
@@ -9625,7 +10368,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "the-payoff-feels-distant-and-vague",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ðə peɪɔf fiːlz ˈdɪstənt ənd veɪg"
   },
   {
    "term": "the reward is immediate",
@@ -9638,7 +10382,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "the-reward-is-immediate",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ðə rɪˈwɔːrd ɪz ˌɪˈmiːˌdiːət"
   },
   {
    "term": "threat",
@@ -9651,7 +10396,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "threat",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "θrɛt"
   },
   {
    "term": "tiniest",
@@ -9664,7 +10410,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "tiniest",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "ˈtaɪniəst"
   },
   {
    "term": "treat the job as a threat",
@@ -9677,7 +10424,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "treat-the-job-as-a-threat",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "triːt ðə ʤɑːb ɛz ə θrɛt"
   },
   {
    "term": "vague",
@@ -9690,7 +10438,8 @@
    "date": "2026-09-09",
    "tag": "影子跟读003",
    "id": "vague",
-   "firstDate": "2026-09-09"
+   "firstDate": "2026-09-09",
+   "ipa": "veɪg"
   },
   {
    "term": "a clearer head and a lighter mood",
@@ -9703,7 +10452,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "a-clearer-head-and-a-lighter-mood",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ə ˈklɪrər hɛd ənd ə ˈlaɪtər muːd"
   },
   {
    "term": "along the way",
@@ -9716,7 +10466,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "along-the-way",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "əˈlɔːŋ ðə weɪ"
   },
   {
    "id": "assume",
@@ -9729,7 +10480,8 @@
    "bucket": "shadow",
    "date": "2026-09-08",
    "firstDate": "2026-09-08",
-   "tag": "影子跟读002"
+   "tag": "影子跟读002",
+   "ipa": "əˈsuːm"
   },
   {
    "term": "assume that repetition equaled memory",
@@ -9742,7 +10494,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "assume-that-repetition-equaled-memory",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "əˈsuːm ðət ˌrɛpəˈtɪʃən ˈiːkwəld ˈmɛməri"
   },
   {
    "term": "breathing",
@@ -9755,7 +10508,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "breathing",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈbriːðɪŋ"
   },
   {
    "term": "brilliant",
@@ -9768,7 +10522,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "brilliant",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈbrɪljənt"
   },
   {
    "term": "bump",
@@ -9781,7 +10536,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "bump",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "bəmp"
   },
   {
    "term": "cost real effort",
@@ -9794,7 +10550,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "cost-real-effort",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "kɔːst riːl ˈɛfərt"
   },
   {
    "term": "decades of evidence support it",
@@ -9807,7 +10564,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "decades-of-evidence-support-it",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈdɛkeɪdz əv ˈɛvədəns səˈpɔːrt ɪt"
   },
   {
    "term": "drift",
@@ -9820,7 +10578,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "drift",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "drɪft"
   },
   {
    "term": "enemy",
@@ -9833,7 +10592,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "enemy",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈɛnəmi"
   },
   {
    "term": "equal",
@@ -9846,7 +10606,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "equal",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈiːkwəl"
   },
   {
    "term": "familiar",
@@ -9859,7 +10620,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "familiar",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "fəˈmɪljər"
   },
   {
    "term": "familiarity",
@@ -9872,7 +10634,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "familiarity",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "fəˌmɪˈljɛrəti"
   },
   {
    "term": "form connections",
@@ -9885,7 +10648,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "form-connections",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "fɔːrm kəˈnɛkʃənz"
   },
   {
    "term": "freed from the pressure of...",
@@ -9898,7 +10662,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "freed-from-the-pressure-of",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "friːd frəm ðə ˈprɛʃər əv"
   },
   {
    "term": "frustrated",
@@ -9911,7 +10676,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "frustrated",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈfrəˌstreɪtəd"
   },
   {
    "term": "get stuck / feel stuck",
@@ -9924,7 +10690,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "get-stuck-feel-stuck",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "gɪt stək fiːl stək"
   },
   {
    "term": "hand sb sth",
@@ -9937,7 +10704,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "hand-sb-sth",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "hænd ˈsʌmbədi ˈsʌmθɪŋ"
   },
   {
    "term": "have a habit that feels productive",
@@ -9950,7 +10718,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "have-a-habit-that-feels-productive",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "hæv ə ˈhæbət ðət fiːlz pərˈdəktɪv"
   },
   {
    "term": "immediately",
@@ -9963,7 +10732,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "immediately",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˌɪˈmiːˌdiːətli"
   },
   {
    "term": "impossible",
@@ -9976,7 +10746,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "impossible",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˌɪmˈpɑːsəbəl"
   },
   {
    "term": "in the short term / in the long run",
@@ -9989,7 +10760,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "in-the-short-term-in-the-long-run",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ɪn ðə ʃɔːrt tərm ɪn ðə lɔːŋ rən"
   },
   {
    "term": "in this sense",
@@ -10002,7 +10774,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "in-this-sense",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ɪn ðɪs sɛns"
   },
   {
    "term": "inspiration",
@@ -10015,7 +10788,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "inspiration",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˌɪnspərˈeɪʃən"
   },
   {
    "term": "It is not magic; it is momentum",
@@ -10028,7 +10802,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "it-is-not-magic-it-is-momentum",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ɪt ɪz nɑːt ˈmæʤɪk ɪt ɪz moʊˈmɛntəm"
   },
   {
    "term": "just a few steps away",
@@ -10041,7 +10816,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "just-a-few-steps-away",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ʤɪst ə fjuː stɛps əˈweɪ"
   },
   {
    "term": "loosen",
@@ -10054,7 +10830,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "loosen",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈluːsən"
   },
   {
    "term": "memory trace",
@@ -10067,7 +10844,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "memory-trace",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈmɛməri treɪs"
   },
   {
    "term": "mistake A for B",
@@ -10080,7 +10858,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "mistake-a-for-b",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "mɪˈsteɪk ə fər biː"
   },
   {
    "term": "momentum",
@@ -10093,7 +10872,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "momentum",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "moʊˈmɛntəm"
   },
   {
    "term": "motion",
@@ -10106,7 +10886,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "motion",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈmoʊʃən"
   },
   {
    "term": "motion helps thought",
@@ -10119,7 +10900,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "motion-helps-thought",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈmoʊʃən hɛlps θɔːt"
   },
   {
    "term": "neighborhood",
@@ -10132,7 +10914,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "neighborhood",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈneɪbərˌhʊd"
   },
   {
    "term": "observe",
@@ -10145,7 +10928,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "observe",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "əbˈzərv"
   },
   {
    "term": "on its own",
@@ -10158,7 +10942,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "on-its-own",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ɔːn ɪts oʊn"
   },
   {
    "term": "opposite",
@@ -10171,7 +10956,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "opposite",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈɑːpəzɪt"
   },
   {
    "term": "rather than immediately",
@@ -10184,7 +10970,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "rather-than-immediately",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈrəðər ðən ˌɪˈmiːˌdiːətli"
   },
   {
    "term": "read / open ... again and again",
@@ -10197,7 +10984,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "read-open-again-and-again",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "rɛd ˈoʊpən əˈgɛn ənd əˈgɛn"
   },
   {
    "term": "rebuild",
@@ -10210,7 +10998,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "rebuild",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "riːˈbɪld"
   },
   {
    "term": "recognize",
@@ -10223,7 +11012,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "recognize",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈrɛkəgˌnaɪz"
   },
   {
    "term": "recognizing ≠ recalling",
@@ -10236,7 +11026,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "recognizing-recalling",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈrɛkəgˌnaɪzɪŋ rɪˈkɔːlɪŋ"
   },
   {
    "term": "repetition",
@@ -10249,7 +11040,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "repetition",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˌrɛpəˈtɪʃən"
   },
   {
    "term": "retrieval",
@@ -10262,7 +11054,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "retrieval",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "rɪˈtriːvəl"
   },
   {
    "term": "retrieval practice",
@@ -10275,7 +11068,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "retrieval-practice",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "rɪˈtriːvəl ˈpræktɪs"
   },
   {
    "term": "retrieve",
@@ -10288,7 +11082,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "retrieve",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "rɪˈtriːv"
   },
   {
    "term": "session",
@@ -10301,7 +11096,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "session",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈsɛʃən"
   },
   {
    "term": "strategy",
@@ -10314,7 +11110,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "strategy",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈstrætəʤi"
   },
   {
    "term": "struggle",
@@ -10327,7 +11124,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "struggle",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈstrəgəl"
   },
   {
    "term": "stuck",
@@ -10340,7 +11138,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "stuck",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "stək"
   },
   {
    "term": "surprised",
@@ -10353,7 +11152,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "surprised",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "səˈpraɪzd"
   },
   {
    "term": "take the easy path",
@@ -10366,7 +11166,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "take-the-easy-path",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "teɪk ðə ˈiːzi pæθ"
   },
   {
    "term": "the core of learning",
@@ -10379,7 +11180,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "the-core-of-learning",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ðə kɔːr əv ˈlərnɪŋ"
   },
   {
    "term": "the moment ...",
@@ -10392,7 +11194,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "the-moment",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ðə ˈmoʊmənt"
   },
   {
    "term": "the opposite is often true",
@@ -10405,7 +11208,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "the-opposite-is-often-true",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ðə ˈɑːpəzɪt ɪz ˈɔːfən truː"
   },
   {
    "term": "the opposite of comfortable",
@@ -10418,7 +11222,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "the-opposite-of-comfortable",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ðə ˈɑːpəzɪt əv ˈkəmfərtəbəl"
   },
   {
    "term": "there is real science behind it",
@@ -10431,7 +11236,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "there-is-real-science-behind-it",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ðɛr ɪz riːl saɪəns bɪˈhaɪnd ɪt"
   },
   {
    "term": "thoughts drift / bump into each other",
@@ -10444,7 +11250,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "thoughts-drift-bump-into-each-other",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "θɔːts drɪft bəmp ˈɪntu iːʧ ˈəðər"
   },
   {
    "term": "trace",
@@ -10457,7 +11264,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "trace",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "treɪs"
   },
   {
    "term": "try a small experiment",
@@ -10470,7 +11278,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "try-a-small-experiment",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "traɪ ə smɔːl ɪkˈspɛrəmənt"
   },
   {
    "term": "turn A into B",
@@ -10483,7 +11292,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读001",
    "id": "turn-a-into-b",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "tərn ə ˈɪntu biː"
   },
   {
    "term": "unexpected",
@@ -10496,7 +11306,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "unexpected",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˌənɪkˈspɛktɪd"
   },
   {
    "term": "wander",
@@ -10509,7 +11320,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "wander",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈwɑːndər"
   },
   {
    "term": "wander around the neighborhood",
@@ -10522,7 +11334,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "wander-around-the-neighborhood",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "ˈwɑːndər əraʊnd ðə ˈneɪbərˌhʊd"
   },
   {
    "term": "without any purpose",
@@ -10535,7 +11348,8 @@
    "date": "2026-09-08",
    "tag": "影子跟读002",
    "id": "without-any-purpose",
-   "firstDate": "2026-09-08"
+   "firstDate": "2026-09-08",
+   "ipa": "wɪˈθaʊt ˈɛni ˈpərpəs"
   }
  ]
 }

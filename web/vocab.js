@@ -789,6 +789,7 @@
     box.appendChild(el("p", "vmeta", metaLine(card)));
     var term = el("p", "vterm", card.term);
     box.appendChild(term);
+    if (card.ipa) box.appendChild(el("p", "vipa", "/" + card.ipa + "/"));
     var spk = speakButton(card);
     if (spk) box.appendChild(spk);
     if (session.mode === "mcq") renderMcq(box, card);

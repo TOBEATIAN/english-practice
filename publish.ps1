@@ -3,21 +3,28 @@ $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $root
 $python = "E:\WorkSpace\Project_04_专门学习\Project_02_六级\模拟卷\scripts\.venv\Scripts\python.exe"
 
-Write-Host "第一步：构建网站数据与音频..."
+Write-Host "第一步：重建生词音标库（新词自动补 IPA，已有的不覆盖）..."
+& $python (Join-Path $root "scripts\build_ipa.py")
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "音标库构建失败，未发布（缺 eng_to_ipa 时装一下：模拟卷\scripts\.venv\Scripts\python.exe -m pip install eng_to_ipa）。"
+    exit 1
+}
+
+Write-Host "第二步：构建网站数据与音频..."
 & $python (Join-Path $root "scripts\build_site.py")
 if ($LASTEXITCODE -ne 0) {
     Write-Host "构建失败，未发布。"
     exit 1
 }
 
-Write-Host "第二步：构建生词复习库（web\vocab.json）..."
+Write-Host "第三步：构建生词复习库（web\vocab.json）..."
 & node (Join-Path $root "scripts\build_vocab_deck.js")
 if ($LASTEXITCODE -ne 0) {
     Write-Host "生词库构建失败，未发布（先看上面 [FAIL] 的具体原因）。"
     exit 1
 }
 
-Write-Host "第三步：提交并推送..."
+Write-Host "第四步：提交并推送..."
 git add -A
 $staged = git diff --cached --name-only
 if (-not $staged) {

@@ -4,6 +4,7 @@
  *
  * 输入 A：..\..\模拟卷\**\今日生词.md   —— 六级复盘生词卡（表格按所属小节分类）
  * 输入 B：web\materials.json            —— 影子跟读 13 篇的 vocabRows / phraseRows
+ * 输入 C：..\..\docs\生词_音标库.json     —— 词形 → IPA（由 build_ipa.py 生成 + 手工补专名）
  * 输出：   web\vocab.json               —— 复习页数据（随站点一起上线）
  *
  * 用法：
@@ -24,6 +25,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const MOCK_DIR = path.resolve(ROOT, "..", "模拟卷");
 const MATERIALS_FILE = path.join(ROOT, "web", "materials.json");
+const IPA_FILE = path.resolve(ROOT, "..", "docs", "生词_音标库.json");
 const OUT_FILE = path.join(ROOT, "web", "vocab.json");
 const CHECK_ONLY = process.argv.includes("--check");
 
@@ -292,6 +294,52 @@ function mergeCards(all) {
   );
 }
 
+/* ---------------- 音标（docs\生词_音标库.json） ---------------- */
+
+function loadIpa() {
+  try {
+    return JSON.parse(read(IPA_FILE)).words || {};
+  } catch (err) {
+    return {};
+  }
+}
+
+/** 词条 → IPA：短语按词拆开逐词拼；只要有一个词缺音标就整条留空（半截音标会误导） */
+function ipaFor(term, ipaWords) {
+  const parts = [];
+  String(term)
+    .toLowerCase()
+    .replace(/[^a-z'\-\s]+/g, " ")
+    .split(/\s+/)
+    .forEach(function (chunk) {
+      chunk.split("-").forEach(function (piece) {
+        const w = piece.replace(/^'+|'+$/g, "");
+        if (w) parts.push(ipaWords[w] || "");
+      });
+    });
+  if (!parts.length || parts.some((x) => !x)) return "";
+  return parts.join(" ");
+}
+
+function attachIpa(cards) {
+  const ipaWords = loadIpa();
+  let covered = 0;
+  let counted = 0;
+  const missing = [];
+  for (const c of cards) {
+    if (c.type === "pattern") {
+      // 句式卡是句型模板（常含中文与整句），给整句标音只会误导，统一留空
+      c.ipa = "";
+      continue;
+    }
+    c.ipa = ipaFor(c.term, ipaWords);
+    counted += 1;
+    if (c.ipa) covered += 1;
+    else missing.push(c.term);
+  }
+  return { covered: covered, counted: counted, missing: missing };
+}
+
 /* ---------------- 断言与输出 ---------------- */
 
 function validate(cards) {
@@ -315,6 +363,7 @@ function main() {
   const mock = cardsFromMockCards();
   const shadow = cardsFromMaterials();
   const cards = mergeCards([...mock, ...shadow]);
+  const ipaStat = attachIpa(cards);
   const problems = validate(cards);
   if (problems.length) {
     console.error("[FAIL] 词库校验未通过：");
@@ -331,13 +380,34 @@ function main() {
   const payload = {
     version: 1,
     generatedAt: new Date().toISOString().slice(0, 19),
-    stats: { total: cards.length, byBucket, byType, raw: { mock: mock.length, shadow: shadow.length } },
+    stats: {
+      total: cards.length,
+      byBucket,
+      byType,
+      ipa: { covered: ipaStat.covered, counted: ipaStat.counted, missing: ipaStat.missing.length },
+      raw: { mock: mock.length, shadow: shadow.length },
+    },
     cards,
   };
 
   console.log(`[OK] 复盘卡 ${mock.length} 条 + 跟读词表 ${shadow.length} 条 → 去重后 ${cards.length} 张`);
   console.log(`     类别：错词 ${byBucket.wrong || 0} / 必背与句式 ${byBucket.keyphrase || 0} / 词库 ${byBucket.bank || 0} / 跟读 ${byBucket.shadow || 0}`);
   console.log(`     形态：单词 ${byType.word || 0} / 短语 ${byType.phrase || 0} / 句式 ${byType.pattern || 0}`);
+  const ipaRate = ipaStat.covered / Math.max(1, ipaStat.counted);
+  console.log(
+    `     音标：${ipaStat.covered} / ${ipaStat.counted} 张（${(ipaRate * 100).toFixed(1)}%；句式卡 ${cards.length - ipaStat.counted} 张不计）`
+  );
+  if (ipaStat.missing.length) {
+    console.log(
+      `     没音标的词条 ${ipaStat.missing.length} 个（前 10）：` + ipaStat.missing.slice(0, 10).join(" / ")
+    );
+  }
+  if (ipaRate < 0.9) {
+    console.error(
+      `[FAIL] 音标覆盖率只有 ${(ipaRate * 100).toFixed(1)}%（门槛 90%）。先补 docs\\生词_音标库.json，或跑 scripts\\build_ipa.py。`
+    );
+    process.exit(1);
+  }
 
   if (CHECK_ONLY) {
     console.log("     （--check：只校验，未写文件）");

@@ -569,7 +569,7 @@
     var table = document.createElement("table");
     var thead = document.createElement("thead");
     var htr = document.createElement("tr");
-    ["单词", "词性", "中文", "英文释义"].forEach(function (h) {
+    ["单词", "词性", "中文", "英文释义", "音标"].forEach(function (h) {
       var th = document.createElement("th");
       th.textContent = h;
       htr.appendChild(th);
@@ -583,6 +583,7 @@
         td.textContent = cell;
         if (i === 0) td.className = "w-en";
         if (i === 3) td.className = "w-def";
+        if (i === 4) td.className = "w-ipa";
         tr.appendChild(td);
       });
       tbody.appendChild(tr);
@@ -600,10 +601,14 @@
       var w = document.createElement("span");
       w.className = "vw";
       w.textContent = row[0];
+      var ipa = document.createElement("span");
+      ipa.className = "vipa-sm";
+      ipa.textContent = row[4] ? "/" + row[4] + "/" : "";
       var pos = document.createElement("span");
       pos.className = "vpos";
       pos.textContent = row[1];
       head.appendChild(w);
+      head.appendChild(ipa);
       head.appendChild(pos);
       var cn = document.createElement("div");
       cn.className = "vcn";
