@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-09-25T08:09:24",
+ "generatedAt": "2026-09-25T08:30:53",
  "stats": {
   "total": 839,
   "byBucket": {
@@ -15,9 +15,9 @@
    "phrase": 209
   },
   "ipa": {
-   "covered": 797,
+   "covered": 820,
    "counted": 820,
-   "missing": 23
+   "missing": 0
   },
   "raw": {
    "mock": 528,
@@ -37,7 +37,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q31",
-   "ipa": ""
+   "ipa": "əˈbændənd"
   },
   {
    "term": "animal hide",
@@ -51,7 +51,7 @@
    "tag": "",
    "id": "animal-hide",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "ˈænəməl haɪd"
   },
   {
    "id": "appearance",
@@ -65,7 +65,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q26",
-   "ipa": ""
+   "ipa": "əˈpɪrəns"
   },
   {
    "id": "assumption",
@@ -93,7 +93,7 @@
    "tag": "",
    "id": "be-close-to-being-lost",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "biː kloʊz tɪ biːɪŋ lɔːst"
   },
   {
    "term": "cardboard",
@@ -107,7 +107,7 @@
    "tag": "",
    "id": "cardboard",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "ˈkɑːrdˌbɔːrd"
   },
   {
    "term": "chant",
@@ -121,7 +121,7 @@
    "tag": "",
    "id": "chant",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "ʧænt"
   },
   {
    "id": "consequence",
@@ -163,7 +163,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q35",
-   "ipa": ""
+   "ipa": "kɑːzˈmɛtɪk"
   },
   {
    "id": "deliberately",
@@ -191,7 +191,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q32",
-   "ipa": ""
+   "ipa": "ɪˈlɪməˌneɪt"
   },
   {
    "id": "evaluate",
@@ -205,7 +205,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q33",
-   "ipa": ""
+   "ipa": "ɪˈvæljuˌeɪt"
   },
   {
    "term": "folk legend",
@@ -219,7 +219,7 @@
    "tag": "",
    "id": "folk-legend",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "foʊk ˈlɛʤənd"
   },
   {
    "term": "hand-carved",
@@ -233,7 +233,7 @@
    "tag": "",
    "id": "hand-carved",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "hænd kɑːrvd"
   },
   {
    "term": "indecision",
@@ -247,7 +247,7 @@
    "tag": "",
    "id": "indecision",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "ˌɪndɪˈsɪʒən"
   },
   {
    "term": "interrogate",
@@ -261,7 +261,7 @@
    "tag": "",
    "id": "interrogate",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "ˌɪnˈtɛrəˌgeɪt"
   },
   {
    "id": "irrelevant",
@@ -275,7 +275,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q34",
-   "ipa": ""
+   "ipa": "ˌɪˈrɛləvənt"
   },
   {
    "term": "manipulate",
@@ -289,7 +289,7 @@
    "tag": "",
    "id": "manipulate",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "məˈnɪpjəˌleɪt"
   },
   {
    "id": "outweighs",
@@ -303,7 +303,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q29",
-   "ipa": ""
+   "ipa": "ˈaʊtˌweɪz"
   },
   {
    "term": "passed down by word of mouth",
@@ -317,7 +317,7 @@
    "tag": "",
    "id": "passed-down-by-word-of-mouth",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "pæst daʊn baɪ wərd əv maʊθ"
   },
   {
    "term": "screen",
@@ -331,7 +331,7 @@
    "tag": "",
    "id": "screen",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "skriːn"
   },
   {
    "id": "uniformity",
@@ -345,7 +345,7 @@
    "date": "2026-09-23",
    "firstDate": "2026-09-23",
    "tag": "Section A Q27",
-   "ipa": ""
+   "ipa": "ˌjuːnəˈfɔːrməti"
   },
   {
    "term": "bead",
@@ -4629,7 +4629,7 @@
    "tag": "",
    "id": "considerable",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "kənˈsɪdərəbəl"
   },
   {
    "term": "resistant",
@@ -4643,7 +4643,7 @@
    "tag": "",
    "id": "resistant",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "rɪˈzɪstənt"
   },
   {
    "term": "unavoidable",
@@ -4657,7 +4657,7 @@
    "tag": "",
    "id": "unavoidable",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "ˌənəˈvɔɪdəbəl"
   },
   {
    "term": "unwillingly",
@@ -4671,7 +4671,7 @@
    "tag": "",
    "id": "unwillingly",
    "firstDate": "2026-09-23",
-   "ipa": ""
+   "ipa": "ənˈwɪlɪŋli"
   },
   {
    "term": "abundance",

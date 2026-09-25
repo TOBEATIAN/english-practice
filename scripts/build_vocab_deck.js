@@ -10,6 +10,7 @@
  * 用法：
  *   node scripts\build_vocab_deck.js
  *   node scripts\build_vocab_deck.js --check   # 只校验不写文件
+ *   node scripts\build_vocab_deck.js --ipa-min=0   # 音标覆盖率门槛降到 0（发布流程"第一遍出卡"用）
  *
  * 硬断言（任一不达标即退出码 1，不产出半成品）：
  *   1. 总卡数 ≥ 300；
@@ -28,6 +29,8 @@ const MATERIALS_FILE = path.join(ROOT, "web", "materials.json");
 const IPA_FILE = path.resolve(ROOT, "..", "docs", "生词_音标库.json");
 const OUT_FILE = path.join(ROOT, "web", "vocab.json");
 const CHECK_ONLY = process.argv.includes("--check");
+const IPA_MIN_ARG = process.argv.find((a) => a.indexOf("--ipa-min=") === 0);
+const IPA_MIN = IPA_MIN_ARG ? Number(IPA_MIN_ARG.split("=")[1]) / 100 : 0.9;
 
 const RANK = { wrong: 1, keyphrase: 2, bank: 3, shadow: 4 };
 
@@ -402,9 +405,9 @@ function main() {
       `     没音标的词条 ${ipaStat.missing.length} 个（前 10）：` + ipaStat.missing.slice(0, 10).join(" / ")
     );
   }
-  if (ipaRate < 0.9) {
+  if (ipaRate < IPA_MIN) {
     console.error(
-      `[FAIL] 音标覆盖率只有 ${(ipaRate * 100).toFixed(1)}%（门槛 90%）。先补 docs\\生词_音标库.json，或跑 scripts\\build_ipa.py。`
+      `[FAIL] 音标覆盖率只有 ${(ipaRate * 100).toFixed(1)}%（门槛 ${(IPA_MIN * 100).toFixed(0)}%）。先补 docs\\生词_音标库.json，或跑 scripts\\build_ipa.py。`
     );
     process.exit(1);
   }
