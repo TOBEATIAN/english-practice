@@ -30,7 +30,10 @@ const IPA_FILE = path.resolve(ROOT, "..", "docs", "生词_音标库.json");
 const OUT_FILE = path.join(ROOT, "web", "vocab.json");
 const CHECK_ONLY = process.argv.includes("--check");
 const IPA_MIN_ARG = process.argv.find((a) => a.indexOf("--ipa-min=") === 0);
-const IPA_MIN = IPA_MIN_ARG ? Number(IPA_MIN_ARG.split("=")[1]) / 100 : 0.9;
+// 默认门槛 100%：除句式卡外，每张词卡都必须有音标。
+// 新增一批词却漏了音标（2026-09-25 那次是 96%）必须当场拦住，不能等用户发现；
+// 真遇到词典里没有的专名，按报错提示手工填进 docs\生词_音标库.json 再发。
+const IPA_MIN = IPA_MIN_ARG ? Number(IPA_MIN_ARG.split("=")[1]) / 100 : 1;
 
 const RANK = { wrong: 1, keyphrase: 2, bank: 3, shadow: 4 };
 

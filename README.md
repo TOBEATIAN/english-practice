@@ -81,6 +81,6 @@
 - 纯静态站点：HTML + CSS + JavaScript，无框架、无后端；
 - 数据单一来源为各篇 md，网页数据与音频由脚本生成，不手工维护第二份内容；
 - 复习库的单一来源是 `模拟卷\**\今日生词.md` 与 `web\materials.json`，`web\vocab.json` 由脚本生成，不手改；
-- `发布网站.bat` 会依次跑 `build_ipa.py`（补新词音标）→ `build_site.py`（跟读数据 + 音标列）→ `build_vocab_deck.js`（复习库 + 音标）→ 提交推送；任一构建失败就中止，不会发布半成品；
+- `发布网站.bat` 会依次跑 `build_site.py`（跟读数据 + 音标列）→ `build_vocab_deck.js`（第一遍：先出卡）→ `build_ipa.py`（补新词音标）→ `build_vocab_deck.js`（第二遍：把音标写进卡里）→ 提交推送；**这个顺序不能反**——音标库的输入是刚生成的 `web\vocab.json`，先跑音标就会漏掉当天新词（2026-09-25 真实踩过）；任一构建失败就中止，不会发布半成品；
 - 音标库在 `Project_02_六级\docs\生词_音标库.json`：自动部分来自**离线**发音词典 `eng_to_ipa`（CMU 词典，不联网），**已有的值不会被覆盖**——专名（Dunhuang / Mogao / Peking Opera / Shaanxi…）与英式拼写是手工补的；新词缺音标时跑一次 `build_ipa.py` 自动补，仍缺的按提示手工填进同一个 JSON；
 - 托管：GitHub Pages（GitHub Actions 发布 `web/` 目录），公开仓库 [TOBEATIAN/english-practice](https://github.com/TOBEATIAN/english-practice)（2026-09-22 由 `shadow-reading` 改名而来）。
