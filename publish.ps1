@@ -12,6 +12,8 @@ if ($LASTEXITCODE -ne 0) {
 
 # 顺序说明（2026-09-25 修）：音标库的输入是刚生成的 web\vocab.json，
 # 所以必须先出卡 → 补音标 → 再出一次卡把音标写进去。反过来跑会漏掉当天的新词。
+# 2026-10-23 补：build_site.py 读的也是同一份音标库，补完音标必须再跑一次，
+# 否则跟读页生词表第 5 列里，当天新词全是空的（复习卡有音标、阅读页没有）。
 Write-Host "第二步：生成生词复习库（第一遍：先出卡，允许暂时缺音标）..."
 & node (Join-Path $root "scripts\build_vocab_deck.js") "--ipa-min=0"
 if ($LASTEXITCODE -ne 0) {
@@ -26,14 +28,21 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
-Write-Host "第四步：重建生词复习库（第二遍：把音标写进卡里）..."
+Write-Host "第四步：重建跟读站数据（把新补的音标写进生词表第 5 列）..."
+& $python (Join-Path $root "scripts\build_site.py")
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "跟读站重建失败，未发布。"
+    exit 1
+}
+
+Write-Host "第五步：重建生词复习库（第二遍：把音标写进卡里）..."
 & node (Join-Path $root "scripts\build_vocab_deck.js")
 if ($LASTEXITCODE -ne 0) {
     Write-Host "生词库构建失败，未发布（音标覆盖率低于门槛时会卡在这里，按上面提示补 docs\生词_音标库.json）。"
     exit 1
 }
 
-Write-Host "第五步：提交并推送..."
+Write-Host "第六步：提交并推送..."
 git add -A
 $staged = git diff --cached --name-only
 if (-not $staged) {

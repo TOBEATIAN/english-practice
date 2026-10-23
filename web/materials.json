@@ -1,6 +1,412 @@
 {
   "materials": [
     {
+      "id": "2026-10-23_014",
+      "num": "014",
+      "date": "2026-10-23",
+      "titleEn": "The Value of Boredom",
+      "titleCn": "无聊的价值",
+      "stem": "2026-10-23_影子跟读014_无聊的价值",
+      "wordCountLabel": "276 词",
+      "durationLabel": "1 分 42 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Most of us treat boredom as a small <strong>failure</strong>. A spare five minutes on a bus feels like <strong>wasted</strong> space, so we reach for a phone before we have decided to. Yet boredom is not emptiness. It is a <strong>signal</strong>: the mind has run out of <strong>stimulation</strong> and is about to go looking for something new. That search is where useful ideas often begin.",
+        "Researchers have found that a <strong>dull</strong> task can actually help people think more <strong>creatively</strong>. In one study, people who first copied numbers from a phone book later produced more <strong>unusual</strong> answers to a creative test than people who went straight to the test. Boredom seems to let the mind <strong>wander</strong>, and a wandering mind connects <strong>unrelated</strong> memories. The blank moment is not a hole in your day; it is a <strong>workshop</strong>.",
+        "The trouble is modern life gives us almost no chance to be bored. A queue, a bus ride, an elevator: every <strong>pause</strong> is filled at once. We call this <strong>efficiency</strong>, but we may be <strong>borrowing</strong> from ourselves. If every quiet <strong>interval</strong> is covered by a screen, the mind never has to <strong>generate</strong> its own entertainment, and it slowly forgets how. Attention becomes <strong>passive</strong>: we stop choosing what to think about.",
+        "This does not mean you should <strong>sacrifice</strong> your day staring at a wall. Boredom is useful as a short <strong>gap</strong>, not as a lifestyle. Try leaving one walk phone-free, or letting a <strong>conversation</strong> fall quiet for a few seconds. At first the <strong>silence</strong> will feel <strong>awkward</strong>. Then something small will <strong>surface</strong>: a question, a plan, a memory. That is not nothing. It is your own mind, finally getting a word in."
+      ],
+      "sentences": [
+        {
+          "para": 1,
+          "html": "Most of us treat boredom as a small <strong>failure</strong>.",
+          "text": "Most of us treat boredom as a small failure.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s01.mp3"
+        },
+        {
+          "para": 1,
+          "html": "A spare five minutes on a bus feels like <strong>wasted</strong> space, so we reach for a phone before we have decided to.",
+          "text": "A spare five minutes on a bus feels like wasted space, so we reach for a phone before we have decided to.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s02.mp3"
+        },
+        {
+          "para": 1,
+          "html": "Yet boredom is not emptiness.",
+          "text": "Yet boredom is not emptiness.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s03.mp3"
+        },
+        {
+          "para": 1,
+          "html": "It is a <strong>signal</strong>: the mind has run out of <strong>stimulation</strong> and is about to go looking for something new.",
+          "text": "It is a signal: the mind has run out of stimulation and is about to go looking for something new.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s04.mp3"
+        },
+        {
+          "para": 1,
+          "html": "That search is where useful ideas often begin.",
+          "text": "That search is where useful ideas often begin.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s05.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Researchers have found that a <strong>dull</strong> task can actually help people think more <strong>creatively</strong>.",
+          "text": "Researchers have found that a dull task can actually help people think more creatively.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s06.mp3"
+        },
+        {
+          "para": 2,
+          "html": "In one study, people who first copied numbers from a phone book later produced more <strong>unusual</strong> answers to a creative test than people who went straight to the test.",
+          "text": "In one study, people who first copied numbers from a phone book later produced more unusual answers to a creative test than people who went straight to the test.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s07.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Boredom seems to let the mind <strong>wander</strong>, and a wandering mind connects <strong>unrelated</strong> memories.",
+          "text": "Boredom seems to let the mind wander, and a wandering mind connects unrelated memories.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s08.mp3"
+        },
+        {
+          "para": 2,
+          "html": "The blank moment is not a hole in your day; it is a <strong>workshop</strong>.",
+          "text": "The blank moment is not a hole in your day; it is a workshop.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s09.mp3"
+        },
+        {
+          "para": 3,
+          "html": "The trouble is modern life gives us almost no chance to be bored.",
+          "text": "The trouble is modern life gives us almost no chance to be bored.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s10.mp3"
+        },
+        {
+          "para": 3,
+          "html": "A queue, a bus ride, an elevator: every <strong>pause</strong> is filled at once.",
+          "text": "A queue, a bus ride, an elevator: every pause is filled at once.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s11.mp3"
+        },
+        {
+          "para": 3,
+          "html": "We call this <strong>efficiency</strong>, but we may be <strong>borrowing</strong> from ourselves.",
+          "text": "We call this efficiency, but we may be borrowing from ourselves.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s12.mp3"
+        },
+        {
+          "para": 3,
+          "html": "If every quiet <strong>interval</strong> is covered by a screen, the mind never has to <strong>generate</strong> its own entertainment, and it slowly forgets how.",
+          "text": "If every quiet interval is covered by a screen, the mind never has to generate its own entertainment, and it slowly forgets how.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s13.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Attention becomes <strong>passive</strong>: we stop choosing what to think about.",
+          "text": "Attention becomes passive: we stop choosing what to think about.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s14.mp3"
+        },
+        {
+          "para": 4,
+          "html": "This does not mean you should <strong>sacrifice</strong> your day staring at a wall.",
+          "text": "This does not mean you should sacrifice your day staring at a wall.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s15.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Boredom is useful as a short <strong>gap</strong>, not as a lifestyle.",
+          "text": "Boredom is useful as a short gap, not as a lifestyle.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s16.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Try leaving one walk phone-free, or letting a <strong>conversation</strong> fall quiet for a few seconds.",
+          "text": "Try leaving one walk phone-free, or letting a conversation fall quiet for a few seconds.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s17.mp3"
+        },
+        {
+          "para": 4,
+          "html": "At first the <strong>silence</strong> will feel <strong>awkward</strong>.",
+          "text": "At first the silence will feel awkward.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s18.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Then something small will <strong>surface</strong>: a question, a plan, a memory.",
+          "text": "Then something small will surface: a question, a plan, a memory.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s19.mp3"
+        },
+        {
+          "para": 4,
+          "html": "That is not nothing.",
+          "text": "That is not nothing.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s20.mp3"
+        },
+        {
+          "para": 4,
+          "html": "It is your own mind, finally getting a word in.",
+          "text": "It is your own mind, finally getting a word in.",
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_s21.mp3"
+        }
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求“再难一档”；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "failure",
+          "名词",
+          "失败",
+          "a lack of success in doing something",
+          "ˈfeɪljər"
+        ],
+        [
+          "wasted",
+          "形容词",
+          "被浪费的",
+          "used badly and without purpose",
+          "ˈweɪstɪd"
+        ],
+        [
+          "signal",
+          "名词",
+          "信号",
+          "a sign that something is happening or needed",
+          "ˈsɪgnəl"
+        ],
+        [
+          "stimulation",
+          "名词",
+          "刺激",
+          "something that makes you feel interested or active",
+          "ˌstɪmjəˈleɪʃən"
+        ],
+        [
+          "dull",
+          "形容词",
+          "枯燥的",
+          "not interesting or exciting",
+          "dʌl"
+        ],
+        [
+          "creatively",
+          "副词",
+          "有创造性地",
+          "in a way that produces new and original ideas",
+          "kriːˈeɪtɪvli"
+        ],
+        [
+          "unusual",
+          "形容词",
+          "不寻常的",
+          "not common, and therefore interesting",
+          "ənˈjuːˌʒuːəl"
+        ],
+        [
+          "wander",
+          "动词",
+          "游走、漫游",
+          "to move around without a clear direction",
+          "ˈwɑːndər"
+        ],
+        [
+          "unrelated",
+          "形容词",
+          "不相关的",
+          "not connected with each other",
+          "ˌənrɪˈleɪtɪd"
+        ],
+        [
+          "workshop",
+          "名词",
+          "工作坊",
+          "a place where ideas are made or skills practised",
+          "ˈwərkˌʃɑːp"
+        ],
+        [
+          "pause",
+          "名词",
+          "停顿",
+          "a short stop before something continues",
+          "pɔːz"
+        ],
+        [
+          "efficiency",
+          "名词",
+          "效率",
+          "the ability to do something without wasting time",
+          "ɪˈfɪʃənsi"
+        ],
+        [
+          "borrowing",
+          "动词",
+          "借用、透支",
+          "using something now that must be paid back later",
+          "ˈbɑːroʊɪŋ"
+        ],
+        [
+          "interval",
+          "名词",
+          "间隔",
+          "a period of time between two events",
+          "ˈɪntərvəl"
+        ],
+        [
+          "generate",
+          "动词",
+          "产生",
+          "to produce or create something",
+          "ˈʤɛnərˌeɪt"
+        ],
+        [
+          "passive",
+          "形容词",
+          "被动的",
+          "accepting things without acting or choosing",
+          "ˈpæsɪv"
+        ],
+        [
+          "sacrifice",
+          "动词",
+          "牺牲",
+          "to give up something valuable for a purpose",
+          "ˈsækrəˌfaɪs"
+        ],
+        [
+          "gap",
+          "名词",
+          "空隙、空白",
+          "an empty space or period between things",
+          "gæp"
+        ],
+        [
+          "conversation",
+          "名词",
+          "谈话",
+          "a talk between two or more people",
+          "ˌkɑːnvərˈseɪʃən"
+        ],
+        [
+          "silence",
+          "名词",
+          "沉默",
+          "a period with no sound or speech",
+          "ˈsaɪləns"
+        ],
+        [
+          "awkward",
+          "形容词",
+          "尴尬的",
+          "making you feel uncomfortable or unsure",
+          "ˈɔːkwərd"
+        ],
+        [
+          "surface",
+          "动词",
+          "浮现",
+          "to appear or become known",
+          "ˈsərfəs"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "treat A as B",
+          "把 A 当成 B",
+          "Most of us treat boredom as a small failure."
+        ],
+        [
+          "a spare five minutes",
+          "空出来的五分钟",
+          "A spare five minutes on a bus feels like wasted space..."
+        ],
+        [
+          "reach for a phone",
+          "伸手去拿手机",
+          "...so we reach for a phone before we have even decided to."
+        ],
+        [
+          "run out of",
+          "用完、耗尽",
+          "...the mind has run out of stimulation..."
+        ],
+        [
+          "go looking for",
+          "去寻找",
+          "...and is about to go looking for something new."
+        ],
+        [
+          "think more creatively",
+          "想得更有创意",
+          "...can actually help people think more creatively."
+        ],
+        [
+          "go straight to",
+          "直接去做",
+          "...than people who had gone straight to the test."
+        ],
+        [
+          "let the mind wander",
+          "让脑子走神、自由联想",
+          "Boredom seems to let the mind wander..."
+        ],
+        [
+          "connect unrelated memories",
+          "把不相关的记忆连起来",
+          "...and a wandering mind connects unrelated memories."
+        ],
+        [
+          "at once",
+          "立刻、马上",
+          "...every pause is filled at once."
+        ],
+        [
+          "borrow from ourselves",
+          "向自己透支",
+          "We call this efficiency, but we may be borrowing from ourselves."
+        ],
+        [
+          "forget how",
+          "忘了该怎么做",
+          "...and it slowly forgets how."
+        ],
+        [
+          "stop choosing what to think about",
+          "不再选择自己想什么",
+          "...we stop choosing what to think about."
+        ],
+        [
+          "fall quiet",
+          "安静下来",
+          "...or letting a conversation fall quiet for a few seconds."
+        ],
+        [
+          "get a word in",
+          "插上一句话、有发言机会",
+          "It is your own mind, finally getting a word in."
+        ],
+        [
+          "stare at a wall",
+          "盯着墙发呆",
+          "...sacrifice your day staring at a wall."
+        ]
+      ],
+      "translation": [
+        "我们大多数人把无聊当成一种小小的失败。公交上多出来的五分钟，感觉像是被浪费掉的空间，于是还没想好要做什么，手已经伸向手机了。可无聊并不是空白。它是一个信号：脑子里的刺激用完了，正要去找点新东西。而很多有用的想法，恰恰是从这次寻找开始的。",
+        "研究者发现，一项枯燥的任务反而能让人想得更有创意。在一项研究里，先抄电话号码簿的人，之后在创造力测试中给出的答案比直接做测试的人更不寻常。无聊似乎能让思绪游走，而游走的思绪会把本来不相关的记忆连起来。那段空白不是你一天里的一个洞，而是一间工作坊。",
+        "问题在于，现代生活几乎不给我们无聊的机会。排队、坐车、等电梯——每一个停顿都会立刻被填满。我们把这叫作效率，但可能是在向自己透支。如果每一段安静的间隙都被屏幕占住，脑子就永远不必自己产生乐趣，也会慢慢忘记该怎么做。注意力变得被动：我们不再选择自己去想什么。",
+        "这并不是说你应该把一整天耗在盯着墙上。无聊有用，但它是一段短暂的空白，不是一种生活方式。试着让一次散步不带手机，或者让一段对话安静几秒。一开始，这种沉默会让你觉得尴尬。然后会有很小的东西浮现出来：一个问题、一个计划、一段回忆。那不是“什么都没有”，那是你自己的脑子，终于有机会说上一句。"
+      ],
+      "audioFull": "audio/2026-10-23_影子跟读014_无聊的价值_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-10-23_影子跟读014_无聊的价值_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-09-22_013",
       "num": "013",
       "date": "2026-09-22",
