@@ -1,6 +1,406 @@
 {
   "materials": [
     {
+      "id": "2026-10-26_015",
+      "num": "015",
+      "date": "2026-10-26",
+      "titleEn": "Why Stories Stick",
+      "titleCn": "故事为什么留得住",
+      "stem": "2026-10-26_影子跟读015_故事为什么留得住",
+      "wordCountLabel": "270 词",
+      "durationLabel": "1 分 43 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Ask people to remember a list of statistics and most of them will <strong>struggle</strong>. Tell them about one <strong>patient</strong>, one mistake, one rainy afternoon, and the details stay for years. This is not a <strong>coincidence</strong>. The human mind is not built to store numbers; it is built to follow <strong>characters</strong> through trouble. Facts inform us, but stories <strong>attach</strong> themselves to memory.",
+        "The <strong>reason</strong> is partly about cause and effect. A story tells you why someone acted, what followed, and how it felt. Your brain <strong>predicts</strong> each next step, and that small effort leaves a deeper trace than passive reading. A story also carries <strong>emotion</strong>, which acts like a highlighter: the sad scene, the nervous silence, the sudden relief. And <strong>concrete</strong> details — a cracked cup, a missed bus — give the mind <strong>hooks</strong> to pull the memory back.",
+        "This is why teachers, doctors and advertisers all reach for stories. Yet the power has a <strong>cost</strong>. One <strong>vivid</strong> case can <strong>outweigh</strong> a thousand careful measurements, because the single face feels more real than the <strong>statistics</strong>. A <strong>dramatic</strong> story can spread a false belief as easily as a true one. A story is good at making something <strong>memorable</strong>; it is not proof that the thing is <strong>typical</strong>.",
+        "So use stories with care. When you explain an idea, <strong>anchor</strong> the number to one person and one scene, then state plainly what the <strong>evidence</strong> actually shows. When you listen, ask “what happened next?” and notice whether the story is being used to <strong>persuade</strong> or to <strong>clarify</strong>. A good test: can you retell it in three sentences with one <strong>specific</strong> detail? If yes, you have understood it."
+      ],
+      "sentences": [
+        {
+          "para": 1,
+          "html": "Ask people to remember a list of statistics and most of them will <strong>struggle</strong>.",
+          "text": "Ask people to remember a list of statistics and most of them will struggle.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s01.mp3"
+        },
+        {
+          "para": 1,
+          "html": "Tell them about one <strong>patient</strong>, one mistake, one rainy afternoon, and the details stay for years.",
+          "text": "Tell them about one patient, one mistake, one rainy afternoon, and the details stay for years.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s02.mp3"
+        },
+        {
+          "para": 1,
+          "html": "This is not a <strong>coincidence</strong>.",
+          "text": "This is not a coincidence.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s03.mp3"
+        },
+        {
+          "para": 1,
+          "html": "The human mind is not built to store numbers; it is built to follow <strong>characters</strong> through trouble.",
+          "text": "The human mind is not built to store numbers; it is built to follow characters through trouble.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s04.mp3"
+        },
+        {
+          "para": 1,
+          "html": "Facts inform us, but stories <strong>attach</strong> themselves to memory.",
+          "text": "Facts inform us, but stories attach themselves to memory.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s05.mp3"
+        },
+        {
+          "para": 2,
+          "html": "The <strong>reason</strong> is partly about cause and effect.",
+          "text": "The reason is partly about cause and effect.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s06.mp3"
+        },
+        {
+          "para": 2,
+          "html": "A story tells you why someone acted, what followed, and how it felt.",
+          "text": "A story tells you why someone acted, what followed, and how it felt.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s07.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Your brain <strong>predicts</strong> each next step, and that small effort leaves a deeper trace than passive reading.",
+          "text": "Your brain predicts each next step, and that small effort leaves a deeper trace than passive reading.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s08.mp3"
+        },
+        {
+          "para": 2,
+          "html": "A story also carries <strong>emotion</strong>, which acts like a highlighter: the sad scene, the nervous silence, the sudden relief.",
+          "text": "A story also carries emotion, which acts like a highlighter: the sad scene, the nervous silence, the sudden relief.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s09.mp3"
+        },
+        {
+          "para": 2,
+          "html": "And <strong>concrete</strong> details — a cracked cup, a missed bus — give the mind <strong>hooks</strong> to pull the memory back.",
+          "text": "And concrete details — a cracked cup, a missed bus — give the mind hooks to pull the memory back.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s10.mp3"
+        },
+        {
+          "para": 3,
+          "html": "This is why teachers, doctors and advertisers all reach for stories.",
+          "text": "This is why teachers, doctors and advertisers all reach for stories.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s11.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Yet the power has a <strong>cost</strong>.",
+          "text": "Yet the power has a cost.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s12.mp3"
+        },
+        {
+          "para": 3,
+          "html": "One <strong>vivid</strong> case can <strong>outweigh</strong> a thousand careful measurements, because the single face feels more real than the <strong>statistics</strong>.",
+          "text": "One vivid case can outweigh a thousand careful measurements, because the single face feels more real than the statistics.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s13.mp3"
+        },
+        {
+          "para": 3,
+          "html": "A <strong>dramatic</strong> story can spread a false belief as easily as a true one.",
+          "text": "A dramatic story can spread a false belief as easily as a true one.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s14.mp3"
+        },
+        {
+          "para": 3,
+          "html": "A story is good at making something <strong>memorable</strong>; it is not proof that the thing is <strong>typical</strong>.",
+          "text": "A story is good at making something memorable; it is not proof that the thing is typical.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s15.mp3"
+        },
+        {
+          "para": 4,
+          "html": "So use stories with care.",
+          "text": "So use stories with care.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s16.mp3"
+        },
+        {
+          "para": 4,
+          "html": "When you explain an idea, <strong>anchor</strong> the number to one person and one scene, then state plainly what the <strong>evidence</strong> actually shows.",
+          "text": "When you explain an idea, anchor the number to one person and one scene, then state plainly what the evidence actually shows.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s17.mp3"
+        },
+        {
+          "para": 4,
+          "html": "When you listen, ask “what happened next?” and notice whether the story is being used to <strong>persuade</strong> or to <strong>clarify</strong>.",
+          "text": "When you listen, ask “what happened next?” and notice whether the story is being used to persuade or to clarify.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s18.mp3"
+        },
+        {
+          "para": 4,
+          "html": "A good test: can you retell it in three sentences with one <strong>specific</strong> detail?",
+          "text": "A good test: can you retell it in three sentences with one specific detail?",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s19.mp3"
+        },
+        {
+          "para": 4,
+          "html": "If yes, you have understood it.",
+          "text": "If yes, you have understood it.",
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_s20.mp3"
+        }
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求“再难一档”；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "struggle",
+          "动词",
+          "挣扎、很吃力",
+          "to try hard to do something difficult",
+          "ˈstrəgəl"
+        ],
+        [
+          "patient",
+          "名词",
+          "病人",
+          "a person receiving medical care",
+          "ˈpeɪʃənt"
+        ],
+        [
+          "coincidence",
+          "名词",
+          "巧合",
+          "two things happening together by chance",
+          "koʊˈɪnsɪdəns"
+        ],
+        [
+          "characters",
+          "名词",
+          "人物、角色",
+          "the people in a story",
+          "ˈkɛrɪktərz"
+        ],
+        [
+          "attach",
+          "动词",
+          "附着、绑定",
+          "to connect or join one thing to another",
+          "əˈtæʧ"
+        ],
+        [
+          "reason",
+          "名词",
+          "原因、理由",
+          "the cause or explanation for something",
+          "ˈriːzən"
+        ],
+        [
+          "predicts",
+          "动词",
+          "预测",
+          "says what will happen in the future",
+          "prɪˈdɪkts"
+        ],
+        [
+          "emotion",
+          "名词",
+          "情绪、情感",
+          "a strong feeling such as fear or joy",
+          "ˈiːˌmoʊʃən"
+        ],
+        [
+          "concrete",
+          "形容词",
+          "具体的",
+          "based on real details, not general ideas",
+          "ˈkɑːnkrit"
+        ],
+        [
+          "hooks",
+          "名词",
+          "钩子、记忆抓手",
+          "things that catch and hold your attention",
+          "hʊks"
+        ],
+        [
+          "cost",
+          "名词",
+          "代价",
+          "a bad result that you must accept",
+          "kɔːst"
+        ],
+        [
+          "vivid",
+          "形容词",
+          "生动的、鲜明的",
+          "producing strong clear images in the mind",
+          "ˈvɪvɪd"
+        ],
+        [
+          "outweigh",
+          "动词",
+          "超过、比……更重要",
+          "to be more important or greater than something",
+          "ˈaʊtˌweɪ"
+        ],
+        [
+          "statistics",
+          "名词",
+          "统计数据",
+          "numbers collected to describe a situation",
+          "stəˈtɪstɪks"
+        ],
+        [
+          "dramatic",
+          "形容词",
+          "戏剧性的、夸张的",
+          "sudden and surprising, or full of strong feeling",
+          "drəˈmætɪk"
+        ],
+        [
+          "memorable",
+          "形容词",
+          "难忘的",
+          "easy to remember because it is special",
+          "ˈmɛmərəbəl"
+        ],
+        [
+          "typical",
+          "形容词",
+          "典型的",
+          "showing the usual features of a group",
+          "ˈtɪpɪkəl"
+        ],
+        [
+          "anchor",
+          "动词",
+          "固定、挂靠",
+          "to fix something firmly to a place or idea",
+          "ˈæŋkər"
+        ],
+        [
+          "evidence",
+          "名词",
+          "证据",
+          "facts that show whether something is true",
+          "ˈɛvədəns"
+        ],
+        [
+          "persuade",
+          "动词",
+          "说服",
+          "to make someone agree or do something",
+          "pərsˈweɪd"
+        ],
+        [
+          "clarify",
+          "动词",
+          "澄清、讲清楚",
+          "to make something easier to understand",
+          "ˈklɛrəˌfaɪ"
+        ],
+        [
+          "specific",
+          "形容词",
+          "具体的、特定的",
+          "clearly defined and not general",
+          "spɪˈsɪfɪk"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "ask people to remember",
+          "让人去回忆",
+          "Ask people to remember a list of statistics..."
+        ],
+        [
+          "stay for years",
+          "留存很多年",
+          "...and the details stay for years."
+        ],
+        [
+          "be built to do",
+          "天生就是用来……的",
+          "The human mind is not built to store numbers..."
+        ],
+        [
+          "attach to memory",
+          "附着在记忆上",
+          "...stories attach themselves to memory."
+        ],
+        [
+          "cause and effect",
+          "因果关系",
+          "The reason is partly about cause and effect."
+        ],
+        [
+          "leave a deeper trace",
+          "留下更深的痕迹",
+          "...that small effort leaves a deeper trace than passive reading."
+        ],
+        [
+          "act like a highlighter",
+          "像荧光笔一样起作用",
+          "...which acts like a highlighter..."
+        ],
+        [
+          "pull the memory back",
+          "把记忆拉回来",
+          "...give the mind hooks to pull the memory back."
+        ],
+        [
+          "reach for stories",
+          "求助于故事",
+          "...teachers, doctors and advertisers all reach for stories."
+        ],
+        [
+          "one vivid case",
+          "一个生动的个案",
+          "One vivid case can outweigh a thousand careful measurements..."
+        ],
+        [
+          "spread a false belief",
+          "传播错误信念",
+          "A dramatic story can spread a false belief as easily as a true one."
+        ],
+        [
+          "be good at",
+          "擅长做某事",
+          "A story is good at making something memorable..."
+        ],
+        [
+          "proof that",
+          "……的证据",
+          "...it is not proof that the thing is typical."
+        ],
+        [
+          "state plainly",
+          "直白地说明",
+          "...then state plainly what the evidence actually shows."
+        ],
+        [
+          "what happened next",
+          "接下来发生了什么",
+          "When you listen, ask “what happened next?”"
+        ],
+        [
+          "retell it in three sentences",
+          "用三句话复述",
+          "...can you retell it in three sentences with one specific detail?"
+        ]
+      ],
+      "translation": [
+        "让人记一串统计数据，大多数人都会很吃力。可如果你讲一个人、一次失误、一个下雨的下午，这些细节能留很多年。这不是巧合。人的大脑本来就不是用来存数字的，而是用来跟着人物经历麻烦的。事实给我们信息，故事则把自己挂到记忆上。",
+        "原因一部分在于因果。故事会告诉你某人为什么那样做、之后发生了什么、当时是什么感觉。你的大脑会去预测下一步，而这一点小小的费力，比被动阅读留下更深的痕迹。故事还带着情绪，情绪就像一支荧光笔：悲伤的场景、紧张的沉默、突然的放松。再加上具体的细节——一只裂了的杯子、一班错过的公交——它们给大脑提供了把记忆拉回来的钩子。",
+        "这就是为什么老师、医生和广告人都会借助故事。可这种力量是有代价的。一个生动的个案，可能压过一千次仔细的测量，因为那一张脸显得比统计数据更真实。一个戏剧化的故事传播错误信念，和传播真相一样容易。故事擅长让某件事变得难忘，但它不能证明这件事就是典型的。",
+        "所以用故事要当心。当你解释一个想法时，把数字挂到一个人、一个场景上，然后直白地说明证据究竟显示了什么。当你听别人讲时，问一句“后来呢”，并留意这个故事是在说服你，还是在把话说清楚。有个好办法可以检验：你能用三句话、带上一个具体细节把它复述出来吗？能，就说明你真的懂了。"
+      ],
+      "audioFull": "audio/2026-10-26_影子跟读015_故事为什么留得住_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-10-26_影子跟读015_故事为什么留得住_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-10-23_014",
       "num": "014",
       "date": "2026-10-23",
