@@ -1,6 +1,412 @@
 {
   "materials": [
     {
+      "id": "2026-10-28_016",
+      "num": "016",
+      "date": "2026-10-28",
+      "titleEn": "How to Disagree Well",
+      "titleCn": "如何好好分歧",
+      "stem": "2026-10-28_影子跟读016_如何好好分歧",
+      "wordCountLabel": "269 词",
+      "durationLabel": "1 分 40 秒",
+      "difficulty": "六级中上",
+      "paragraphs": [
+        "Most people treat <strong>disagreement</strong> as a failure of <strong>politeness</strong>. Someone says something wrong, we correct it, and the room goes quiet. But the <strong>silence</strong> is not agreement; it is usually <strong>withdrawal</strong>. So we learn to smile, change the subject, and keep the peace. A real disagreement is not a sign that a <strong>relationship</strong> is broken. It is a sign that two people are still thinking.",
+        "The first <strong>mistake</strong> is to defend your <strong>position</strong> before you understand theirs. When we feel <strong>attacked</strong>, we stop listening and start <strong>collecting</strong> evidence for what we already believe. A better move is to separate the <strong>claim</strong> from the person. Say “I see it differently” instead of “you are wrong”, then ask what led them there. A real question invites an answer; a verdict invites a defence. Openness sounds softer than <strong>criticism</strong>, and it usually works better.",
+        "Then find the <strong>exact</strong> point where you part. Two people often agree on the facts and differ only in <strong>priority</strong>: one values <strong>freedom</strong>, the other safety; one cares about speed, the other about <strong>accuracy</strong>. Naming that <strong>difference</strong> turns a shouting match into a real <strong>discussion</strong>. Once the values are visible, the argument becomes something you can actually talk about. It also helps to restate the other view so well that they say “yes, that is what I mean.”",
+        "Not every argument ends in <strong>agreement</strong>, and it does not need to. The goal is to leave with a clearer <strong>map</strong> of why you each believe what you do. That is <strong>valuable</strong>. Disagreeing well is not a talent; it is a <strong>habit</strong> you can build, one <strong>conversation</strong> at a time."
+      ],
+      "sentences": [
+        {
+          "para": 1,
+          "html": "Most people treat <strong>disagreement</strong> as a failure of <strong>politeness</strong>.",
+          "text": "Most people treat disagreement as a failure of politeness.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s01.mp3"
+        },
+        {
+          "para": 1,
+          "html": "Someone says something wrong, we correct it, and the room goes quiet.",
+          "text": "Someone says something wrong, we correct it, and the room goes quiet.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s02.mp3"
+        },
+        {
+          "para": 1,
+          "html": "But the <strong>silence</strong> is not agreement; it is usually <strong>withdrawal</strong>.",
+          "text": "But the silence is not agreement; it is usually withdrawal.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s03.mp3"
+        },
+        {
+          "para": 1,
+          "html": "So we learn to smile, change the subject, and keep the peace.",
+          "text": "So we learn to smile, change the subject, and keep the peace.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s04.mp3"
+        },
+        {
+          "para": 1,
+          "html": "A real disagreement is not a sign that a <strong>relationship</strong> is broken.",
+          "text": "A real disagreement is not a sign that a relationship is broken.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s05.mp3"
+        },
+        {
+          "para": 1,
+          "html": "It is a sign that two people are still thinking.",
+          "text": "It is a sign that two people are still thinking.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s06.mp3"
+        },
+        {
+          "para": 2,
+          "html": "The first <strong>mistake</strong> is to defend your <strong>position</strong> before you understand theirs.",
+          "text": "The first mistake is to defend your position before you understand theirs.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s07.mp3"
+        },
+        {
+          "para": 2,
+          "html": "When we feel <strong>attacked</strong>, we stop listening and start <strong>collecting</strong> evidence for what we already believe.",
+          "text": "When we feel attacked, we stop listening and start collecting evidence for what we already believe.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s08.mp3"
+        },
+        {
+          "para": 2,
+          "html": "A better move is to separate the <strong>claim</strong> from the person.",
+          "text": "A better move is to separate the claim from the person.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s09.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Say “I see it differently” instead of “you are wrong”, then ask what led them there.",
+          "text": "Say “I see it differently” instead of “you are wrong”, then ask what led them there.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s10.mp3"
+        },
+        {
+          "para": 2,
+          "html": "A real question invites an answer; a verdict invites a defence.",
+          "text": "A real question invites an answer; a verdict invites a defence.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s11.mp3"
+        },
+        {
+          "para": 2,
+          "html": "Openness sounds softer than <strong>criticism</strong>, and it usually works better.",
+          "text": "Openness sounds softer than criticism, and it usually works better.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s12.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Then find the <strong>exact</strong> point where you part.",
+          "text": "Then find the exact point where you part.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s13.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Two people often agree on the facts and differ only in <strong>priority</strong>: one values <strong>freedom</strong>, the other safety; one cares about speed, the other about <strong>accuracy</strong>.",
+          "text": "Two people often agree on the facts and differ only in priority: one values freedom, the other safety; one cares about speed, the other about accuracy.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s14.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Naming that <strong>difference</strong> turns a shouting match into a real <strong>discussion</strong>.",
+          "text": "Naming that difference turns a shouting match into a real discussion.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s15.mp3"
+        },
+        {
+          "para": 3,
+          "html": "Once the values are visible, the argument becomes something you can actually talk about.",
+          "text": "Once the values are visible, the argument becomes something you can actually talk about.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s16.mp3"
+        },
+        {
+          "para": 3,
+          "html": "It also helps to restate the other view so well that they say “yes, that is what I mean.”",
+          "text": "It also helps to restate the other view so well that they say “yes, that is what I mean.”",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s17.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Not every argument ends in <strong>agreement</strong>, and it does not need to.",
+          "text": "Not every argument ends in agreement, and it does not need to.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s18.mp3"
+        },
+        {
+          "para": 4,
+          "html": "The goal is to leave with a clearer <strong>map</strong> of why you each believe what you do.",
+          "text": "The goal is to leave with a clearer map of why you each believe what you do.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s19.mp3"
+        },
+        {
+          "para": 4,
+          "html": "That is <strong>valuable</strong>.",
+          "text": "That is valuable.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s20.mp3"
+        },
+        {
+          "para": 4,
+          "html": "Disagreeing well is not a talent; it is a <strong>habit</strong> you can build, one <strong>conversation</strong> at a time.",
+          "text": "Disagreeing well is not a talent; it is a habit you can build, one conversation at a time.",
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_s21.mp3"
+        }
+      ],
+      "vocabNote": "练习前先不看释义，数一数标粗的单词里你真正认识几个（共 22 个）：\n- 认识 18～22 个：难度偏易，下次可以要求“再难一档”；\n- 认识 12～17 个：正合适（约 85%～90%）；\n- 认识少于 12 个：偏难，告诉我，我把下一篇降一档。",
+      "vocabRows": [
+        [
+          "disagreement",
+          "名词",
+          "分歧、意见不合",
+          "a situation where people have different opinions",
+          "dɪsəˈgriːmənt"
+        ],
+        [
+          "politeness",
+          "名词",
+          "礼貌",
+          "behaviour that shows respect for other people",
+          "pəˈlaɪtnəs"
+        ],
+        [
+          "silence",
+          "名词",
+          "沉默",
+          "a period when no one speaks",
+          "ˈsaɪləns"
+        ],
+        [
+          "withdrawal",
+          "名词",
+          "退缩、抽离",
+          "the act of moving away or stopping involvement",
+          "wɪθˈdrɔːəl"
+        ],
+        [
+          "relationship",
+          "名词",
+          "关系",
+          "the way two people connect and treat each other",
+          "riːˈleɪʃənˌʃɪp"
+        ],
+        [
+          "mistake",
+          "名词",
+          "错误",
+          "something done incorrectly or wrongly decided",
+          "mɪˈsteɪk"
+        ],
+        [
+          "position",
+          "名词",
+          "立场、位置",
+          "the opinion you hold on an issue",
+          "pəˈzɪʃən"
+        ],
+        [
+          "attacked",
+          "动词",
+          "被攻击、受指责",
+          "criticized strongly or made to feel threatened",
+          "əˈtækt"
+        ],
+        [
+          "collecting",
+          "动词",
+          "收集",
+          "gathering things or evidence over time",
+          "kəˈlɛktɪŋ"
+        ],
+        [
+          "claim",
+          "名词",
+          "主张、说法",
+          "a statement that something is true",
+          "kleɪm"
+        ],
+        [
+          "criticism",
+          "名词",
+          "批评",
+          "negative judgement about someone or something",
+          "ˈkrɪtɪˌsɪzəm"
+        ],
+        [
+          "exact",
+          "形容词",
+          "确切的",
+          "completely correct and precise",
+          "ɪgˈzækt"
+        ],
+        [
+          "priority",
+          "名词",
+          "优先事项",
+          "something treated as more important than others",
+          "praɪˈɔːrəti"
+        ],
+        [
+          "freedom",
+          "名词",
+          "自由",
+          "the right to act or choose without limits",
+          "ˈfriːdəm"
+        ],
+        [
+          "accuracy",
+          "名词",
+          "准确度",
+          "the quality of being correct and exact",
+          "ˈækjərəsi"
+        ],
+        [
+          "difference",
+          "名词",
+          "差异",
+          "a way in which things are not the same",
+          "ˈdɪfərəns"
+        ],
+        [
+          "discussion",
+          "名词",
+          "讨论",
+          "a conversation in which people exchange views",
+          "dɪˈskəʃən"
+        ],
+        [
+          "agreement",
+          "名词",
+          "一致、同意",
+          "a situation where people share the same view",
+          "əˈgriːmənt"
+        ],
+        [
+          "map",
+          "名词",
+          "地图、图景",
+          "a drawing or clear picture of an area or idea",
+          "mæp"
+        ],
+        [
+          "valuable",
+          "形容词",
+          "有价值的",
+          "worth a lot or very useful",
+          "ˈvæljəbəl"
+        ],
+        [
+          "habit",
+          "名词",
+          "习惯",
+          "a thing you do often and almost automatically",
+          "ˈhæbət"
+        ],
+        [
+          "conversation",
+          "名词",
+          "对话、交谈",
+          "a talk between two or more people",
+          "ˌkɑːnvərˈseɪʃən"
+        ]
+      ],
+      "phraseRows": [
+        [
+          "treat A as B",
+          "把 A 当成 B",
+          "Most people treat disagreement as a failure of politeness."
+        ],
+        [
+          "go quiet",
+          "安静下来、冷场",
+          "...and the room goes quiet."
+        ],
+        [
+          "be a sign that",
+          "是……的迹象",
+          "A real disagreement is not a sign that a relationship is broken."
+        ],
+        [
+          "defend your position",
+          "守住自己的立场",
+          "The first mistake is to defend your position before you understand theirs."
+        ],
+        [
+          "feel attacked",
+          "感到被攻击",
+          "When we feel attacked, we stop listening..."
+        ],
+        [
+          "collect evidence",
+          "收集证据",
+          "...and start collecting evidence for what we already believe."
+        ],
+        [
+          "separate A from B",
+          "把 A 和 B 分开",
+          "...separate the claim from the person."
+        ],
+        [
+          "I see it differently",
+          "我的看法不太一样",
+          "Say “I see it differently” instead of “you are wrong”..."
+        ],
+        [
+          "ask what led them there",
+          "问他们为什么会这么想",
+          "...then ask what led them there."
+        ],
+        [
+          "work better",
+          "更管用、效果更好",
+          "...and it usually works better."
+        ],
+        [
+          "agree on the facts",
+          "在事实上一致",
+          "Two people often agree on the facts..."
+        ],
+        [
+          "differ in priority",
+          "在优先顺序上不同",
+          "...and differ only in priority..."
+        ],
+        [
+          "shouting match",
+          "互相大喊的争吵",
+          "Naming that difference turns a shouting match into a real discussion."
+        ],
+        [
+          "restate the other view",
+          "复述对方的观点",
+          "It also helps to restate the other view..."
+        ],
+        [
+          "not need to",
+          "并不需要",
+          "...and it does not need to."
+        ],
+        [
+          "one at a time",
+          "一次一个、一点一点来",
+          "...one conversation at a time."
+        ]
+      ],
+      "translation": [
+        "大多数人把分歧当成一种失礼。有人说错了，我们去纠正，然后屋子就安静下来。可这种沉默不是同意，它通常是退缩。于是我们学会微笑、换个话题、维持和气。真正的分歧并不意味着关系坏了；它说明两个人还在思考。",
+        "第一个错误，是在还没理解对方之前就先守住自己的立场。一旦觉得被攻击，我们就不听了，转而开始为原本就相信的东西收集证据。更好的做法是把“主张”和“这个人”分开。说“我的看法不太一样”，而不是“你错了”，然后问问他为什么会这么想。真正的问题会换来回答，一句判决只会换来辩解。开放的态度听起来比批评温和，通常也更管用。",
+        "接着找出你们真正分开的那个点。两个人常常在事实上是一致的，只是优先顺序不同：一个看重自由，另一个看重安全；一个在意速度，另一个在意准确。把这个差异说出来，一场互相大喊的争吵就变成了真正的讨论。一旦价值取向摆在明面上，这场争论就变成了真正可以谈的东西。另一个办法，是把对方的观点复述得足够好，好到他会说“对，我就是这个意思”。",
+        "不是每一场争论都会达成一致，也不需要。真正的目标是离开时带着一张更清楚的地图——知道彼此为什么会这样想。这很有价值。好好分歧不是天赋，而是一种可以培养的习惯，一次对话培养一点。"
+      ],
+      "audioFull": "audio/2026-10-28_影子跟读016_如何好好分歧_full.mp3",
+      "segments": [
+        {
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_p1.mp3"
+        },
+        {
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_p2.mp3"
+        },
+        {
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_p3.mp3"
+        },
+        {
+          "audio": "audio/2026-10-28_影子跟读016_如何好好分歧_p4.mp3"
+        }
+      ],
+      "vocabCount": 22
+    },
+    {
       "id": "2026-10-26_015",
       "num": "015",
       "date": "2026-10-26",

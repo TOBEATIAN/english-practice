@@ -3,6 +3,10 @@ $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $root
 $python = "E:\WorkSpace\Project_04_专门学习\Project_02_六级\模拟卷\scripts\.venv\Scripts\python.exe"
 
+# 可选：第一个参数作为 git 提交信息（出新材料时传「影子跟读 NNN《…》上线」）。
+# 不传则用通用文案；这样 git log 里能一眼看出是哪一篇。
+$Message = if ($args.Count -ge 1 -and $args[0]) { [string]$args[0] } else { "更新英语练习台网站" }
+
 Write-Host "第一步：构建跟读站数据与音频..."
 & $python (Join-Path $root "scripts\build_site.py")
 if ($LASTEXITCODE -ne 0) {
@@ -49,7 +53,7 @@ if (-not $staged) {
     Write-Host "没有变更，无需发布。"
     exit 0
 }
-git commit -m "更新英语练习台网站"
+git commit -m $Message
 
 $proxies = @(
     "http://127.0.0.1:7897",
