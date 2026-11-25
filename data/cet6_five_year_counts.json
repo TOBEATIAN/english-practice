@@ -1,0 +1,10063 @@
+{
+  "version": 1,
+  "period": "2021.12-2026.06",
+  "buckets": [
+    {
+      "id": "2022年12月六级真题",
+      "label": "2022年12月",
+      "tokens": 12213,
+      "candidateUnique": 124,
+      "ocrPages": 32
+    },
+    {
+      "id": "2023年12月六级真题",
+      "label": "2023年12月",
+      "tokens": 12461,
+      "candidateUnique": 147,
+      "ocrPages": 32
+    },
+    {
+      "id": "2023年3月和6月六级真题",
+      "label": "2023年3月和6月",
+      "tokens": 16532,
+      "candidateUnique": 191,
+      "ocrPages": 40
+    },
+    {
+      "id": "2024年12月六级真题",
+      "label": "2024年12月",
+      "tokens": 12475,
+      "candidateUnique": 155,
+      "ocrPages": 32
+    },
+    {
+      "id": "2024年6月六级真题",
+      "label": "2024年6月",
+      "tokens": 12897,
+      "candidateUnique": 146,
+      "ocrPages": 23
+    },
+    {
+      "id": "2025年12月六级真题",
+      "label": "2025年12月",
+      "tokens": 12443,
+      "candidateUnique": 126,
+      "ocrPages": 24
+    },
+    {
+      "id": "2025年6月六级真题",
+      "label": "2025年6月",
+      "tokens": 12440,
+      "candidateUnique": 130,
+      "ocrPages": 23
+    },
+    {
+      "id": "2026年6月英语六级真题（第1套）",
+      "label": "2026.6（第1套）",
+      "tokens": 4479,
+      "candidateUnique": 50,
+      "ocrPages": null
+    },
+    {
+      "id": "2026年6月英语六级真题（第2套）",
+      "label": "2026.6（第2套）",
+      "tokens": 4565,
+      "candidateUnique": 64,
+      "ocrPages": null
+    },
+    {
+      "id": "2026年6月英语六级真题（第3套）",
+      "label": "2026.6（第3套）",
+      "tokens": 3505,
+      "candidateUnique": 43,
+      "ocrPages": null
+    },
+    {
+      "id": "2021年12月六级真题全3套",
+      "label": "2021年12月全3套",
+      "tokens": 11846,
+      "candidateUnique": 136,
+      "ocrPages": null
+    },
+    {
+      "id": "2022.06六级真题第1套【可复制可搜索，打印首选】",
+      "label": "2022.06第1套【可复制可搜索，打印首选】",
+      "tokens": 4400,
+      "candidateUnique": 56,
+      "ocrPages": null
+    },
+    {
+      "id": "2022.06六级真题第2套【可复制可搜索，打印首选】",
+      "label": "2022.06第2套【可复制可搜索，打印首选】",
+      "tokens": 3429,
+      "candidateUnique": 58,
+      "ocrPages": null
+    },
+    {
+      "id": "2022.06六级真题第3套【可复制可搜索，打印首选】",
+      "label": "2022.06第3套【可复制可搜索，打印首选】",
+      "tokens": 77,
+      "candidateUnique": 1,
+      "ocrPages": null
+    },
+    {
+      "id": "2022年9月六级真题",
+      "label": "2022年9月",
+      "tokens": 4615,
+      "candidateUnique": 59,
+      "ocrPages": null
+    }
+  ],
+  "ocrPageCount": 206,
+  "rows": [
+    {
+      "word": "participant",
+      "count": 44,
+      "coverage": 11,
+      "score": 99,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "cite",
+      "count": 26,
+      "coverage": 14,
+      "score": 96,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "environmental",
+      "count": 36,
+      "coverage": 9,
+      "score": 81,
+      "tags": [
+        "cet6",
+        "ielts"
+      ],
+      "collins": "4",
+      "oxford": "1"
+    },
+    {
+      "word": "cognitive",
+      "count": 29,
+      "coverage": 9,
+      "score": 74,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "interact",
+      "count": 21,
+      "coverage": 9,
+      "score": 66,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "emission",
+      "count": 25,
+      "coverage": 7,
+      "score": 60,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "peer",
+      "count": 19,
+      "coverage": 8,
+      "score": 59,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "sector",
+      "count": 19,
+      "coverage": 8,
+      "score": 59,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "4",
+      "oxford": "1"
+    },
+    {
+      "word": "trait",
+      "count": 18,
+      "coverage": 8,
+      "score": 58,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "bias",
+      "count": 22,
+      "coverage": 7,
+      "score": 57,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "capability",
+      "count": 16,
+      "coverage": 8,
+      "score": 56,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "currently",
+      "count": 14,
+      "coverage": 8,
+      "score": 54,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "productivity",
+      "count": 24,
+      "coverage": 6,
+      "score": 54,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "preservation",
+      "count": 9,
+      "coverage": 8,
+      "score": 49,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "underlying",
+      "count": 12,
+      "coverage": 7,
+      "score": 47,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "intervention",
+      "count": 17,
+      "coverage": 6,
+      "score": 47,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "assert",
+      "count": 11,
+      "coverage": 7,
+      "score": 46,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "hop",
+      "count": 11,
+      "coverage": 7,
+      "score": 46,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "foster",
+      "count": 10,
+      "coverage": 7,
+      "score": 45,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "innovation",
+      "count": 10,
+      "coverage": 7,
+      "score": 45,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "context",
+      "count": 15,
+      "coverage": 6,
+      "score": 45,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "alleviate",
+      "count": 9,
+      "coverage": 7,
+      "score": 44,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "norm",
+      "count": 9,
+      "coverage": 7,
+      "score": 44,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "toxic",
+      "count": 9,
+      "coverage": 7,
+      "score": 44,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "literally",
+      "count": 10,
+      "coverage": 6,
+      "score": 40,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "prevalent",
+      "count": 10,
+      "coverage": 6,
+      "score": 40,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "transition",
+      "count": 10,
+      "coverage": 6,
+      "score": 40,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "extinction",
+      "count": 9,
+      "coverage": 6,
+      "score": 39,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "refrain",
+      "count": 9,
+      "coverage": 6,
+      "score": 39,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "adverse",
+      "count": 8,
+      "coverage": 6,
+      "score": 38,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "chronic",
+      "count": 8,
+      "coverage": 6,
+      "score": 38,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "engagement",
+      "count": 8,
+      "coverage": 6,
+      "score": 38,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "immune",
+      "count": 8,
+      "coverage": 6,
+      "score": 38,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "fulfill",
+      "count": 7,
+      "coverage": 6,
+      "score": 37,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "incentive",
+      "count": 7,
+      "coverage": 6,
+      "score": 37,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "consistently",
+      "count": 11,
+      "coverage": 5,
+      "score": 36,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "confront",
+      "count": 10,
+      "coverage": 5,
+      "score": 35,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "discourse",
+      "count": 10,
+      "coverage": 5,
+      "score": 35,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "strive",
+      "count": 10,
+      "coverage": 5,
+      "score": 35,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "infrastructure",
+      "count": 9,
+      "coverage": 5,
+      "score": 34,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "producer",
+      "count": 9,
+      "coverage": 5,
+      "score": 34,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "spectrum",
+      "count": 9,
+      "coverage": 5,
+      "score": 34,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "diminish",
+      "count": 8,
+      "coverage": 5,
+      "score": 33,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "endeavor",
+      "count": 8,
+      "coverage": 5,
+      "score": 33,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "popularity",
+      "count": 8,
+      "coverage": 5,
+      "score": 33,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "correlation",
+      "count": 7,
+      "coverage": 5,
+      "score": 32,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "facilitate",
+      "count": 7,
+      "coverage": 5,
+      "score": 32,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "aesthetic",
+      "count": 12,
+      "coverage": 4,
+      "score": 32,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "anonymous",
+      "count": 6,
+      "coverage": 5,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "deem",
+      "count": 6,
+      "coverage": 5,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "hinder",
+      "count": 6,
+      "coverage": 5,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "promotion",
+      "count": 6,
+      "coverage": 5,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "seemingly",
+      "count": 6,
+      "coverage": 5,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "subtle",
+      "count": 6,
+      "coverage": 5,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "timely",
+      "count": 6,
+      "coverage": 5,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "client",
+      "count": 11,
+      "coverage": 4,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "elite",
+      "count": 11,
+      "coverage": 4,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "literacy",
+      "count": 11,
+      "coverage": 4,
+      "score": 31,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "nutrient",
+      "count": 5,
+      "coverage": 5,
+      "score": 30,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "perception",
+      "count": 9,
+      "coverage": 4,
+      "score": 29,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ecosystem",
+      "count": 8,
+      "coverage": 4,
+      "score": 28,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "chip",
+      "count": 7,
+      "coverage": 4,
+      "score": 27,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "combat",
+      "count": 7,
+      "coverage": 4,
+      "score": 27,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "compensation",
+      "count": 7,
+      "coverage": 4,
+      "score": 27,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "susceptible",
+      "count": 7,
+      "coverage": 4,
+      "score": 27,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "exotic",
+      "count": 6,
+      "coverage": 4,
+      "score": 26,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "fossil",
+      "count": 6,
+      "coverage": 4,
+      "score": 26,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "intricate",
+      "count": 6,
+      "coverage": 4,
+      "score": 26,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "profile",
+      "count": 6,
+      "coverage": 4,
+      "score": 26,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "update",
+      "count": 6,
+      "coverage": 4,
+      "score": 26,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ambitious",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "distort",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "domain",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "enrich",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "inhibit",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "legitimate",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "meaningful",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "mechanism",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "setback",
+      "count": 5,
+      "coverage": 4,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "humanity",
+      "count": 10,
+      "coverage": 3,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "corporate",
+      "count": 15,
+      "coverage": 2,
+      "score": 25,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "assault",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "conception",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "constraint",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "conviction",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "correlate",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "disrupt",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "endurance",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "entail",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "haunt",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "physically",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "ielts"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "realistic",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": "1"
+    },
+    {
+      "word": "recipient",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "surpass",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "transaction",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "underestimate",
+      "count": 4,
+      "coverage": 4,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "solidarity",
+      "count": 14,
+      "coverage": 2,
+      "score": 24,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "optimism",
+      "count": 8,
+      "coverage": 3,
+      "score": 23,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "erosion",
+      "count": 7,
+      "coverage": 3,
+      "score": 22,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "profound",
+      "count": 7,
+      "coverage": 3,
+      "score": 22,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "specifically",
+      "count": 7,
+      "coverage": 3,
+      "score": 22,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "vulnerable",
+      "count": 7,
+      "coverage": 3,
+      "score": 22,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "clip",
+      "count": 6,
+      "coverage": 3,
+      "score": 21,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "constrain",
+      "count": 6,
+      "coverage": 3,
+      "score": 21,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "landscape",
+      "count": 6,
+      "coverage": 3,
+      "score": 21,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "overwhelm",
+      "count": 6,
+      "coverage": 3,
+      "score": 21,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "prevalence",
+      "count": 6,
+      "coverage": 3,
+      "score": 21,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "prey",
+      "count": 6,
+      "coverage": 3,
+      "score": 21,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "intervene",
+      "count": 11,
+      "coverage": 2,
+      "score": 21,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "accomplishment",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "ascertain",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "clinical",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "deprive",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "disturbance",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "economically",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "evaluation",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "ideology",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "obsession",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "skeptical",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "spouse",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "trigger",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "unpaid",
+      "count": 5,
+      "coverage": 3,
+      "score": 20,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "collaboration",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "composer",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "counterpart",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "curb",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": "1"
+    },
+    {
+      "word": "drastic",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "earnings",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "endanger",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "entrepreneur",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "evolutionary",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "expertise",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "heighten",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "historic",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "incredible",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "mammal",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "portray",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "positively",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "prediction",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "premature",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "promptly",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": "1"
+    },
+    {
+      "word": "romance",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "stall",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "therapy",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "unprecedented",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "versus",
+      "count": 4,
+      "coverage": 3,
+      "score": 19,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "apt",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "arrogant",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "broaden",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "cooperative",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "deficit",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "4",
+      "oxford": ""
+    },
+    {
+      "word": "deploy",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "disperse",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "distinctive",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "doctrine",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "eccentric",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "epidemic",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "evenly",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "flaw",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "forge",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "formidable",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "geographical",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "heritage",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "incapable",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "incidence",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "incorporate",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "inference",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "legacy",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "nurture",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "pasture",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "polar",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "presume",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "proficiency",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "proposition",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "shrewd",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "signify",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "slack",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "sneak",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "supervision",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "systematically",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "tackle",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "thereafter",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "tightly",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "transcend",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "upgrade",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "vocal",
+      "count": 3,
+      "coverage": 3,
+      "score": 18,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ethical",
+      "count": 8,
+      "coverage": 2,
+      "score": 18,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "dominant",
+      "count": 7,
+      "coverage": 2,
+      "score": 17,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "mobility",
+      "count": 7,
+      "coverage": 2,
+      "score": 17,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "oak",
+      "count": 7,
+      "coverage": 2,
+      "score": 17,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "perfection",
+      "count": 7,
+      "coverage": 2,
+      "score": 17,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "hemisphere",
+      "count": 12,
+      "coverage": 1,
+      "score": 17,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "eclipse",
+      "count": 6,
+      "coverage": 2,
+      "score": 16,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "analogy",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "attendance",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "causal",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "intake",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "privacy",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ranch",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "resentment",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "shorten",
+      "count": 5,
+      "coverage": 2,
+      "score": 15,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "array",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "bug",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "complexity",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "counsel",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "cruise",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "erroneous",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "essence",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "facet",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "forum",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "irritate",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": "1"
+    },
+    {
+      "word": "monopoly",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "opaque",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "scarcity",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "sensor",
+      "count": 4,
+      "coverage": 2,
+      "score": 14,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "asset",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "4",
+      "oxford": ""
+    },
+    {
+      "word": "charm",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "cluster",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "commodity",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "commonplace",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "concede",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "delusion",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "discern",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "discrepancy",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "distract",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "ethics",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "fitness",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "ignorance",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "imitation",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "imperative",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "impulse",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "inclusive",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "inflation",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "4",
+      "oxford": ""
+    },
+    {
+      "word": "inspiration",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "instability",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "justification",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "melody",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "nickname",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "optimal",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "penalty",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "persistence",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "persistent",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "quest",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "regiment",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "rigorous",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ritual",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "similarity",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "stagger",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "substantially",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": "1"
+    },
+    {
+      "word": "trivial",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "violation",
+      "count": 3,
+      "coverage": 2,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "patron",
+      "count": 8,
+      "coverage": 1,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "snob",
+      "count": 8,
+      "coverage": 1,
+      "score": 13,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "adjacent",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "alignment",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "analyst",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "4",
+      "oxford": ""
+    },
+    {
+      "word": "attorney",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "barren",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "bypass",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "charter",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "cherish",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "clash",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "cling",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "colonial",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "commute",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "comprehend",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "constitute",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "consultancy",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "contend",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "correctly",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "couch",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "credential",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "degenerate",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "depict",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "detach",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "deviate",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "disregard",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "disruptive",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "diversion",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "doom",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "dwarf",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "edit",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "elevate",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "endow",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "excel",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "excessively",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "exemplify",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "fake",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "generalization",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "generosity",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "hamper",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "hypothesis",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "impetus",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "inaccurate",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "inevitably",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "initiate",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "intensify",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "intent",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "invaluable",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "irony",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "jack",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "longevity",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "mall",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": "1"
+    },
+    {
+      "word": "manifest",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "membership",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "minimize",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "molecular",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "mortgage",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "4",
+      "oxford": ""
+    },
+    {
+      "word": "municipal",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "myth",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "naive",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "notable",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "nourish",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "odor",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "offset",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "offspring",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "perish",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "permeate",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "plague",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "pledge",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "ponder",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "precedent",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "predecessor",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "prerequisite",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "prestige",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "probe",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "prolong",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "prone",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "propagate",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "proximity",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "questionable",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "rally",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "recession",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "4",
+      "oxford": ""
+    },
+    {
+      "word": "reclaim",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "recurrence",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "repay",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "representation",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "resent",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "residential",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "retention",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "retirement",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "revive",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "revolve",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "robust",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "safeguard",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "sentiment",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "simultaneously",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "solitary",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "spatial",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "spiral",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "stray",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "sturdy",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "symmetrical",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "thermal",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "thesis",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "tract",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "tranquil",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "turnover",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "unavoidable",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "universally",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "validity",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "verbal",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "vicious",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "warfare",
+      "count": 2,
+      "coverage": 2,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "moss",
+      "count": 7,
+      "coverage": 1,
+      "score": 12,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "cape",
+      "count": 6,
+      "coverage": 1,
+      "score": 11,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "paradox",
+      "count": 6,
+      "coverage": 1,
+      "score": 11,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "cynical",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "degradation",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "diagnose",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "halve",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "intersection",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "lawsuit",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "shipwreck",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "symmetry",
+      "count": 5,
+      "coverage": 1,
+      "score": 10,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "alteration",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "appraisal",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "confer",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "diesel",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "dome",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "greed",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "migrate",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "persevere",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "shrub",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "spice",
+      "count": 3,
+      "coverage": 1,
+      "score": 8,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "2",
+      "oxford": "1"
+    },
+    {
+      "word": "addict",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "alien",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "arc",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "assertive",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "augment",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "banker",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "chord",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "commend",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "conform",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "divert",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "dwell",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "empirical",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "eruption",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "exceptional",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "exploration",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "extracurricular",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "fiber",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "finite",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "gamble",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "hindrance",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "hospitality",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "impart",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "inertia",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "instrumental",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "integrity",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "knight",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "makeup",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "marsh",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "merchandise",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "minimal",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "monster",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "orchard",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "plateau",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "preach",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "proficient",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "rectangular",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "rejection",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "senator",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "snobbish",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "synthesize",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "thanksgiving",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "trader",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "tug",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "turmoil",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "unlimited",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "unorthodox",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "vigor",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "witty",
+      "count": 2,
+      "coverage": 1,
+      "score": 7,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "abundance",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "admiration",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "affirm",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "agreeable",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "allegation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "ally",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "4",
+      "oxford": "1"
+    },
+    {
+      "word": "analytic",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "analytical",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "annually",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "articulate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "aspiration",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "ass",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "attachment",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "automate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "avail",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "badge",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "bait",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ballot",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "bankrupt",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "bankruptcy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "beneficiary",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "bewilder",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "bitterness",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "bizarre",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "bleak",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "bluntly",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "blur",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "breakdown",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "brutal",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "bump",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "casualty",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "circulation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "coalition",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "coincide",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "commonwealth",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "compatibility",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "comply",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "concise",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "configuration",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "confrontation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "consecutive",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "consolidate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "constituent",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "contemplate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "contemptuous",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "controversy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "convene",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "corps",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "cosmos",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "counseling",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "counteract",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "courtesy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "cozy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "cradle",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "cumulative",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "dealer",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "deceptive",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "decidedly",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "decisive",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "deduct",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "default",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "deficient",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "defy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "designate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "desperately",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "destine",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "destiny",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "deteriorate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "deviation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "diffuse",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "diplomatic",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "disappearance",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "disapproval",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": "1"
+    },
+    {
+      "word": "disastrous",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "dispense",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "displacement",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "distinctly",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "distortion",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "diversify",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "downturn",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "dreadful",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "dubious",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "edible",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "ego",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "eject",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "elapse",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "elevation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "embody",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "ensue",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "envisage",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "escort",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "eternal",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "evaporation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "evoke",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "expedition",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "expire",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "exposition",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "extract",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "extraction",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "fascinating",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "fixture",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "flatter",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "fluctuation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "follower",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "fracture",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "frightful",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "galaxy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "gathering",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "generalize",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "graze",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "hail",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "handicap",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "harmonious",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "haul",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "hazardous",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "henceforth",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "herald",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "hip",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "historian",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "hover",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "humanitarian",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "humidity",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "humiliation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "idiot",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "illuminate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "immerse",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "immortal",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "immunity",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "implicit",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "inadequate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "incidentally",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "inclination",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "incur",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "indignation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "indulge",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "infancy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "infectious",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": "1"
+    },
+    {
+      "word": "ingenious",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "inherent",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "inject",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "innumerable",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "insistent",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "integral",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "intellect",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "interconnect",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "intermittent",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "intricacy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "intrigue",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "intrinsic",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "invariably",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ironically",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "irrespective",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "lamentation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "layman",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "lengthen",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "linguistic",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "literal",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "lofty",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "logistics",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "loosely",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "malicious",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "maritime",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "marvel",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "masculine",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "masculinity",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "mastery",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "maternity",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "merge",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "metabolic",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "microscopic",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "migrant",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "mingle",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "moderately",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "momentum",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "monetary",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "morality",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "multitude",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "napkin",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "narrative",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "negligible",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "nightmare",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "nonetheless",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "notwithstanding",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "novelty",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "obscene",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "offensive",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "outrage",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "overestimate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "overflow",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "overlap",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "overt",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "paralysis",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "peril",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "periodical",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "perpetual",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "petition",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "physiological",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "plausible",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "postal",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "poultry",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "precede",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "predominate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "pregnancy",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "premium",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "principally",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "proceeding",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "propagation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "prospective",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "prototype",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "provoke",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "qualitative",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "quantitative",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "rating",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "reassure",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "reckless",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "reckon",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": "1"
+    },
+    {
+      "word": "redundant",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "remnant",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "renaissance",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "renovation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "replacement",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "reproduction",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "resemblance",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "resonance",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "riot",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "roam",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "royalty",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "ruthless",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "scarlet",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "scrap",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "sensation",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "sensitivity",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "sheer",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "sheriff",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "shorthand",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "silicon",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "simulate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "soar",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "sophisticate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "spacious",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "spectacular",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "speculate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "stereotype",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "stillness",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "stimulus",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "stride",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "subscription",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "sue",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "suffice",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "suicide",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "superiority",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ky"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "suppress",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "surge",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "tariff",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "terminate",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "thoroughly",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "thrifty",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "tread",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "triple",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "turtle",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "unanimous",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "unconventional",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "unify",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "unlock",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "unreliable",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "uphold",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "vein",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "vent",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "verdict",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "3",
+      "oxford": ""
+    },
+    {
+      "word": "versatile",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "violently",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6"
+      ],
+      "collins": "",
+      "oxford": "1"
+    },
+    {
+      "word": "visualize",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "vocational",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "void",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "gre",
+        "ielts",
+        "ky",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "vow",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "ielts"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "wardrobe",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "ky"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "warrant",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ky",
+        "toefl"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "weaver",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "toefl"
+      ],
+      "collins": "",
+      "oxford": ""
+    },
+    {
+      "word": "whereby",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "ielts"
+      ],
+      "collins": "2",
+      "oxford": ""
+    },
+    {
+      "word": "wield",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    },
+    {
+      "word": "wither",
+      "count": 1,
+      "coverage": 1,
+      "score": 6,
+      "tags": [
+        "cet6",
+        "cet6-compact",
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "collins": "1",
+      "oxford": ""
+    }
+  ]
+}

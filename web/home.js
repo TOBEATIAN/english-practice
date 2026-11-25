@@ -3,6 +3,7 @@
 
   var PRACTICE_KEY = "shadow-practiced-v1";
   var PROGRESS_KEY = "shadow-vocab-v1";
+  var LIBRARY_KEY = "shadow-vocab-books-v2";
 
   function readStore(key) {
     try {
@@ -48,10 +49,17 @@
 
   async function vocabStat() {
     try {
-      var res = await fetch("vocab.json", { cache: "no-cache" });
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      var data = await res.json();
-      var cards = Array.isArray(data) ? data : data.cards || [];
+      var library = readStore(LIBRARY_KEY);
+      var books = Array.isArray(library.books) ? library.books : [];
+      var active =
+        books.find(function (book) {
+          return book.id === library.activeBookId;
+        }) || books[0];
+      var cards = active && Array.isArray(active.entries) ? active.entries : [];
+      if (!cards.length) {
+        setText("stat-vocab", "生词本未添加词");
+        return;
+      }
       var progress = readStore(PROGRESS_KEY);
       var records = progress.cards || {};
       var today = todayStr();
@@ -65,9 +73,12 @@
         }
         if (rec.due && rec.due <= today) due += 1;
       });
-      setText("stat-vocab", "今日待复习 " + due + " · 未学 " + fresh);
+      setText(
+        "stat-vocab",
+        (active.name || "当前生词本") + " · 今日待复习 " + due + " · 未学 " + fresh
+      );
     } catch (err) {
-      setText("stat-vocab", "词库加载失败");
+      setText("stat-vocab", "生词本读取失败");
     }
   }
 

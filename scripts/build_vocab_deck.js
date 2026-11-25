@@ -231,28 +231,42 @@ function cardsFromMaterials() {
   const data = JSON.parse(raw);
   const materials = Array.isArray(data) ? data : data.materials;
   const cards = [];
+
+  /** 在原文句子里找包含目标表达的第一句，作为三步主动训练的语境卡。 */
+  const sentenceFor = (term, material) => {
+    const wanted = String(term || "").trim();
+    if (!wanted) return "";
+    const escaped = wanted.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const re = new RegExp("(^|[^a-z])" + escaped + "([^a-z]|$)", "i");
+    const sentence = (material.sentences || []).find((item) => re.test(String(item.text || "")));
+    return sentence ? String(sentence.text || "").trim() : "";
+  };
+
   for (const m of materials) {
     for (const row of m.vocabRows || []) {
+      const term = cleanTerm(row[0]);
       cards.push({
-        term: cleanTerm(row[0]),
+        term,
         type: "word",
         pos: normPos(row[1]),
         en: String(row[3] || "").trim(),
         cn: String(row[2] || "").trim(),
-        example: "",
+        example: sentenceFor(term, m),
         bucket: "shadow",
         date: m.date,
         tag: `影子跟读${m.num}`,
       });
     }
     for (const row of m.phraseRows || []) {
+      const term = cleanTerm(row[0]);
+      const example = String(row[2] || "").trim();
       cards.push({
-        term: cleanTerm(row[0]),
+        term,
         type: "phrase",
         pos: "phrase",
         en: "",
         cn: String(row[1] || "").trim(),
-        example: String(row[2] || "").trim(),
+        example: example || sentenceFor(term, m),
         bucket: "shadow",
         date: m.date,
         tag: `影子跟读${m.num}`,
@@ -390,6 +404,7 @@ function main() {
       total: cards.length,
       byBucket,
       byType,
+      context: { withExample: cards.filter((c) => !!c.example).length },
       ipa: { covered: ipaStat.covered, counted: ipaStat.counted, missing: ipaStat.missing.length },
       raw: { mock: mock.length, shadow: shadow.length },
     },
@@ -399,6 +414,7 @@ function main() {
   console.log(`[OK] 复盘卡 ${mock.length} 条 + 跟读词表 ${shadow.length} 条 → 去重后 ${cards.length} 张`);
   console.log(`     类别：错词 ${byBucket.wrong || 0} / 必背与句式 ${byBucket.keyphrase || 0} / 词库 ${byBucket.bank || 0} / 跟读 ${byBucket.shadow || 0}`);
   console.log(`     形态：单词 ${byType.word || 0} / 短语 ${byType.phrase || 0} / 句式 ${byType.pattern || 0}`);
+  console.log(`     语境：${cards.filter((c) => !!c.example).length} 张卡带原文或例句`);
   const ipaRate = ipaStat.covered / Math.max(1, ipaStat.counted);
   console.log(
     `     音标：${ipaStat.covered} / ${ipaStat.counted} 张（${(ipaRate * 100).toFixed(1)}%；句式卡 ${cards.length - ipaStat.counted} 张不计）`

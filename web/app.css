@@ -1004,3 +1004,238 @@ body { padding-bottom: 92px; }
 .vbar-empty { background: var(--line); }
 
 .vbar-date { font-size: 10px; color: var(--muted); }
+
+/* ---------- 生词本 / 词典自动补全 ---------- */
+
+.vlib-subtitle {
+  margin: 16px 0 8px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.vadd-form {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(150px, 1fr);
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.vfield {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.vfield-label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.vadd-input {
+  width: 100%;
+  min-height: 48px;
+  font-size: 16px;
+}
+
+.vadd-notice {
+  margin: 8px 0 12px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #E9F2E9;
+  color: #35553B;
+  font-size: 14px;
+}
+
+.vbook-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.vbook-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.vbook-main {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.vbook-term {
+  color: var(--accent-strong);
+  font-size: 17px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.vbook-type {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 11px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.vbook-cn {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.vbook-del {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 4px 12px;
+  font-size: 13px;
+}
+
+.vstat-grid-skill {
+  margin-top: 10px;
+}
+
+.vstat-grid-skill .vstat {
+  background: #F1F5F0;
+}
+
+/* ---------- 三步主动训练 ---------- */
+
+.vdeep-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  margin: 4px 0 18px;
+}
+
+.vdeep-step {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 38px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.vdeep-step.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 600;
+}
+
+.vdeep-step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  border-radius: 50%;
+  background: #FFF;
+  border: 1px solid currentColor;
+  font-size: 12px;
+}
+
+.vdeep-prompt {
+  margin: 0 0 12px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.vclue,
+.vcloze {
+  margin: 0 0 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #F7F1E6;
+  color: #5C5348;
+  font-size: 17px;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.vdeep-input,
+.vdeep-textarea {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.vdeep-input {
+  font-size: 18px;
+}
+
+.vdeep-textarea {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 11px 12px;
+  resize: vertical;
+}
+
+.vdeep-input:focus,
+.vdeep-textarea:focus {
+  outline: 2px solid var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.vhint {
+  margin: 4px 0 12px;
+}
+
+.vsmall-btn {
+  min-height: 36px;
+  padding: 4px 12px;
+  font-size: 13px;
+}
+
+.vdict {
+  margin: 10px 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.vdict .ven,
+.vdict .vcn {
+  white-space: pre-line;
+}
+
+.vdict .vcn {
+  margin: 8px 0 0;
+  color: var(--ink);
+  font-size: 16px;
+}
+
+.vnote-small {
+  margin: 8px 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.right-text { color: #35553B; }
+.wrong-text { color: #8C3B1E; }
+
+@media (max-width: 520px) {
+  .vadd-form { grid-template-columns: 1fr; }
+  .vdeep-step { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .vdeep-step-num { display: none; }
+  .vhead-right { flex: 1 1 100%; order: 3; }
+}

@@ -6,3 +6,8 @@
 Thumbs.db
 !README.md
 !web/audio/*.mp3
+.playwright-cli/
+tmp/
+__pycache__/
+output/
+video/

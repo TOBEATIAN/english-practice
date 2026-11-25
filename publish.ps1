@@ -46,7 +46,48 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
-Write-Host "第六步：提交并推送..."
+Write-Host "第六步：合并近五年高频与真题精简..."
+& $python (Join-Path $root "scripts\build_cet6_combined.py")
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "合订词书构建失败，未发布。"
+    exit 1
+}
+
+Write-Host "第七步：检查离线词典与词书..."
+$dictionaryPath = Join-Path $root "web\dictionary.json"
+$cet4Path = Join-Path $root "web\wordbooks\cet4.json"
+$cet6Path = Join-Path $root "web\wordbooks\cet6.json"
+$cet6CompactPath = Join-Path $root "web\wordbooks\cet6-compact.json"
+$cet6FiveYearPath = Join-Path $root "web\wordbooks\cet6-five-year.json"
+$cet6CombinedPath = Join-Path $root "web\wordbooks\cet6-combined.json"
+foreach ($required in @($dictionaryPath, $cet4Path, $cet6Path, $cet6CompactPath, $cet6FiveYearPath, $cet6CombinedPath)) {
+    if (-not (Test-Path -LiteralPath $required -PathType Leaf)) {
+        Write-Host "缺少必需文件：$required，未发布。"
+        exit 1
+    }
+}
+$dictionary = Get-Content -LiteralPath $dictionaryPath -Raw -Encoding UTF8 | ConvertFrom-Json
+if (($dictionary.count -as [int]) -lt 10000) {
+    Write-Host "内置词典词条数异常：$($dictionary.count)，未发布。"
+    exit 1
+}
+$cet6Compact = Get-Content -LiteralPath $cet6CompactPath -Raw -Encoding UTF8 | ConvertFrom-Json
+if (($cet6Compact.count -as [int]) -lt 800 -or ($cet6Compact.count -as [int]) -gt 1200) {
+    Write-Host "六级真题精简词书规模异常：$($cet6Compact.count)，未发布。"
+    exit 1
+}
+$cet6FiveYear = Get-Content -LiteralPath $cet6FiveYearPath -Raw -Encoding UTF8 | ConvertFrom-Json
+if (($cet6FiveYear.count -as [int]) -lt 200 -or ($cet6FiveYear.count -as [int]) -gt 500) {
+    Write-Host "六级近五年高频词书规模异常：$($cet6FiveYear.count)，未发布。"
+    exit 1
+}
+$cet6Combined = Get-Content -LiteralPath $cet6CombinedPath -Raw -Encoding UTF8 | ConvertFrom-Json
+if (($cet6Combined.count -as [int]) -lt 1000 -or ($cet6Combined.count -as [int]) -gt 1300) {
+    Write-Host "六级高频合订词书规模异常：$($cet6Combined.count)，未发布。"
+    exit 1
+}
+
+Write-Host "第八步：提交并推送..."
 git add -A
 $staged = git diff --cached --name-only
 if (-not $staged) {
