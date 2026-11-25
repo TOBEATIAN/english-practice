@@ -13,7 +13,14 @@
     bank: "复盘词库",
     shadow: "影子跟读",
   };
-  var DEFAULT_SETTINGS = { newLimit: 20, reviewLimit: 40, deepLimit: 10, mode: "deep", modeVersion: 1 };
+  var DEFAULT_SETTINGS = {
+    newLimit: 20,
+    reviewLimit: 40,
+    deepLimit: 10,
+    mode: "deep",
+    modeVersion: 1,
+    autoSpeak: true,
+  };
   var MODE_LABEL = {
     self: "翻面自评",
     mcq: "选择题",
@@ -590,6 +597,18 @@
     }
   }
 
+  function maybeSpeakCurrent(card) {
+    if (!session || !card || !progress.settings.autoSpeak || !ttsOk) return;
+    var visible = !(session.mode === "deep" && session.deepStage > 1);
+    if (!visible) return;
+    var key = session.round + ":" + session.idx + ":" + card.id + ":" + session.deepStage;
+    if (session.autoSpokenKey === key) return;
+    session.autoSpokenKey = key;
+    window.setTimeout(function () {
+      speak(card.term);
+    }, 120);
+  }
+
   /* ---------------- 三步主动训练 ---------------- */
 
   function emptyDeepState() {
@@ -724,6 +743,7 @@
       mcqOptions: [],
       deepStage: 1,
       deep: emptyDeepState(),
+      autoSpokenKey: "",
     };
     view = "session";
     persistSession();
@@ -1176,6 +1196,7 @@
       mcqOptions: s.mcqOptions || [],
       deepStage: s.deepStage || 1,
       deep: s.deep && typeof s.deep === "object" ? s.deep : emptyDeepState(),
+      autoSpokenKey: "",
     };
     view = "session";
     persistSession();
@@ -1313,6 +1334,27 @@
       startRow.appendChild(limitInput("复习", "reviewLimit"));
     }
     card.appendChild(startRow);
+
+    var voiceRow = el("div", "vrow");
+    voiceRow.appendChild(el("span", "vrow-label", "语音"));
+    var autoButton = el(
+      "button",
+      "btn btn-ghost vpick" + (progress.settings.autoSpeak ? " active" : ""),
+      progress.settings.autoSpeak ? "自动朗读：开" : "自动朗读：关"
+    );
+    if (!ttsOk) {
+      autoButton.disabled = true;
+      autoButton.textContent = "浏览器不支持朗读";
+    } else {
+      autoButton.addEventListener("click", function () {
+        progress.settings.autoSpeak = !progress.settings.autoSpeak;
+        saveProgress();
+        render();
+      });
+    }
+    voiceRow.appendChild(autoButton);
+    voiceRow.appendChild(el("span", "note vshortcut-inline", "快捷键：1 / 2 / 3 评分 · Enter 核对或继续 · R 重读"));
+    card.appendChild(voiceRow);
 
     var actions = el("div", "actions");
     var startBtn = el("button", "btn btn-primary", "开始");
@@ -1472,6 +1514,7 @@
       if (card.ipa) box.appendChild(el("p", "vipa", "/" + card.ipa + "/"));
       var spk = speakButton(card);
       if (spk) box.appendChild(spk);
+      maybeSpeakCurrent(card);
     }
     if (session.mode === "deep") renderDeep(box, card);
     else if (session.mode === "mcq") renderMcq(box, card);
@@ -1518,6 +1561,7 @@
         ["know", "说清楚了", "btn-know"],
       ].forEach(function (pair) {
         var button = el("button", "btn " + pair[2], pair[1]);
+        button.dataset.deepRating = pair[0];
         button.addEventListener("click", function () {
           session.deep.meaning = pair[0];
           session.deepStage = 2;
@@ -1527,6 +1571,7 @@
         actions.appendChild(button);
       });
       box.appendChild(actions);
+      box.appendChild(el("p", "vshortcuts", "快捷键：1 完全没想起 · 2 想起一点 · 3 说清楚了 · R 重读"));
       return;
     }
 
@@ -1575,6 +1620,7 @@
           render();
         });
         box.appendChild(next);
+        box.appendChild(el("p", "vshortcuts", "Enter 继续 · R 只在本阶段可用"));
         return;
       }
 
@@ -1601,6 +1647,7 @@
       actions.appendChild(check);
       actions.appendChild(stuck);
       box.appendChild(actions);
+      box.appendChild(el("p", "vshortcuts", "Enter 核对 · 先在输入框里写完答案"));
       return;
     }
 
@@ -1626,6 +1673,13 @@
     textarea.addEventListener("input", function () {
       session.deep.useAnswer = textarea.value;
     });
+    textarea.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) {
+        event.preventDefault();
+        var primary = box.querySelector(".btn-primary");
+        if (primary) primary.click();
+      }
+    });
     box.appendChild(textarea);
 
     if (session.deep.useChecked) {
@@ -1647,12 +1701,14 @@
         ["no", "还没掌握", "btn-no"],
       ].forEach(function (pair) {
         var button = el("button", "btn " + pair[2], pair[1]);
+        button.dataset.deepFinalRating = pair[0];
         button.addEventListener("click", function () {
           rate(pair[0]);
         });
         finish.appendChild(button);
       });
       box.appendChild(finish);
+      box.appendChild(el("p", "vshortcuts", "1 会用了 · 2 想得起但会出错 · 3 还没掌握"));
       return;
     }
 
@@ -1678,6 +1734,7 @@
     actions.appendChild(check);
     actions.appendChild(reveal);
     box.appendChild(actions);
+    box.appendChild(el("p", "vshortcuts", "Ctrl+Enter / ⌘+Enter 检查这一步"));
   }
 
   function renderSelf(box, card) {
@@ -1971,7 +2028,35 @@
     if (view !== "session" || !session) return;
     if (e.target && /^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
     var key = e.key;
+    var card = currentCard();
+    var termVisible = !(session.mode === "deep" && session.deepStage > 1);
+    if (card && termVisible && (key === "r" || key === "R")) {
+      speak(card.term);
+      return;
+    }
     if (session.mode === "deep") {
+      if (session.deepStage === 1 && ["1", "2", "3"].indexOf(key) >= 0) {
+        var meaningButton = root.querySelector(
+          '[data-deep-rating="' + (key === "1" ? "no" : key === "2" ? "fuzzy" : "know") + '"]'
+        );
+        if (meaningButton) {
+          e.preventDefault();
+          meaningButton.click();
+        }
+        return;
+      }
+      if (session.deep.useChecked && ["1", "2", "3"].indexOf(key) >= 0) {
+        var finalButton = root.querySelector(
+          '[data-deep-final-rating="' +
+            (key === "1" ? "know" : key === "2" ? "fuzzy" : "no") +
+            '"]'
+        );
+        if (finalButton) {
+          e.preventDefault();
+          finalButton.click();
+        }
+        return;
+      }
       if (key === "Enter") {
         var primary = root.querySelector(".vcard .btn-primary");
         if (primary && !primary.disabled) {

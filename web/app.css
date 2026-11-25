@@ -1230,6 +1230,22 @@ body { padding-bottom: 92px; }
   line-height: 1.65;
 }
 
+.vshortcuts {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.vshortcut-inline {
+  flex: 1 1 210px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .right-text { color: #35553B; }
 .wrong-text { color: #8C3B1E; }
 
