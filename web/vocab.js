@@ -43,6 +43,8 @@
   var librarySearch = "";
   var addNotice = "";
   var ttsOk = typeof window !== "undefined" && "speechSynthesis" in window;
+  var audioOk = typeof window !== "undefined" && "Audio" in window;
+  var pronunciationAudio = null;
   var BOOK_TYPE_LABEL = { word: "单词", phrase: "短语", pattern: "句式" };
 
   /* ---------------- 小工具 ---------------- */
@@ -584,7 +586,7 @@
 
   /* ---------------- 发音 ---------------- */
 
-  function speak(text) {
+  function speakWithBrowser(text) {
     if (!ttsOk) return;
     try {
       window.speechSynthesis.cancel();
@@ -597,8 +599,35 @@
     }
   }
 
+  function speak(text) {
+    var clean = String(text || "").replace(/[`*]/g, "").trim();
+    if (!clean) return;
+    if (ttsOk) window.speechSynthesis.cancel();
+    if (!audioOk) {
+      speakWithBrowser(clean);
+      return;
+    }
+    if (pronunciationAudio) {
+      pronunciationAudio.pause();
+      pronunciationAudio.currentTime = 0;
+    }
+    var audio = new Audio(
+      "https://dict.youdao.com/dictvoice?audio=" + encodeURIComponent(clean) + "&type=2"
+    );
+    pronunciationAudio = audio;
+    var fellBack = false;
+    var fallback = function () {
+      if (fellBack) return;
+      fellBack = true;
+      speakWithBrowser(clean);
+    };
+    audio.addEventListener("error", fallback, { once: true });
+    var playback = audio.play();
+    if (playback && typeof playback.catch === "function") playback.catch(fallback);
+  }
+
   function maybeSpeakCurrent(card) {
-    if (!session || !card || !progress.settings.autoSpeak || !ttsOk) return;
+    if (!session || !card || !progress.settings.autoSpeak || (!audioOk && !ttsOk)) return;
     var visible = !(session.mode === "deep" && session.deepStage > 1);
     if (!visible) return;
     var key = session.round + ":" + session.idx + ":" + card.id + ":" + session.deepStage;
@@ -1342,7 +1371,7 @@
       "btn btn-ghost vpick" + (progress.settings.autoSpeak ? " active" : ""),
       progress.settings.autoSpeak ? "自动朗读：开" : "自动朗读：关"
     );
-    if (!ttsOk) {
+    if (!audioOk && !ttsOk) {
       autoButton.disabled = true;
       autoButton.textContent = "浏览器不支持朗读";
     } else {
@@ -1491,8 +1520,8 @@
   }
 
   function speakButton(card) {
-    if (!ttsOk) return null;
-    var b = el("button", "btn btn-ghost vspeak", "🔊 读一遍");
+    if (!audioOk && !ttsOk) return null;
+    var b = el("button", "btn btn-ghost vspeak", "🔊 听发音");
     b.addEventListener("click", function () {
       speak(card.term);
     });
@@ -1648,6 +1677,9 @@
       actions.appendChild(stuck);
       box.appendChild(actions);
       box.appendChild(el("p", "vshortcuts", "Enter 核对 · 先在输入框里写完答案"));
+      window.setTimeout(function () {
+        input.focus({ preventScroll: true });
+      }, 0);
       return;
     }
 
