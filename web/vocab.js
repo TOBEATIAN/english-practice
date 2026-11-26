@@ -1767,6 +1767,9 @@
     actions.appendChild(reveal);
     box.appendChild(actions);
     box.appendChild(el("p", "vshortcuts", "Ctrl+Enter / ⌘+Enter 检查这一步"));
+    window.setTimeout(function () {
+      textarea.focus({ preventScroll: true });
+    }, 0);
   }
 
   function renderSelf(box, card) {
